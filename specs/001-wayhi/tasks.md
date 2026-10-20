@@ -49,7 +49,7 @@ US2 agent learns what's known from Requiem; US3 developer adds the next family.
 - [X] T042 [US2] Record all 13 results (`uv run bomstylo record`)
 - [X] T043 [US2] Code labels (`# requiem: …`) on the rules that carry method decisions
 - [ ] T044 [US2] Human review and `requiem commit` of the statements (the approval step; not for an agent)
-- [ ] T045 [US2] Decide the open question `methods/wayhi/zeniff-classification`
+- [X] T045 [US2] Decide the open question `methods/wayhi/zeniff-classification`
 
 ## Phase 5: US3, a developer adds the next family (P2)
 

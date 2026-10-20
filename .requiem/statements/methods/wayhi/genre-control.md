@@ -19,4 +19,4 @@ relationships:
       via: link
 ---
 
-Genre is controlled in steps shown one at a time: whole text; KJV block quotations out (the Isaiah chapters and Malachi 3–4); embedded speech, letters, prophecies and records out, which also removes KJV parallels inside speech such as the Sermon at the Temple (annotations/embedded.tsv); leaving the narrative frame. The Hebrew side uses 17 narrative units with speech removed. Zeniff's first-person record (Mosiah 9–10) counts as speech by default, with frame-counting reported as sensitivity.
+Genre is controlled in steps shown one at a time: whole text; KJV block quotations out (the Isaiah chapters and Malachi 3–4); embedded speech, letters, prophecies and records out, which also removes KJV parallels inside speech such as the Sermon at the Temple (annotations/embedded.tsv); leaving the narrative frame. The Hebrew side uses 17 narrative units with speech removed. Zeniff's first-person record (Mosiah 9–10) stays in the narrative frame (methods/wayhi/zeniff-as-frame), with speech-counting reported as sensitivity.

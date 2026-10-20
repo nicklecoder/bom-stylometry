@@ -4,8 +4,8 @@
  "title": "Greek New Testament ἐγένετο by bucket",
  "label": "exploratory",
  "question": "How often do the Gospels and Acts use the formula, by bucket, against the Book of Mormon?",
- "generated_utc": "2026-10-19T14:25:51+00:00",
- "fingerprint": "ad1da8bd26fa98f8881cc13f5e5c7322f05b58137843ff534ef6e764bb78332d",
+ "generated_utc": "2026-10-20T06:01:28+00:00",
+ "fingerprint": "93f067ccfd0efcda7084fbaeded9dd47bef47ef5725476b127e4bd5f3f3be4db",
  "inputs": {
   "code:analyses/wayhi/greek_egeneto.py": "a6e9d338ad54d569201adcc0985946065e79e3755b76d82bc3bd64bf8b7a49e8",
   "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
@@ -22,7 +22,7 @@
   "corpus:kjv": "82539a00ae10e5af7c8576fc082b63dbbd1be94f44d04b81a0f385795d4685ea",
   "corpus:web": "78d2721e32cfe01d6620ff8cb2efd706fd7d9bf11e447a7f3203e8a14b7dca73",
   "annotation:egeneto_labels.tsv": "c8ee557c1cb6ab26c302a603335c702ad196fdea89a841646ff7017780dcdc0e",
-  "depends:per-verb": "940b38169f0fb2dfa7060b8335645498f7df9ec24c3fea4b4fc6622c6df1d904",
+  "depends:per-verb": "abcae4cd766ff36a09e33c2cef6466c96545e1ca612998d4b8cb082c5386e68c",
   "params": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
   "env": "4b537cf793c83fb844b282b8b18ac5ce4e6e71a53cea3bc8b488a603d603df84"
  },
@@ -30,10 +30,10 @@
  "headline": [
   {
    "key": "luke_acts_ratio",
-   "value": 3.71600739972272,
-   "low": 2.7916869048460957,
-   "high": 5.052822436692641,
-   "text": "Luke + Acts narrative frame: 2.16 per 1,000 KJV words, 10% straight to the event; the 1830 Book of Mormon is 3.7× (2.8–5.1) that rate."
+   "value": 3.714109907338921,
+   "low": 2.7904888132298535,
+   "high": 5.049885062209369,
+   "text": "Luke + Acts narrative frame: 2.16 per 1,000 KJV words, 10% straight to the event; the 1830 Book of Mormon is 3.7× (2.8–5.0) that rate."
   },
   {
    "key": "greek_totals",
@@ -2037,15 +2037,15 @@
      0.04992661602348073,
      0.2329836377079936
     ],
-    "bom_ratio": 6.280455072906049,
+    "bom_ratio": 6.277248105215802,
     "bom_ratio_1k": [
-     4.822836446218237,
-     8.32434008350692
+     4.820795016505407,
+     8.319451508843224
     ],
-    "bom_ratio_per_verb": 7.923221690032839,
+    "bom_ratio_per_verb": 7.923571315003935,
     "bom_ratio_verbs": [
-     6.084336548000471,
-     10.501721792324403
+     6.085136745918533,
+     10.501379940242165
     ],
     "kjv_verbs_per_greek_verb": 1.0297849462365591
    },
@@ -2064,15 +2064,15 @@
      0.03397170498395576,
      0.22227669628262678
     ],
-    "bom_ratio": 3.71600739972272,
+    "bom_ratio": 3.714109907338921,
     "bom_ratio_1k": [
-     2.7916869048460957,
-     5.052822436692641
+     2.7904888132298535,
+     5.049885062209369
     ],
-    "bom_ratio_per_verb": 4.529763007269083,
+    "bom_ratio_per_verb": 4.529962890387648,
     "bom_ratio_verbs": [
-     3.403028764257295,
-     6.159322545411889
+     3.403456301870714,
+     6.159158587991643
     ],
     "kjv_verbs_per_greek_verb": 1.0435973793924955
    },
@@ -2091,23 +2091,23 @@
      0.028144973477898197,
      0.600093573716312
     ],
-    "bom_ratio": 20.24244796023749,
+    "bom_ratio": 20.232111626989916,
     "bom_ratio_1k": [
-     10.62592647306849,
-     44.382103675240906
+     10.620950874143917,
+     44.358074968106436
     ],
-    "bom_ratio_per_verb": 26.39871896285773,
+    "bom_ratio_per_verb": 26.399883849025937,
     "bom_ratio_verbs": [
-     13.857555530513718,
-     57.8798910193347
+     13.858754568631545,
+     57.88066260776262
     ],
     "kjv_verbs_per_greek_verb": 1.0184223419892209
    }
   },
   "bom_1830": {
-   "per_1k": 8.013805824157398,
-   "per_100_verbs": 5.602180397682613,
-   "event_share": 0.6974716652136007
+   "per_1k": 8.009713761391938,
+   "per_100_verbs": 5.602427602952922,
+   "event_share": 0.7002583979328165
   },
   "borderline": [
    "Ac 11:26",

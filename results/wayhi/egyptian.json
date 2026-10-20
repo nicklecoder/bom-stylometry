@@ -4,8 +4,8 @@
  "title": "Egyptian narrative openings, and the Hebrew + Egyptian additive model",
  "label": "exploratory",
  "question": "Do Egyptian narratives open clauses with 'then / it came to pass' at a rate and mix that, alone or added to Hebrew, matches the Book of Mormon?",
- "generated_utc": "2026-10-19T14:29:56+00:00",
- "fingerprint": "be05965242b07d29f3ca2a01002a546016f67820cb57ba70524fc28a9e704620",
+ "generated_utc": "2026-10-20T06:00:30+00:00",
+ "fingerprint": "ce5522c23c94df6d560d82b68e140d024df75f47c0e8d2b065920ca8d580f693",
  "inputs": {
   "code:analyses/wayhi/egyptian.py": "1cae2ae9253fc8c18ba0f9df08f5b0cd0e823bba7ca358d39345eee2f16167a4",
   "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
@@ -15,7 +15,7 @@
   "lib:src/bomstylo/stats.py": "b108a4b53460072d206d608df26968b5e9037d69011db269d61f19a5e91d4116",
   "corpus:aed-tei": "b20448b1b5077058bf8597f50078c109aade4594e52afe1c419f11a445002ea6",
   "corpus:tla": "4a519288557ca9258c4771308e1194c9c9557213f236cef4f0eeba05afcec299",
-  "depends:genre-ladder": "5ec96f8bcc6b90ba878aa40c7322351f4538f1218df1e9e0d8d85e03ecc0921c",
+  "depends:genre-ladder": "4ee336b6e343d90bbd3b90b3e9476e21eabfb613e8afe753b0dd9721af3798cb",
   "params": "a3ada3da49b27fbb4f6adba6a7935647a82ad2c915c5747063649635a0d6b94b",
   "env": "e806395824fab178796864d06f942b96252ba82c1dd7f5ba53348baff2e2bd10"
  },
@@ -945,10 +945,10 @@
     }
    },
    "bom_1830": {
-    "time": 2.424403331283886,
-    "event": 5.5894024928735115,
-    "total": 8.013805824157398,
-    "event_share": 0.6974716652136006
+    "time": 2.4008444349391853,
+    "event": 5.608869326452752,
+    "total": 8.009713761391938,
+    "event_share": 0.7002583979328165
    }
   },
   "matched_range": [

@@ -28,14 +28,14 @@ hashed before the measurement ([`preregistrations/`](../preregistrations/)). Eve
 **exploratory**. Each analysis's headline, as recorded in Requiem:
 
 - **Book of Mormon uses by bucket and genre step, current and 1830 texts** ([`bom-buckets`](#bom-buckets), exploratory).
-  - Narrative frame, current text: 7.76 past-tense uses per 1,000 words (335 setting-first, 775 straight to the event, 142,980 words).
+  - Narrative frame, current text: 7.76 past-tense uses per 1,000 words (336 setting-first, 788 straight to the event, 144,801 words).
   - Narrative frame, 1830 text: 8.01 per 1,000 words.
-  - Straight-to-the-event share, narrative frame, current text: 70% (67%–73%), 775 of 1,110.
+  - Straight-to-the-event share, narrative frame, current text: 70% (67%–73%), 788 of 1,124.
   - Uses removed after 1830: 42 (12 past setting-first, 30 past straight-to-event, 0 future); current-text uses not found in the 1830 OCR by the aligner: 51 (an earlier hand check found these present but garbled or misaligned; its per-case labels weren't kept).
 - **Genre ladder: Hebrew setting-first wayhi vs the Book of Mormon** ([`genre-ladder`](#genre-ladder), exploratory).
   - Whole Old Testament vs whole Book of Mormon: 7.3x the Hebrew setting-first wayhi rate (7.9x the KJV's English).
   - 17 Hebrew narrative units vs Book of Mormon narrative frame: 2.7x (2.3-3.1) current text, 2.7x (2.4-3.2) 1830 text, per 1,000 KJV-scale words.
-  - Setting-first uses alone: Book of Mormon 2.34 vs Hebrew 2.92 per 1,000 = 0.80x (0.68-0.95). Hebrew has 0 straight-to-the-event wayhi; the Book of Mormon 775.
+  - Setting-first uses alone: Book of Mormon 2.32 vs Hebrew 2.92 per 1,000 = 0.80x (0.67-0.94). Hebrew has 0 straight-to-the-event wayhi; the Book of Mormon 788.
   - Densest Hebrew unit (setting-first): Elijah cycle at 5.81 per 1,000, against the Book of Mormon frame's 7.76.
 - **Egyptian narrative openings, and the Hebrew + Egyptian additive model** ([`egyptian`](#egyptian), exploratory).
   - Egyptian connected narratives matched in genre and date run 0–22 old-particle openings per 1,000 estimated translation words by text (Piye c. 727 BC: 8.26); they bracket the Book of Mormon's 8.01 (1830 frame), so the rate test is inconclusive, not negative.
@@ -47,13 +47,13 @@ hashed before the measurement ([`preregistrations/`](../preregistrations/)). Eve
   - KJV Old Testament: 4% event-first (14/388); New Testament 12%.
   - JST additions, revised rule, boundary-corrected: 38/47 event-first (81%); formulas kept from the KJV 5%.
   - Abraham (claims an Egyptian source) 15/16 event-first at 2.91 per 1,000; Moses 34/43 at 3.42. Fisher p = 0.26: no difference.
-- **KJV parallels in the Book of Mormon, and the step at which each leaves the comparison** ([`exclusions`](#exclusions), exploratory). 40 KJV-parallel passages found; 3 keep verses in the narrative frame: 1 Nephi 22:20 (Acts 3, 1 verse, 73 words); 3 Nephi 10:4–10:6 (Matthew 23, 3 verses, 146 words); Mormon 9:22–9:24 (Mark 16, 3 verses, 110 words).
+- **KJV parallels in the Book of Mormon, and the step at which each leaves the comparison** ([`exclusions`](#exclusions), exploratory). 39 KJV-parallel passages found; 3 keep verses in the narrative frame: 1 Nephi 22:20 (Acts 3, 1 verse, 73 words); 3 Nephi 10:4–10:6 (Matthew 23, 3 verses, 146 words); Mormon 9:22–9:24 (Mark 16, 3 verses, 110 words).
 - **'It came to pass' per verb and per source word** ([`per-verb`](#per-verb), exploratory).
   - Per 100 verbs, Book of Mormon ÷ Hebrew = 2.55× (2.2–2.9) current, 2.63× 1830 (2.7× per KJV word).
   - Validation: KJV has 1.026 verbs per Hebrew verb in the same passages, but 1.83 words per Hebrew word.
   - Additive model per 100 verbs: 3.60–4.16 against the 1830 book's 5.60.
 - **Greek New Testament ἐγένετο by bucket** ([`greek-egeneto`](#greek-egeneto), exploratory).
-  - Luke + Acts narrative frame: 2.16 per 1,000 KJV words, 10% straight to the event; the 1830 Book of Mormon is 3.7× (2.8–5.1) that rate.
+  - Luke + Acts narrative frame: 2.16 per 1,000 KJV words, 10% straight to the event; the 1830 Book of Mormon is 3.7× (2.8–5.0) that rate.
   - Greek NT ἐγένετο: 56 setting-first, 8 straight to the event, 3 subordinate, 135 ordinary verb; English rule agrees on 52/52 rendered settings.
 - **Forms of 'and + hayah' in the Hebrew Bible, and wayhi by bucket** ([`hebrew-forms`](#hebrew-forms), exploratory).
   - Hebrew Bible: 784 wayhi by morphology (421 setting-first, 0 straight to the event, 363 ordinary verb); 357 wehayah.
@@ -70,7 +70,7 @@ hashed before the measurement ([`preregistrations/`](../preregistrations/)). Eve
 
 In the narrative frame (the book's own narration, without quotations and embedded speeches), the
 Book of Mormon uses the formula 7.76 times per 1,000 words (8.01 in the
-1830 text): 335 setting-first and 775 straight to the event.
+1830 text): 336 setting-first and 788 straight to the event.
 
 **Most of the familiar gap is genre.** Whole text against the whole Old Testament, the book uses the
 formula 7.3× as often as Hebrew uses setting-first *wayhi*. Narrative against matched
@@ -78,9 +78,9 @@ narrative (17 Hebrew units), it is 2.7× (2.3–3.1) per 1,000 words and 2.55× 
 100 verbs.
 
 **The Hebrew-style use is at the Hebrew rate.** Counted alone, the book's setting-first uses run at
-0.80× (0.68–0.95) the Hebrew rate in the same kind of text: a little below it, not above. All of
+0.80× (0.67–0.94) the Hebrew rate in the same kind of text: a little below it, not above. All of
 the remaining difference is the straight-to-the-event use. Share of the book's formulas that go
-straight to the event: 70% (67%–73%), 775/1,110.
+straight to the event: 70% (67%–73%), 788/1,124.
 
 **Hebrew has no straight-to-the-event *wayhi*.** None of the Hebrew Bible's
 421 narrative-marker *wayhi* goes straight to the event. The other sources
@@ -357,9 +357,10 @@ The annotation has 73 spans: 6 KJV block quotations and 67 embedded speeches, le
   the Temple (3 Nephi 12–14, Matthew 5–7), Isaiah 29 in 2 Nephi 27, Isaiah 52 and Micah in
   3 Nephi 20–21, the Decalogue in Mosiah 12–13 and 1 Corinthians 13 in Moroni 7.
 - **Zeniff's record** (Mosiah 9–10, the first-person part of the record the book embeds; chapters
-  11–22 switch to third person and stay in the frame) is counted as speech,
-  as in the earlier published figures. The registered PREREG 2 run counts it as frame, as
-  registered. The sensitivity of every frame figure to this choice is reported in `bom-buckets`.
+  11–22 switch to third person and stay in the frame) is counted as narrative frame. It is a
+  first-person account of events, like Nephi's own, which is also frame, and PREREG 2 registered
+  it as frame. The earlier published figures counted it as speech; the frame figures with it
+  counted that way are reported in `bom-buckets`.
 - **Checked against the texts.** The `exclusions` analysis finds every passage that shares long
   word runs with the KJV, and says at which step it leaves. Passages that stay in the frame are
   flagged in bold:
@@ -378,8 +379,8 @@ The annotation has 73 spans: 6 KJV block quotations and 67 embedded speeches, le
 | 2 Nephi 30:9–30:15 | Isaiah 11 | 6 | step 4 (narrative frame) |  |
 | Mosiah 12:21–12:24 | Isaiah 52 | 4 | step 4 (narrative frame) |  |
 | Mosiah 12:34–12:36 | Exodus 20 | 2 | step 4 (narrative frame) |  |
-| Mosiah 13:13–13:14 | Deuteronomy 5 | 2 | step 4 (narrative frame) |  |
-| Mosiah 13:15–13:20 | Exodus 20 | 4 | step 4 (narrative frame) |  |
+| Mosiah 13:13 | Deuteronomy 5 | 1 | step 4 (narrative frame) |  |
+| Mosiah 13:14–13:20 | Exodus 20 | 5 | step 4 (narrative frame) |  |
 | Mosiah 14:1–14:12 | Isaiah 53 | 12 | step 2 (without KJV quotations) |  |
 | Mosiah 15:16–15:18 | Isaiah 52 | 3 | step 4 (narrative frame) |  |
 | Mosiah 15:29–15:31 | Isaiah 52 | 3 | step 4 (narrative frame) |  |
@@ -388,8 +389,7 @@ The annotation has 73 spans: 6 KJV block quotations and 67 embedded speeches, le
 | 3 Nephi 10:4–10:6 | Matthew 23 | 3 | stays in the narrative frame | **all verses in frame, 146 words** |
 | 3 Nephi 11:25 | Matthew 28 | 1 | step 4 (narrative frame) |  |
 | 3 Nephi 12:5–12:45 | Matthew 5 | 32 | step 4 (narrative frame) |  |
-| 3 Nephi 13:1–13:11 | Matthew 6 | 9 | step 4 (narrative frame) |  |
-| 3 Nephi 13:13–15:2 | Matthew 6–19 | 46 | step 4 (narrative frame) |  |
+| 3 Nephi 13:1–15:2 | Matthew 6–13 | 56 | step 4 (narrative frame) |  |
 | 3 Nephi 15:17 | John 10 | 1 | step 4 (narrative frame) |  |
 | 3 Nephi 15:21 | John 10 | 1 | step 4 (narrative frame) |  |
 | 3 Nephi 16:15 | Matthew 5 | 1 | step 4 (narrative frame) |  |
@@ -537,7 +537,7 @@ Hand labels: 44 setting-first, 76 straight to the event.
 <a id="bom-buckets"></a>**Question.** How often does the Book of Mormon use the formula, setting-first vs straight to the event, at each genre step, in the current and 1830 texts?  
 **Why.** The Book of Mormon side of every comparison, cut the same way as the Hebrew side.  
 **Label.** exploratory.  
-**Code.** [`analyses/wayhi/bom_buckets.py`](../analyses/wayhi/bom_buckets.py); result [`results/wayhi/bom-buckets.json`](../results/wayhi/bom-buckets.json), fingerprint `08cea6e295d4`; Requiem record `results/wayhi/bom-buckets/headline`.
+**Code.** [`analyses/wayhi/bom_buckets.py`](../analyses/wayhi/bom_buckets.py); result [`results/wayhi/bom-buckets.json`](../results/wayhi/bom-buckets.json), fingerprint `e1f0dbbc663e`; Requiem record `results/wayhi/bom-buckets/headline`.
 
 Current text, revised rule:
 
@@ -545,8 +545,8 @@ Current text, revised rule:
 |---|---|---|---|---|---|
 | whole text | 268,275 | 412 | 940 | 61 | 5.04 |
 | without KJV quotations | 256,149 | 410 | 938 | 46 | 5.26 |
-| narrative frame | 142,980 | 335 | 775 | 10 | 7.76 |
-| speech (not KJV) | 113,169 | 75 | 163 | 36 | 2.10 |
+| narrative frame | 144,801 | 336 | 788 | 10 | 7.76 |
+| speech (not KJV) | 111,348 | 74 | 150 | 36 | 2.01 |
 
 1830 text (current + uses removed after 1830), revised rule:
 
@@ -554,14 +554,14 @@ Current text, revised rule:
 |---|---|---|---|---|---|
 | whole text | 268,443 | 424 | 970 | 61 | 5.19 |
 | without KJV quotations | 256,317 | 422 | 968 | 46 | 5.42 |
-| narrative frame | 143,128 | 347 | 800 | 10 | 8.01 |
-| speech (not KJV) | 113,189 | 75 | 168 | 36 | 2.15 |
+| narrative frame | 144,949 | 348 | 813 | 10 | 8.01 |
+| speech (not KJV) | 111,368 | 74 | 155 | 36 | 2.06 |
 
 | straight-to-event share | value |
 |---|---|
-| current | 70% (67%–73%), 775/1,110 |
-| 1830 | 70% (67%–72%), 800/1,147 |
-| current, registered rule | 71% (68%–74%), 787/1,110 |
+| current | 70% (67%–73%), 788/1,124 |
+| 1830 | 70% (67%–73%), 813/1,161 |
+| current, registered rule | 71% (68%–74%), 800/1,124 |
 | speech, future | 58% (41%–74%), 21/36 |
 
 By narrator (narrative frame, current text):
@@ -576,19 +576,19 @@ By narrator (narrative frame, current text):
 | Amaron | 2 | 100% (16%–100%), 2/2 | 100% (16%–100%), 2/2 |
 | Abinadom | 1 | 100% (2%–100%), 1/1 | 100% (2%–100%), 1/1 |
 | Amaleki | 8 | 75% (35%–97%), 6/8 | 75% (35%–97%), 6/8 |
-| Mormon | 766 | 65% (62%–69%), 500/766 | 67% (63%–70%), 511/766 |
+| Mormon | 780 | 66% (62%–69%), 513/780 | 67% (64%–70%), 524/780 |
 | Moroni | 156 | 85% (79%–90%), 133/156 | 85% (79%–90%), 133/156 |
 
 1830 alignment: of 1,451 past uses in the 1830 OCR, 1,288 are in the current text, 42 were removed after 1830 (12 setting-first, 30 straight to the event), and 121 could not be aligned because of OCR damage (treated as present). Reverse direction: 51 current-text uses were not found in the 1830 OCR by the aligner (89 more unalignable).
 
-Sensitivity, Zeniff's first-person record (Mosiah 9–10) counted as frame: 144,801 words, 336 setting-first, 788 straight to the event (7.76 per 1,000).
+Sensitivity, Zeniff's first-person record (Mosiah 9–10) counted as speech: 142,980 words, 335 setting-first, 775 straight to the event (7.76 per 1,000).
 
 ### 5.6 The genre ladder
 
 <a id="genre-ladder"></a>**Question.** How does the Book of Mormon's rate compare with Hebrew wayhi at each matched genre step, and which use of the formula carries the difference?  
 **Why.** Replaces the whole-Bible English-to-English ratio with a like-for-like comparison, showing the effect of each control.  
 **Label.** exploratory.  
-**Code.** [`analyses/wayhi/genre_ladder.py`](../analyses/wayhi/genre_ladder.py); result [`results/wayhi/genre-ladder.json`](../results/wayhi/genre-ladder.json), fingerprint `0baf9613f408`; Requiem record `results/wayhi/genre-ladder/headline`.
+**Code.** [`analyses/wayhi/genre_ladder.py`](../analyses/wayhi/genre_ladder.py); result [`results/wayhi/genre-ladder.json`](../results/wayhi/genre-ladder.json), fingerprint `aa8a7d75317f`; Requiem record `results/wayhi/genre-ladder/headline`.
 
 Rates per 1,000 words (KJV-scale for Hebrew). The ratio compares the Book of Mormon's past formula
 with Hebrew setting-first *wayhi*.
@@ -605,10 +605,10 @@ Narrative frame by bucket (17 Hebrew units vs the Book of Mormon frame), per 1,0
 
 | bucket | Hebrew | Book of Mormon | BoM 1830 | BoM ÷ Hebrew |
 |---|---|---|---|---|
-| past, setting-first | 249 = 2.92 (2.57–3.30) | 335 = 2.34 | 347 = 2.42 | 0.80× (0.68–0.95) |
-| past, straight to event | 0 = 0.00 (0.00–0.04) | 775 = 5.42 | 800 = 5.59 | — |
+| past, setting-first | 249 = 2.92 (2.57–3.30) | 336 = 2.32 | 348 = 2.40 | 0.80× (0.67–0.94) |
+| past, straight to event | 0 = 0.00 (0.00–0.04) | 788 = 5.44 | 813 = 5.61 | — |
 | past, ordinary verb | 116 = 1.36 (1.12–1.63) | 0 = 0.00 | 0 = 0.00 | 0.00× (0.00–0.02) |
-| future, setting-first | 44 = 0.41 (0.30–0.55) | 15 = 0.13 | 15 = 0.13 | 0.33× (0.17–0.60) |
+| future, setting-first | 44 = 0.41 (0.30–0.55) | 15 = 0.13 | 15 = 0.13 | 0.33× (0.17–0.61) |
 | future, straight to event | 0 = 0.00 (0.00–0.03) | 21 = 0.19 | 21 = 0.19 | — |
 | future, ordinary verb | 37 = 0.34 (0.24–0.47) | 0 = 0.00 | 0 = 0.00 | 0.00× (0.00–0.10) |
 
@@ -619,13 +619,13 @@ Hebrew instances whose verse the WEB numbers differently (counted as frame): 11.
 <a id="per-verb"></a>**Question.** Do the Hebrew ratio and the additive model survive when the unit is verbs or source words rather than English words?  
 **Why.** English word counts don't translate between languages; verbs roughly do.  
 **Label.** exploratory.  
-**Code.** [`analyses/wayhi/per_verb.py`](../analyses/wayhi/per_verb.py); result [`results/wayhi/per-verb.json`](../results/wayhi/per-verb.json), fingerprint `1f1d7ba38a84`; Requiem record `results/wayhi/per-verb/headline`.
+**Code.** [`analyses/wayhi/per_verb.py`](../analyses/wayhi/per_verb.py); result [`results/wayhi/per-verb.json`](../results/wayhi/per-verb.json), fingerprint `c2060ffad677`; Requiem record `results/wayhi/per-verb/headline`.
 
 | per 100 verbs, past, narrative frame | setting-first | straight to event | total |
 |---|---|---|---|
 | Hebrew | 2.13 (1.87–2.41) | 0.00 (0.00–0.03) | 2.13 (1.87–2.41) |
-| Book of Mormon (current) | 1.64 (1.47–1.82) | 3.79 (3.53–4.07) | 5.43 (5.11–5.76) |
-| Book of Mormon (1830) | 1.69 (1.52–1.88) | 3.91 (3.64–4.19) | 5.60 (5.28–5.94) |
+| Book of Mormon (current) | 1.62 (1.45–1.81) | 3.81 (3.55–4.08) | 5.43 (5.12–5.76) |
+| Book of Mormon (1830) | 1.68 (1.51–1.87) | 3.92 (3.66–4.20) | 5.60 (5.28–5.93) |
 | demotic loose, all dates | 0.78 (0.45–1.24) | 0.96 (0.59–1.46) | 1.73 (1.23–2.38) |
 | Hebrew + demotic loose, all dates | 2.91 (2.58–3.37) | 0.96 (0.59–1.46) | 3.86 (3.36–4.51) |
 | demotic loose, 700–300 BC | 0.89 (0.43–1.64) | 0.63 (0.25–1.29) | 1.52 (0.88–2.43) |
@@ -662,7 +662,7 @@ Per 1,000 words, by which words are counted:
 <a id="greek-egeneto"></a>**Question.** How often do the Gospels and Acts use the formula, by bucket, against the Book of Mormon?  
 **Why.** Luke-Acts is the nearest non-Hebrew model of a heavy 'it came to pass' style, and the hand labels test the English rule on a second language.  
 **Label.** exploratory.  
-**Code.** [`analyses/wayhi/greek_egeneto.py`](../analyses/wayhi/greek_egeneto.py); result [`results/wayhi/greek-egeneto.json`](../results/wayhi/greek-egeneto.json), fingerprint `ad1da8bd26fa`; Requiem record `results/wayhi/greek-egeneto/headline`.
+**Code.** [`analyses/wayhi/greek_egeneto.py`](../analyses/wayhi/greek_egeneto.py); result [`results/wayhi/greek-egeneto.json`](../results/wayhi/greek-egeneto.json), fingerprint `93f067ccfd0e`; Requiem record `results/wayhi/greek-egeneto/headline`.
 
 | book | setting-first | straight to event | subordinate | ordinary verb |
 |---|---|---|---|---|
@@ -684,7 +684,7 @@ KJV rendering, verses with one ἐγένετο: setting 52/56; event 8/8; sub 1/
 | narrative frame | setting + event | per 1,000 KJV words | per 100 Greek verbs | straight to event | BoM ÷ this, per word | per verb |
 |---|---|---|---|---|---|---|
 | Gospels + Acts | 51 + 7 | 1.28 | 0.71 | 12% (5%–23%) | 6.3× (4.8–8.3) | 7.9× (6.1–10.5) |
-| Luke + Acts | 44 + 5 | 2.16 | 1.24 | 10% (3%–22%) | 3.7× (2.8–5.1) | 4.5× (3.4–6.2) |
+| Luke + Acts | 44 + 5 | 2.16 | 1.24 | 10% (3%–22%) | 3.7× (2.8–5.0) | 4.5× (3.4–6.2) |
 | Matthew + Mark + John | 7 + 2 | 0.40 | 0.21 | 22% (3%–60%) | 20.2× (10.6–44.4) | 26.4× (13.9–57.9) |
 | Book of Mormon 1830 frame |  | 8.01 | 5.60 | 70% |  |  |
 
@@ -708,7 +708,7 @@ KJV rendering, verses with one ἐγένετο: setting 52/56; event 8/8; sub 1/
 | Moses 5–8 | 8,108 | 32 | 3.95 | 26/32 = 81% (64%–93%) | 84% (67%–95%) |
 | Moses (all) | 12,559 | 43 | 3.42 | 34/43 = 79% (64%–90%) | 81% (67%–92%) |
 | Abraham | 5,507 | 16 | 2.91 | 15/16 = 94% (70%–100%) | 94% (70%–100%) |
-| *Book of Mormon, narrative frame (bom-buckets)* |  | 1,110 |  | 70% (67%–73%), 775/1,110 | 71% (68%–74%), 787/1,110 |
+| *Book of Mormon, narrative frame (bom-buckets)* |  | 1,124 |  | 70% (67%–73%), 788/1,124 | 71% (68%–74%), 800/1,124 |
 
 JST, revised rule:
 
@@ -724,7 +724,7 @@ Abraham vs Moses (revised rule), Fisher's exact test: p = 0.26.
 <a id="egyptian"></a>**Question.** Do Egyptian narratives open clauses with 'then / it came to pass' at a rate and mix that, alone or added to Hebrew, matches the Book of Mormon?  
 **Why.** Tests the 'reformed Egyptian' alternative on the texts that match in genre and date.  
 **Label.** exploratory.  
-**Code.** [`analyses/wayhi/egyptian.py`](../analyses/wayhi/egyptian.py); result [`results/wayhi/egyptian.json`](../results/wayhi/egyptian.json), fingerprint `be05965242b0`; Requiem record `results/wayhi/egyptian/headline`.
+**Code.** [`analyses/wayhi/egyptian.py`](../analyses/wayhi/egyptian.py); result [`results/wayhi/egyptian.json`](../results/wayhi/egyptian.json), fingerprint `ce5522c23c94`; Requiem record `results/wayhi/egyptian/headline`.
 
 The old narrative particles (ꜥḥꜥ.n, wn.ꞽn) are the unambiguous clause-opening "then" of Middle and
 Late Egyptian narrative. Counting them is a floor: a text that chains events another way reads as
@@ -798,7 +798,7 @@ Additive model, per 1,000 words (Hebrew setting-first only; its straight-to-even
 | Hebrew + demotic strict, 700–300 BC | 4.54 | 1.42 (0.57–2.93) | 5.97 (4.63–7.95) | no |
 | Hebrew + pRylands 9 | 3.10 | 1.96 (0.98–3.51) | 5.06 (4.02–6.66) | no |
 | Hebrew + Piye (old particles, all straight-to-event) | 2.92 | 8.26 | 11.18 | yes |
-| **Book of Mormon, 1830 frame** | 2.42 | 5.59 | 8.01 |  |
+| **Book of Mormon, 1830 frame** | 2.40 | 5.61 | 8.01 |  |
 
 Matched narratives, by text: 0.00–22.44 per 1,000 estimated translation words.
 
@@ -807,9 +807,9 @@ Matched narratives, by text: 0.00–22.44 per 1,000 estimated translation words.
 <a id="exclusions"></a>**Question.** Which Book of Mormon passages run parallel to the KJV, and does any stay in the narrative frame?  
 **Why.** Checks the exclusion annotation against the texts, so no KJV text is counted as the book's narration.  
 **Label.** exploratory.  
-**Code.** [`analyses/wayhi/exclusions.py`](../analyses/wayhi/exclusions.py); result [`results/wayhi/exclusions.json`](../results/wayhi/exclusions.json), fingerprint `a462e7174c60`; Requiem record `results/wayhi/exclusions/headline`.
+**Code.** [`analyses/wayhi/exclusions.py`](../analyses/wayhi/exclusions.py); result [`results/wayhi/exclusions.json`](../results/wayhi/exclusions.json), fingerprint `457f8ba2ad54`; Requiem record `results/wayhi/exclusions/headline`.
 
-40 passages found (table in Methods). Passages that keep verses in the narrative frame:
+39 passages found (table in Methods). Passages that keep verses in the narrative frame:
 
 | passage | KJV | frame verses | words |
 |---|---|---|---|
@@ -822,7 +822,7 @@ Matched narratives, by text: 0.00–22.44 per 1,000 estimated translation words.
 <a id="prereg-event-share"></a>**Question.** Does the Book of Mormon's event/time split of 'it came to pass' match the Egyptian narrative particles (within 0.15), and do English controls fail to?  
 **Why.** The registered test of the 'Egyptian particle' reading of the event-first share.  
 **Label.** registered, as fixed by [`PREREGISTRATION_2.md`](../preregistrations/PREREGISTRATION_2.md).  
-**Code.** [`analyses/wayhi/prereg_event_share.py`](../analyses/wayhi/prereg_event_share.py); result [`results/wayhi/prereg-event-share.json`](../results/wayhi/prereg-event-share.json), fingerprint `285056effc9d`; Requiem record `results/wayhi/prereg-event-share/headline`.
+**Code.** [`analyses/wayhi/prereg_event_share.py`](../analyses/wayhi/prereg_event_share.py); result [`results/wayhi/prereg-event-share.json`](../results/wayhi/prereg-event-share.json), fingerprint `4d36f05adcbe`; Requiem record `results/wayhi/prereg-event-share/headline`.
 
 | text (registered rules) | event | time | event share |
 |---|---|---|---|
@@ -842,7 +842,7 @@ Matched narratives, by text: 0.00–22.44 per 1,000 estimated translation words.
 
 **Registered verdict: MISS: the book does not match the Egyptian proportion**
 
-The revised-rule figures beside it: the Book of Mormon frame is 70% (67%–73%), 775/1,110 straight to the
+The revised-rule figures beside it: the Book of Mormon frame is 70% (67%–73%), 788/1,124 straight to the
 event, the KJV Old Testament 4% (2%–6%). They don't change the registered verdict.
 
 ### 5.13 Pre-registered: PREREG 30, Joseph Smith's own "then"
@@ -898,7 +898,7 @@ given, and the reason. Corrections carry the same weight as the results they rep
 | earlier figure | now | reason |
 |---|---|---|
 | Hebrew narrative-marker rate 3.04 per 1,000; Book of Mormon 2.5× (2.6× for 1830) | setting-first only, 2.92; 2.7× (2.3–3.1) (2.7× (2.4–3.2) for 1830) | the earlier Hebrew rule missed settings after *l-* prepositions and bare time nouns |
-| Book of Mormon event-first share 71% | 70% (67%–73%), 775/1,110 | revised English rule (setting before the formula; more time phrases) |
+| Book of Mormon event-first share 71% | 70% (67%–73%), 788/1,124 | revised English rule (setting before the formula; more time phrases) |
 | KJV Old Testament event-first share 12% | 4% (2%–6%) | mostly rule misses ("the same day", a setting placed first) |
 | KJV New Testament 22%, then 20% | 12% (5%–23%) | revised rule; then a bug fix: the revised pattern was sliced one character short and lost "the day" |
 | *The Late War* 35%; Snowden 48%; *Napoleon* 85%; *Nullification* 75% | 29% (19%–40%); 43% (34%–53%); 77% (46%–95%); 38% (15%–65%) | revised rule. *Nullification* puts the setting before the formula |
@@ -906,7 +906,7 @@ given, and the reason. Corrections carry the same weight as the results they rep
 | Hebrew + Demotic additive model "fits" the Book of Mormon (7.7–8.1 per 1,000) | 5.7–6.2 against 8.01 | the first model added the Hebrew *ordinary-verb* uses as if they were formula uses |
 | Egyptian texts before 600 BC set aside as "too old" | matched texts run 0–22 per 1,000; the rate test is inconclusive | the cut-off wasn't principled: formal Egyptian kept the older register, and Saite scribes revived it |
 | *wehayah* 353; *wayhi* + *wehayah* 1,137 | 357; 1,141 | the earlier count used a regular expression on the text; this one uses the morphology tag |
-| Isaiah quotation span 2 Nephi 12:1–24:23 | 2 Nephi 12:1–24:32; frame 142,980 words, 7.76 per 1,000 | the span stopped 9 verses short of the end of Isaiah 14, leaving 236 words of KJV Isaiah in the frame (no formulas) |
+| Isaiah quotation span 2 Nephi 12:1–24:23 | 2 Nephi 12:1–24:32; frame 144,801 words, 7.76 per 1,000 | the span stopped 9 verses short of the end of Isaiah 14, leaving 236 words of KJV Isaiah in the frame (no formulas) |
 | Moses 80% event-first at 3.75 per 1,000; Abraham 15/16 at 3.15; p = 0.42 | Moses 34/43 at 3.42 per 1,000; Abraham 15/16 at 2.91 per 1,000; p = 0.26 | recounted from the pinned Pearl of Great Price text; the earlier source and word counter weren't recorded. No difference either way |
 
 The registered verdicts of PREREG 2 and PREREG 30 are unchanged by any of these.

@@ -21,7 +21,10 @@ def test_published_claims():
 def test_bom_frame_counts():
     d = result("bom-buckets")
     c = d["current|revised"]["narrative frame"]["counts"]
-    assert (c["past_time"], c["past_event"]) == (335, 775)
+    assert (c["past_time"], c["past_event"]) == (336, 788)
+    # Zeniff's record as speech reproduces the earlier published frame.
+    z = d["sensitivity_zeniff_as_speech"]["current"]["counts"]
+    assert (z["past_time"], z["past_event"]) == (335, 775)
     assert d["removed_by_bucket"] == {"past_event": 30, "past_time": 12}
 
 
@@ -89,3 +92,10 @@ def test_record_comparison():
     assert "OUTSIDE" in compare(old, [Headline("rate", 9.0, 8.5, 9.5), Headline("n", 42)])
     moved = compare(old, [Headline("rate", 7.5, 7.0, 8.0), Headline("n", 43)])
     assert "OUTSIDE" not in moved and "rate" in moved and "n 42→43" in moved
+
+
+def test_exclusion_ties_are_canonical():
+    # A verse sharing as many n-grams with Exodus 20 as with Deuteronomy 5 goes
+    # to Exodus (earlier in the canon), whatever Python's hash seed is.
+    bom = [x["bom"] for x in result("exclusions")["passages"]]
+    assert "Mosiah 13:14–13:20" in bom and "3 Nephi 13:1–15:2" in bom

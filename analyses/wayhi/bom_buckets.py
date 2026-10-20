@@ -19,9 +19,10 @@ Method:
   restored to the verse it was removed from, with its bucket, plus 4 words
   ("it came to pass") to the word count.
 - Narrators come from `annotations/records.tsv`.
-- Sensitivity: Zeniff's first-person record (Mosiah 9–10) is an embedded span
-  of kind `narration`. By default it counts as speech, as in the published
-  figures. Counting it as narrative frame instead is reported alongside.
+- Zeniff's first-person record (Mosiah 9–10) is an embedded span of kind
+  `narration`. It counts as narrative frame, like Nephi's own first-person
+  account, and as PREREG 2 registered. Sensitivity: counting it as speech
+  instead, as the earlier published figures did, is reported alongside.
 """
 from __future__ import annotations
 
@@ -92,9 +93,9 @@ def run() -> dict:
     out["narrators"] = {rec: {r: {"counts": dict(c), "event_share": event_share(c)} for r, c in d.items()}
                         for rec, d in by.items()}
 
-    # Sensitivity: Zeniff's record as narrative frame.
-    lay_z = spans.layers(verses, frame_kinds=("narration",))
-    out["sensitivity_zeniff_as_frame"] = {
+    # Sensitivity: Zeniff's record as speech.
+    lay_z = spans.layers(verses, frame_kinds=())
+    out["sensitivity_zeniff_as_speech"] = {
         "current": levels(verses, lay_z)["narrative frame"],
         "1830": levels(verses, lay_z, extra=restored)["narrative frame"]}
 

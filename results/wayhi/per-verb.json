@@ -4,8 +4,8 @@
  "title": "'It came to pass' per verb and per source word",
  "label": "exploratory",
  "question": "Do the Hebrew ratio and the additive model survive when the unit is verbs or source words rather than English words?",
- "generated_utc": "2026-10-19T14:25:45+00:00",
- "fingerprint": "1f1d7ba38a84c1dbc1a3ea856fbe32a7f04033fdc93c1ad9fee03f2d00115451",
+ "generated_utc": "2026-10-20T06:01:22+00:00",
+ "fingerprint": "c2060ffad677e7378765b7436539bee11089d90b7a1562c1eed7e9ad23b79616",
  "inputs": {
   "code:analyses/wayhi/per_verb.py": "c14a26e4276ffbd458dd2b07c6b8168f77ea9d998a1cd9a15976dc6b5665300a",
   "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
@@ -16,7 +16,7 @@
   "lib:src/bomstylo/hebrew.py": "d57a2f794878c0b18a82c127905072a610c6920e86c01ab2729ad4559c811a44",
   "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
   "lib:src/bomstylo/results.py": "bba2a1088e277b88a7e67d3f52d7c70ec74f4b2751226c59e06851e6e0f959cb",
-  "lib:src/bomstylo/spans.py": "0fdf2b8532e11b9dc7670536eec8b794db1b997eaa594fb59123b24b48674174",
+  "lib:src/bomstylo/spans.py": "b7b0a06f719e5838ec82373530706f332ff066256d5fb19cbfa38eb7934b07ad",
   "lib:src/bomstylo/stats.py": "b108a4b53460072d206d608df26968b5e9037d69011db269d61f19a5e91d4116",
   "lib:src/bomstylo/verbs.py": "fa8790d2afd81e8da1d3438b9bccb43f32d92d14834f97d49d8d6631346163d5",
   "lib:src/bomstylo/web.py": "7b31a449a9975db67e31d2aeb8077b2396e94da3e72f08e2dd82e9163cda92b2",
@@ -26,8 +26,8 @@
   "corpus:bom-current": "b6362df3f54d9ea69b1e2a5e35f1d0ee8c0cf24b19045d2602fdf166c49a68ef",
   "corpus:tla": "4a519288557ca9258c4771308e1194c9c9557213f236cef4f0eeba05afcec299",
   "annotation:embedded.tsv": "1b2e32cda9c03ed2e26a404e637dabe7aa204bf03bbab58ace25e43b9a09f8a7",
-  "depends:bom-buckets": "8a8a026195b8c69950b6783b9292e86ecae8286fdc0780a36d62357a8b2425d3",
-  "depends:egyptian": "90148658951512cf7247516d15b905aab442d5c88d2e4453f6c1f6324f8c04ab",
+  "depends:bom-buckets": "46e7385f97b37f036906f81fa0c7323472b4855b74eb41e260f30bc4f55d9537",
+  "depends:egyptian": "b3fba34bc046499fcc5788f962a3238e35d99147c4b73de5885f5f431a3b8d07",
   "params": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
   "env": "4b537cf793c83fb844b282b8b18ac5ce4e6e71a53cea3bc8b488a603d603df84"
  },
@@ -35,9 +35,9 @@
  "headline": [
   {
    "key": "ratio_per_verb",
-   "value": 2.547892641312819,
-   "low": 2.2187536799301335,
-   "high": 2.935131171959186,
+   "value": 2.548996100332156,
+   "low": 2.220087967340666,
+   "high": 2.9359412382360723,
    "text": "Per 100 verbs, Book of Mormon ÷ Hebrew = 2.55× (2.2–2.9) current, 2.63× 1830 (2.7× per KJV word)."
   },
   {
@@ -66,13 +66,13 @@
    "event": 0
   },
   "bom": {
-   "words": 142980,
-   "verbs": 20453,
-   "setting": 335,
-   "event": 775,
-   "setting_1830": 347,
-   "event_1830": 800,
-   "words_1830": 143128
+   "words": 144801,
+   "verbs": 20702,
+   "setting": 336,
+   "event": 788,
+   "setting_1830": 348,
+   "event_1830": 813,
+   "words_1830": 144949
   },
   "demotic": {
    "demotic loose, all dates": {
@@ -136,36 +136,36 @@
    },
    "Book of Mormon (current)": {
     "setting": [
-     1.6379015303378477,
-     1.4671838266295696,
-     1.8230299106821888
+     1.6230315911506135,
+     1.454108745347723,
+     1.8061914057578214
     ],
     "event": [
-     3.789175182124872,
-     3.527062789598402,
-     4.06560980021355
+     3.8063955173413198,
+     3.54523417993141,
+     4.081705421530946
     ],
     "total": [
-     5.4270767124627195,
-     5.112466599002449,
-     5.7559810275808605
+     5.429427108491933,
+     5.116617978854632,
+     5.756357631785701
     ]
    },
    "Book of Mormon (1830)": {
     "setting": [
-     1.6948183068839289,
-     1.521165850017188,
-     1.8828620527229796
+     1.6792806251745194,
+     1.5074608579565345,
+     1.8653184113207748
     ],
     "event": [
-     3.9073620907986837,
-     3.6412560458651777,
-     4.187772872249948
+     3.9231469777784027,
+     3.6580732163685954,
+     4.20235227648131
     ],
     "total": [
-     5.602180397682613,
-     5.282623180399963,
-     5.9360147200216895
+     5.602427602952922,
+     5.284760814562621,
+     5.934199120167908
     ]
    },
    "demotic loose, all dates": {
@@ -342,7 +342,7 @@
   "per_1k": {
    "Hebrew per 1,000 Hebrew words": 5.351961311123052,
    "Hebrew per 1,000 KJV words": 2.9174643776069407,
-   "BoM 1830 per 1,000 words": 8.013805824157398,
+   "BoM 1830 per 1,000 words": 8.009713761391938,
    "demotic loose, all dates per 1,000 Demotic words": 3.102294064821618,
    "demotic loose, all dates per 1,000 German words": 2.843247287691732,
    "demotic loose, 700–300 BC per 1,000 Demotic words": 2.9094643162758858,
@@ -359,7 +359,7 @@
    "kjv_words_per_hebrew_word": 1.83445643833808,
    "words_per_verb": {
     "KJV (17 units)": 7.1177534374443745,
-    "Book of Mormon": 6.990661516647925,
+    "Book of Mormon": 6.994541590184523,
     "German, demotic loose, all dates": 6.0943912448700415,
     "German, demotic loose, 700–300 BC": 5.552278820375335,
     "German, demotic strict, all dates": 6.207090602138436,
@@ -368,15 +368,15 @@
    }
   },
   "ratio": {
-   "current": 2.547892641312819,
-   "1830": 2.6300999537714755,
+   "current": 2.548996100332156,
+   "1830": 2.630216011185528,
    "current_ci": [
-    2.2187536799301335,
-    2.935131171959186
+    2.220087967340666,
+    2.9359412382360723
    ],
    "1830_ci": [
-    2.291340113143557,
-    3.0285995105328527
+    2.2918033228946646,
+    3.028286245215382
    ]
   }
  }

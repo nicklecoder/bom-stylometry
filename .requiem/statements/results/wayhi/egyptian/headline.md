@@ -6,14 +6,14 @@ status: active
 tags:
     - wayhi
     - exploratory
-    - fp:be05965242b0
+    - fp:ce5522c23c94
 provenance:
     type: code-derived
     file: results/wayhi/egyptian.fingerprint
     line_range:
         start: 1
         end: 1
-    hash: 0b7904cea2bbb045359d10ef230b4d958a918eb14c4ee5fe262fee0d4fcfc268
+    hash: 42786fa5eacc01d8e5a16cce008d5e3ea43c4d18819cfb8849d425c375565156
 created_at: 2026-10-19T14:34:26.978112131Z
 ---
 
@@ -24,5 +24,5 @@ Hebrew settings + Demotic ḫpr: 5.7–6.2 per 1,000 against the 1830 frame's 8.
 pRylands 9 narration (c. 513 BC): 12 'it came to pass' openings in 5,602 German words (2.14), 1 setting-first, 11 straight to the event.
 
 Recorded values: matched_range_high=22.4363; additive_demotic_max=6.18129; rylands_openings=12
-Change from the previous record: first record.
-Data: results/wayhi/egyptian.json (fingerprint sha256:be05965242b07d29f3ca2a01002a546016f67820cb57ba70524fc28a9e704620). Code: analyses/wayhi/egyptian.py. If `requiem get` shows stale, an input changed: run `uv run bomstylo run egyptian` and `uv run bomstylo record egyptian`.
+Change from the previous record: none (same values, new inputs).
+Data: results/wayhi/egyptian.json (fingerprint sha256:ce5522c23c94df6d560d82b68e140d024df75f47c0e8d2b065920ca8d580f693). Code: analyses/wayhi/egyptian.py. If `requiem get` shows stale, an input changed: run `uv run bomstylo run egyptian` and `uv run bomstylo record egyptian`.

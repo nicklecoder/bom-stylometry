@@ -153,9 +153,10 @@ read by [`src/bomstylo/spans.py`](../src/bomstylo/spans.py), not logic inside an
   the Temple (3 Nephi 12–14, Matthew 5–7), Isaiah 29 in 2 Nephi 27, Isaiah 52 and Micah in
   3 Nephi 20–21, the Decalogue in Mosiah 12–13 and 1 Corinthians 13 in Moroni 7.
 - **Zeniff's record** (Mosiah 9–10, the first-person part of the record the book embeds; chapters
-  11–22 switch to third person and stay in the frame) is counted as speech,
-  as in the earlier published figures. The registered PREREG 2 run counts it as frame, as
-  registered. The sensitivity of every frame figure to this choice is reported in `bom-buckets`.
+  11–22 switch to third person and stay in the frame) is counted as narrative frame. It is a
+  first-person account of events, like Nephi's own, which is also frame, and PREREG 2 registered
+  it as frame. The earlier published figures counted it as speech; the frame figures with it
+  counted that way are reported in `bom-buckets`.
 - **Checked against the texts.** The `exclusions` analysis finds every passage that shares long
   word runs with the KJV, and says at which step it leaves. Passages that stay in the frame are
   flagged in bold:

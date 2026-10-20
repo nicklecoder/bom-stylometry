@@ -133,9 +133,15 @@ class Layers:
     spans: list[Span]
 
 
-def layers(verses: list[Verse], frame_kinds: tuple[str, ...] = ()) -> Layers:
+# requiem: methods/wayhi/zeniff-as-frame
+# Embedded kinds that count as narrative frame: Zeniff's first-person record
+# (kind "narration") is narrative, like Nephi's own first-person account.
+FRAME_KINDS: tuple[str, ...] = ("narration",)
+
+
+def layers(verses: list[Verse], frame_kinds: tuple[str, ...] = FRAME_KINDS) -> Layers:
     """Genre masks. `frame_kinds` lists embedded kinds to count as frame
-    instead (the sensitivity check passes ("narration",) for Zeniff's record)."""
+    instead (the sensitivity check passes () to count Zeniff's record as speech)."""
     spans = load_spans(verses, EMBEDDED)
     emb, quo = [False] * len(verses), [False] * len(verses)
     for s in spans:

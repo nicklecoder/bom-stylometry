@@ -47,7 +47,9 @@ def run() -> dict:
     p = ANALYSIS.params
     n = p["ngram"]
     idx = defaultdict(set)
+    order: dict[tuple[str, int], int] = {}  # canonical position of each KJV chapter
     for v in corpus.load("kjv_ot") + corpus.load("kjv_nt"):
+        order.setdefault((v.book, v.chapter), len(order))
         w = _words(v.text)
         for i in range(len(w) - n + 1):
             idx[" ".join(w[i:i + n])].add((v.book, v.chapter, v.verse))
@@ -62,8 +64,11 @@ def run() -> dict:
         grams = {g for g in grams if g in idx and len(idx[g]) <= p["stock_phrase_verses"]}
         if len(grams) >= p["min_per_verse"]:
             src = Counter((b, c) for g in grams for b, c, _ in idx[g])
+            # Ties go to the earlier chapter in canonical order, not to set
+            # iteration order, which changes with Python's hash seed.
+            kjv = max(src, key=lambda bc: (src[bc], -order[bc]))
             layer = "quotation" if lay.quotation[i] else "speech" if lay.embedded[i] else "frame"
-            hits.append({"i": i, "ref": v.ref, "n": len(grams), "kjv": src.most_common(1)[0][0], "layer": layer,
+            hits.append({"i": i, "ref": v.ref, "n": len(grams), "kjv": kjv, "layer": layer,
                          "words": corpus.words(v.text)})
     runs: list[list[dict]] = []
     for h in hits:

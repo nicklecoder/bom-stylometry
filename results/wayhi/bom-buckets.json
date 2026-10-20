@@ -4,17 +4,17 @@
  "title": "Book of Mormon uses by bucket and genre step, current and 1830 texts",
  "label": "exploratory",
  "question": "How often does the Book of Mormon use the formula, setting-first vs straight to the event, at each genre step, in the current and 1830 texts?",
- "generated_utc": "2026-10-19T14:40:42+00:00",
- "fingerprint": "08cea6e295d4738d08c5c1eef086b4770ae368860ee0b7d364ebd35b998c9759",
+ "generated_utc": "2026-10-20T06:00:29+00:00",
+ "fingerprint": "e1f0dbbc663e2fa39fef61f801f1a087515e568f2518f13971efa4f8dac5dc39",
  "inputs": {
-  "code:analyses/wayhi/bom_buckets.py": "c70e42c5865a6423f45d443db8e97b6282fa54d0c1ea15d28171c457cc17d73a",
+  "code:analyses/wayhi/bom_buckets.py": "0e6fbb43c518e6daff495786e1cf134919297df080753aeb0d533b6617973d95",
   "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
   "lib:src/bomstylo/corpus.py": "9da5021f951175c8ce21aeaa2ae53339109be63ef4a4a7058684a9ddc12edc3f",
   "lib:src/bomstylo/edition1830.py": "6e51cefd97cea1b959d48b49c1b933b02b483a2fd2e1a75b129ecbc536acec86",
   "lib:src/bomstylo/english.py": "7b01e9429943c042a91c6ac82bd51d80eccb195316d6d5592612f71f12928300",
   "lib:src/bomstylo/genre.py": "e3a48db26830b00628ea487306b9800d04e534a68fe0bbfaa4d73a4b078837f4",
   "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
-  "lib:src/bomstylo/spans.py": "0fdf2b8532e11b9dc7670536eec8b794db1b997eaa594fb59123b24b48674174",
+  "lib:src/bomstylo/spans.py": "b7b0a06f719e5838ec82373530706f332ff066256d5fb19cbfa38eb7934b07ad",
   "lib:src/bomstylo/stats.py": "b108a4b53460072d206d608df26968b5e9037d69011db269d61f19a5e91d4116",
   "corpus:bom-current": "b6362df3f54d9ea69b1e2a5e35f1d0ee8c0cf24b19045d2602fdf166c49a68ef",
   "corpus:bom-1830": "ad5db97a2969aac5e12d39b2f22b6afff011eedd68e77a0965b58b78379b9eb1",
@@ -27,24 +27,24 @@
  "headline": [
   {
    "key": "frame_rate_current",
-   "value": 7.763323541754091,
+   "value": 7.7623773316482625,
    "low": null,
    "high": null,
-   "text": "Narrative frame, current text: 7.76 past-tense uses per 1,000 words (335 setting-first, 775 straight to the event, 142,980 words)."
+   "text": "Narrative frame, current text: 7.76 past-tense uses per 1,000 words (336 setting-first, 788 straight to the event, 144,801 words)."
   },
   {
    "key": "frame_rate_1830",
-   "value": 8.013805824157398,
+   "value": 8.009713761391938,
    "low": null,
    "high": null,
    "text": "Narrative frame, 1830 text: 8.01 per 1,000 words."
   },
   {
    "key": "frame_event_share",
-   "value": 0.6981981981981982,
-   "low": 0.6702434187455807,
-   "high": 0.7250980880907538,
-   "text": "Straight-to-the-event share, narrative frame, current text: 70% (67%–73%), 775 of 1,110."
+   "value": 0.701067615658363,
+   "low": 0.6733585703123464,
+   "high": 0.7277198909088625,
+   "text": "Straight-to-the-event share, narrative frame, current text: 70% (67%–73%), 788 of 1,124."
   },
   {
    "key": "removed_after_1830",
@@ -768,19 +768,19 @@
     }
    },
    "narrative frame": {
-    "words": 142980,
+    "words": 144801,
     "counts": {
-     "past_time": 335,
-     "past_event": 775,
+     "past_time": 336,
+     "past_event": 788,
      "future_time": 4,
      "future_event": 6
     }
    },
    "speech (not KJV)": {
-    "words": 113169,
+    "words": 111348,
     "counts": {
-     "past_event": 163,
-     "past_time": 75,
+     "past_event": 150,
+     "past_time": 74,
      "future_time": 15,
      "future_event": 21
     }
@@ -806,19 +806,19 @@
     }
    },
    "narrative frame": {
-    "words": 143128,
+    "words": 144949,
     "counts": {
-     "past_time": 347,
-     "past_event": 800,
+     "past_time": 348,
+     "past_event": 813,
      "future_time": 4,
      "future_event": 6
     }
    },
    "speech (not KJV)": {
-    "words": 113189,
+    "words": 111368,
     "counts": {
-     "past_event": 168,
-     "past_time": 75,
+     "past_event": 155,
+     "past_time": 74,
      "future_time": 15,
      "future_event": 21
     }
@@ -844,19 +844,19 @@
     }
    },
    "narrative frame": {
-    "words": 142980,
+    "words": 144801,
     "counts": {
-     "past_time": 323,
-     "past_event": 787,
+     "past_time": 324,
+     "past_event": 800,
      "future_event": 8,
      "future_time": 2
     }
    },
    "speech (not KJV)": {
-    "words": 113169,
+    "words": 111348,
     "counts": {
-     "past_event": 165,
-     "past_time": 73,
+     "past_event": 152,
+     "past_time": 72,
      "future_time": 6,
      "future_event": 30
     }
@@ -882,19 +882,19 @@
     }
    },
    "narrative frame": {
-    "words": 143128,
+    "words": 144949,
     "counts": {
-     "past_time": 335,
-     "past_event": 812,
+     "past_time": 336,
+     "past_event": 825,
      "future_event": 8,
      "future_time": 2
     }
    },
    "speech (not KJV)": {
-    "words": 113189,
+    "words": 111368,
     "counts": {
-     "past_event": 170,
-     "past_time": 73,
+     "past_event": 157,
+     "past_time": 72,
      "future_time": 6,
      "future_event": 30
     }
@@ -1166,32 +1166,32 @@
    "Mormon": {
     "revised": {
      "counts": {
-      "past_time": 266,
-      "past_event": 500,
+      "past_time": 267,
+      "past_event": 513,
       "future_event": 6,
       "future_time": 3
      },
      "event_share": [
-      500,
-      766,
-      0.6527415143603134,
-      0.6178352558988811,
-      0.6864664162771765
+      513,
+      780,
+      0.6576923076923077,
+      0.6232052279600511,
+      0.690981755579543
      ]
     },
     "registered": {
      "counts": {
-      "past_time": 255,
-      "past_event": 511,
+      "past_time": 256,
+      "past_event": 524,
       "future_event": 7,
       "future_time": 2
      },
      "event_share": [
-      511,
-      766,
-      0.6671018276762402,
-      0.6324820582183787,
-      0.7004288478633931
+      524,
+      780,
+      0.6717948717948717,
+      0.6375983486872481,
+      0.7046863252536568
      ]
     }
    },
@@ -1224,21 +1224,21 @@
     }
    }
   },
-  "sensitivity_zeniff_as_frame": {
+  "sensitivity_zeniff_as_speech": {
    "current": {
-    "words": 144801,
+    "words": 142980,
     "counts": {
-     "past_time": 336,
-     "past_event": 788,
+     "past_time": 335,
+     "past_event": 775,
      "future_time": 4,
      "future_event": 6
     }
    },
    "1830": {
-    "words": 144949,
+    "words": 143128,
     "counts": {
-     "past_time": 348,
-     "past_event": 813,
+     "past_time": 347,
+     "past_event": 800,
      "future_time": 4,
      "future_event": 6
     }
@@ -1246,25 +1246,25 @@
   },
   "event_share": {
    "current": [
-    775,
-    1110,
-    0.6981981981981982,
-    0.6702434187455807,
-    0.7250980880907538
+    788,
+    1124,
+    0.701067615658363,
+    0.6733585703123464,
+    0.7277198909088625
    ],
    "1830": [
-    800,
-    1147,
-    0.6974716652136007,
-    0.6699701725897667,
-    0.7239563621491005
+    813,
+    1161,
+    0.7002583979328165,
+    0.672990848269299,
+    0.7265072944413005
    ],
    "current, registered rule": [
-    787,
-    1110,
-    0.709009009009009,
-    0.6813082358109728,
-    0.7355971027645928
+    800,
+    1124,
+    0.7117437722419929,
+    0.6842887838559755,
+    0.7380856274611518
    ],
    "speech, future": [
     21,

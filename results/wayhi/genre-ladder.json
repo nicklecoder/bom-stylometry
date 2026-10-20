@@ -4,8 +4,8 @@
  "title": "Genre ladder: Hebrew setting-first wayhi vs the Book of Mormon",
  "label": "exploratory",
  "question": "How does the Book of Mormon's rate compare with Hebrew wayhi at each matched genre step, and which use of the formula carries the difference?",
- "generated_utc": "2026-10-19T14:24:53+00:00",
- "fingerprint": "0baf9613f408ccc6afdf763aca321c46831ce0da566831f6d46474cd3c0cc3aa",
+ "generated_utc": "2026-10-20T06:00:30+00:00",
+ "fingerprint": "aa8a7d75317f20317bbbb4f11537723b2b0ed5b907e7c7ff5ae7284280f2da8c",
  "inputs": {
   "code:analyses/wayhi/genre_ladder.py": "17053e91131fdb5d312c2741f825e9ad6fa13545b1f3e452ca6c425d44e770cf",
   "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
@@ -20,7 +20,7 @@
   "corpus:wlc": "76934ca84402366e1215003024d369a8bbf00b6baa286f702039c2d5daf3a66a",
   "corpus:web": "78d2721e32cfe01d6620ff8cb2efd706fd7d9bf11e447a7f3203e8a14b7dca73",
   "corpus:kjv": "82539a00ae10e5af7c8576fc082b63dbbd1be94f44d04b81a0f385795d4685ea",
-  "depends:bom-buckets": "8a8a026195b8c69950b6783b9292e86ecae8286fdc0780a36d62357a8b2425d3",
+  "depends:bom-buckets": "46e7385f97b37f036906f81fa0c7323472b4855b74eb41e260f30bc4f55d9537",
   "params": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
   "env": "e806395824fab178796864d06f942b96252ba82c1dd7f5ba53348baff2e2bd10"
  },
@@ -35,17 +35,17 @@
   },
   {
    "key": "ratio_matched",
-   "value": 2.660983147332198,
-   "low": 2.317235057177791,
-   "high": 3.0654096083767763,
+   "value": 2.660658821142274,
+   "low": 2.3173423581334798,
+   "high": 3.0645546899229323,
    "text": "17 Hebrew narrative units vs Book of Mormon narrative frame: 2.7x (2.3-3.1) current text, 2.7x (2.4-3.2) 1830 text, per 1,000 KJV-scale words."
   },
   {
    "key": "setting_ratio",
-   "value": 0.8030895084290868,
-   "low": 0.6795799089896395,
-   "high": 0.9500537928605288,
-   "text": "Setting-first uses alone: Book of Mormon 2.34 vs Hebrew 2.92 per 1,000 = 0.80x (0.68-0.95). Hebrew has 0 straight-to-the-event wayhi; the Book of Mormon 775."
+   "value": 0.795357085323669,
+   "low": 0.6731128255633498,
+   "high": 0.9408084570279887,
+   "text": "Setting-first uses alone: Book of Mormon 2.32 vs Hebrew 2.92 per 1,000 = 0.80x (0.67-0.94). Hebrew has 0 straight-to-the-event wayhi; the Book of Mormon 788."
   },
   {
    "key": "densest_unit",
@@ -357,20 +357,20 @@
     "bom_level": "narrative frame",
     "kjv": 1.8631302703759105,
     "hebrew_setting": 2.01789508516752,
-    "bom": 7.763323541754091,
-    "bom_1830": 8.013805824157398,
-    "bom_setting": 2.3429850328717303,
-    "bom_event": 5.420338508882361,
-    "ratio_kjv": 4.166817353135345,
-    "ratio_hebrew": 3.8472384410954654,
-    "ratio_hebrew_1830": 3.9713689195551583,
+    "bom": 7.7623773316482625,
+    "bom_1830": 8.009713761391938,
+    "bom_setting": 2.320425963909089,
+    "bom_event": 5.441951367739173,
+    "ratio_kjv": 4.166309492723825,
+    "ratio_hebrew": 3.846769531629962,
+    "ratio_hebrew_1830": 3.969341032775742,
     "ratio_hebrew_ci": [
-     3.4035901547756566,
-     4.357705580582954
+     3.4038171788633957,
+     4.3564012923675035
     ],
     "ratio_hebrew_1830_ci": [
-     3.5151247018432707,
-     4.496236828245332
+     3.5139527902255905,
+     4.493190995747892
     ]
    },
    {
@@ -378,20 +378,20 @@
     "bom_level": "narrative frame",
     "kjv": 2.7065633382618612,
     "hebrew_setting": 2.9174643776069416,
-    "bom": 7.763323541754091,
-    "bom_1830": 8.013805824157398,
-    "bom_setting": 2.3429850328717303,
-    "bom_event": 5.420338508882361,
-    "ratio_kjv": 2.8683324834879538,
-    "ratio_hebrew": 2.660983147332198,
-    "ratio_hebrew_1830": 2.7468393052773945,
+    "bom": 7.7623773316482625,
+    "bom_1830": 8.009713761391938,
+    "bom_setting": 2.320425963909089,
+    "bom_event": 5.441951367739173,
+    "ratio_kjv": 2.867982885127386,
+    "ratio_hebrew": 2.660658821142274,
+    "ratio_hebrew_1830": 2.745436695944143,
     "ratio_hebrew_ci": [
-     2.317235057177791,
-     3.0654096083767763
+     2.3173423581334798,
+     3.0645546899229323
     ],
     "ratio_hebrew_1830_ci": [
-     2.3930433045010977,
-     3.1630266232073203
+     2.392199315875093,
+     3.1609450129116294
     ]
    }
   ],
@@ -404,20 +404,20 @@
      3.3032464881950743
     ],
     "bom": [
-     335,
-     2.3429850328717303
+     336,
+     2.320425963909089
     ],
     "bom_1830": [
-     347,
-     2.424403331283886
+     348,
+     2.4008444349391853
     ],
     "ratio_ci": [
-     0.6795799089896395,
-     0.9500537928605288
+     0.6731128255633498,
+     0.9408084570279887
     ],
     "ratio_1830_ci": [
-     0.7041230529030353,
-     0.9818761718349376
+     0.6973548423863587,
+     0.9722398875810704
     ]
    },
    "past_event": {
@@ -428,12 +428,12 @@
      0.04322158393840782
     ],
     "bom": [
-     775,
-     5.420338508882361
+     788,
+     5.441951367739173
     ],
     "bom_1830": [
-     800,
-     5.5894024928735115
+     813,
+     5.608869326452752
     ],
     "ratio_ci": null,
     "ratio_1830_ci": null
@@ -455,11 +455,11 @@
     ],
     "ratio_ci": [
      0.0,
-     0.019287622495489123
+     0.01904506366948457
     ],
     "ratio_1830_ci": [
      0.0,
-     0.019267678332716417
+     0.019025617730408867
     ]
    },
    "future_time": {
@@ -471,19 +471,19 @@
     ],
     "bom": [
      15,
-     0.1325451316173157
+     0.13471279232675934
     ],
     "bom_1830": [
      15,
-     0.1325217114737298
+     0.13468859995689964
     ],
     "ratio_ci": [
-     0.16813959809234846,
-     0.5958505811792647
+     0.17088937544017838,
+     0.6055952008251267
     ],
     "ratio_1830_ci": [
-     0.1681098885626075,
-     0.5957452969941974
+     0.17085868630587767,
+     0.6054864451321404
     ]
    },
    "future_event": {
@@ -495,11 +495,11 @@
     ],
     "bom": [
      21,
-     0.18556318426424198
+     0.1885979092574631
     ],
     "bom_1830": [
      21,
-     0.1855303960632217
+     0.1885640399396595
     ],
     "ratio_ci": null,
     "ratio_1830_ci": null
@@ -521,11 +521,11 @@
     ],
     "ratio_ci": [
      0.0,
-     0.10003005178098068
+     0.10166595655065024
     ],
     "ratio_1830_ci": [
      0.0,
-     0.1000123769094329
+     0.10164769889018212
     ]
    }
   },

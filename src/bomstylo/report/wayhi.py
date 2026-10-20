@@ -209,9 +209,9 @@ def res_bom_buckets(data, reg):
             f"{e['status']['unmatched (OCR)']} could not be aligned because of OCR damage (treated as present). "
             f"Reverse direction: {e['reverse']['absent from 1830']} current-text uses were not found in the 1830 "
             f"OCR by the aligner ({e['reverse']['unmatched']} more unalignable).\n")
-    z = d["sensitivity_zeniff_as_frame"]
+    z = d["sensitivity_zeniff_as_speech"]
     zc = z["current"]
-    out += (f"\nSensitivity, Zeniff's first-person record (Mosiah 9–10) counted as frame: {zc['words']:,} words, "
+    out += (f"\nSensitivity, Zeniff's first-person record (Mosiah 9–10) counted as speech: {zc['words']:,} words, "
             f"{zc['counts'].get('past_time', 0)} setting-first, {zc['counts'].get('past_event', 0)} straight to "
             f"the event ({f(1000 * (zc['counts'].get('past_time', 0) + zc['counts'].get('past_event', 0)) / zc['words'])} "
             f"per 1,000).\n")

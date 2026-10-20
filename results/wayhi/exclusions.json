@@ -4,14 +4,14 @@
  "title": "KJV parallels in the Book of Mormon, and the step at which each leaves the comparison",
  "label": "exploratory",
  "question": "Which Book of Mormon passages run parallel to the KJV, and does any stay in the narrative frame?",
- "generated_utc": "2026-10-19T14:25:35+00:00",
- "fingerprint": "a462e7174c60860e1d0a2b79eb9418f21de2a7e5cc533d9127db0e59e29dce00",
+ "generated_utc": "2026-10-20T06:01:12+00:00",
+ "fingerprint": "457f8ba2ad548c5706d7e4a5341bbd4a125c5ad764ca8d9f6fa0a25c8b18cb9d",
  "inputs": {
-  "code:analyses/wayhi/exclusions.py": "30c9b4f3a9b2efb031c76f0c00a8ad07b74b9e7be605134f8961b5c93b8ea680",
+  "code:analyses/wayhi/exclusions.py": "2f97cb05f715ecee970d84c212cd77654bf3cbd6be4b8b51fed0a0fff1ebb454",
   "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
   "lib:src/bomstylo/corpus.py": "9da5021f951175c8ce21aeaa2ae53339109be63ef4a4a7058684a9ddc12edc3f",
   "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
-  "lib:src/bomstylo/spans.py": "0fdf2b8532e11b9dc7670536eec8b794db1b997eaa594fb59123b24b48674174",
+  "lib:src/bomstylo/spans.py": "b7b0a06f719e5838ec82373530706f332ff066256d5fb19cbfa38eb7934b07ad",
   "corpus:bom-current": "b6362df3f54d9ea69b1e2a5e35f1d0ee8c0cf24b19045d2602fdf166c49a68ef",
   "corpus:kjv": "82539a00ae10e5af7c8576fc082b63dbbd1be94f44d04b81a0f385795d4685ea",
   "annotation:embedded.tsv": "1b2e32cda9c03ed2e26a404e637dabe7aa204bf03bbab58ace25e43b9a09f8a7",
@@ -31,7 +31,7 @@
    "value": 3,
    "low": null,
    "high": null,
-   "text": "40 KJV-parallel passages found; 3 keep verses in the narrative frame: 1 Nephi 22:20 (Acts 3, 1 verse, 73 words); 3 Nephi 10:4–10:6 (Matthew 23, 3 verses, 146 words); Mormon 9:22–9:24 (Mark 16, 3 verses, 110 words)."
+   "text": "39 KJV-parallel passages found; 3 keep verses in the narrative frame: 1 Nephi 22:20 (Acts 3, 1 verse, 73 words); 3 Nephi 10:4–10:6 (Matthew 23, 3 verses, 146 words); Mormon 9:22–9:24 (Mark 16, 3 verses, 110 words)."
   }
  ],
  "data": {
@@ -172,22 +172,22 @@
     "frame_words": 0
    },
    {
-    "bom": "Mosiah 13:13–13:14",
+    "bom": "Mosiah 13:13",
     "kjv": "Deuteronomy 5",
-    "verses": 2,
+    "verses": 1,
     "layers": {
-     "speech": 2
+     "speech": 1
     },
     "leaves_at": "step 4 (narrative frame)",
     "frame_verses": [],
     "frame_words": 0
    },
    {
-    "bom": "Mosiah 13:15–13:20",
+    "bom": "Mosiah 13:14–13:20",
     "kjv": "Exodus 20",
-    "verses": 4,
+    "verses": 5,
     "layers": {
-     "speech": 4
+     "speech": 5
     },
     "leaves_at": "step 4 (narrative frame)",
     "frame_verses": [],
@@ -286,22 +286,11 @@
     "frame_words": 0
    },
    {
-    "bom": "3 Nephi 13:1–13:11",
-    "kjv": "Matthew 6",
-    "verses": 9,
+    "bom": "3 Nephi 13:1–15:2",
+    "kjv": "Matthew 6–13",
+    "verses": 56,
     "layers": {
-     "speech": 9
-    },
-    "leaves_at": "step 4 (narrative frame)",
-    "frame_verses": [],
-    "frame_words": 0
-   },
-   {
-    "bom": "3 Nephi 13:13–15:2",
-    "kjv": "Matthew 6–19",
-    "verses": 46,
-    "layers": {
-     "speech": 46
+     "speech": 56
     },
     "leaves_at": "step 4 (narrative frame)",
     "frame_verses": [],

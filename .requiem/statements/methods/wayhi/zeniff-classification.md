@@ -3,7 +3,7 @@ id: zeniff-classification
 namespace: methods/wayhi
 kind: question
 abstract: true
-status: proposed
+status: superseded
 tags:
     - wayhi
 provenance:

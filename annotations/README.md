@@ -31,7 +31,7 @@ them ("I, Nephi", the colophons and the hand-offs of the plates). Columns:
 | `prophecy` | 7 | step 4 |
 | `liturgy` | 3 | step 4 |
 | `allegory` (Zenos's olive tree) | 1 | step 4 |
-| `narration` (Zeniff's first-person record, Mosiah 9–10) | 1 | step 4 by default; counted as frame in the sensitivity check and in PREREG 2 |
+| `narration` (Zeniff's first-person record, Mosiah 9–10) | 1 | stays in the frame (as in PREREG 2); counted as speech in the sensitivity check |
 
 How it was made: the spans were marked one by one, not by a rule, from the book's own framing:
 the places where it says someone speaks, writes or is quoted, and where that

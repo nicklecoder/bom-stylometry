@@ -169,7 +169,8 @@ MUST write `results/wayhi/<id>.json` and `results/wayhi/<id>.fingerprint`.
 - **FR-014 `bom-buckets`**: Count Book of Mormon uses by bucket and tense at
   each genre level, for the current text and the 1830 text separately. This
   includes the 1830 alignment (removals and additions). Report sensitivity to
-  the frame definition (Zeniff's record counted as narrative).
+  the frame definition (Zeniff's record counted as speech; it is frame by
+  default, per methods/wayhi/zeniff-as-frame).
 - **FR-015 `genre-ladder`**: Compare the two texts at five matched genre steps,
   showing KJV English, Hebrew setting-first and the Book of Mormon rate (current
   and 1830), with exact 95% intervals on each ratio. Report each of the 17

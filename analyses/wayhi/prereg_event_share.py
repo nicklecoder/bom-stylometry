@@ -18,7 +18,7 @@ formula only). Later exploratory re-measurements under the revised rule are in
 event-shares and bom-buckets; they don't change this verdict.
 
 Frame: as registered, Zeniff's record (embedded kind "narration") counts as
-narrative frame here, unlike bom-buckets.
+narrative frame here, as in bom-buckets.
 """
 from __future__ import annotations
 
