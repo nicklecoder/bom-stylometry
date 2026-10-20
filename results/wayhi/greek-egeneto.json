@@ -1,0 +1,2123 @@
+{
+ "id": "greek-egeneto",
+ "family": "wayhi",
+ "title": "Greek New Testament ἐγένετο by bucket",
+ "label": "exploratory",
+ "question": "How often do the Gospels and Acts use the formula, by bucket, against the Book of Mormon?",
+ "generated_utc": "2026-10-19T14:25:51+00:00",
+ "fingerprint": "ad1da8bd26fa98f8881cc13f5e5c7322f05b58137843ff534ef6e764bb78332d",
+ "inputs": {
+  "code:analyses/wayhi/greek_egeneto.py": "a6e9d338ad54d569201adcc0985946065e79e3755b76d82bc3bd64bf8b7a49e8",
+  "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
+  "lib:src/bomstylo/corpus.py": "9da5021f951175c8ce21aeaa2ae53339109be63ef4a4a7058684a9ddc12edc3f",
+  "lib:src/bomstylo/english.py": "7b01e9429943c042a91c6ac82bd51d80eccb195316d6d5592612f71f12928300",
+  "lib:src/bomstylo/genre.py": "e3a48db26830b00628ea487306b9800d04e534a68fe0bbfaa4d73a4b078837f4",
+  "lib:src/bomstylo/greek.py": "8c4408e7e2a789a55b0bfc4811f941d0adfeceea5c23a63b5a2da054d2edfa8c",
+  "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
+  "lib:src/bomstylo/results.py": "bba2a1088e277b88a7e67d3f52d7c70ec74f4b2751226c59e06851e6e0f959cb",
+  "lib:src/bomstylo/stats.py": "b108a4b53460072d206d608df26968b5e9037d69011db269d61f19a5e91d4116",
+  "lib:src/bomstylo/verbs.py": "fa8790d2afd81e8da1d3438b9bccb43f32d92d14834f97d49d8d6631346163d5",
+  "lib:src/bomstylo/web.py": "7b31a449a9975db67e31d2aeb8077b2396e94da3e72f08e2dd82e9163cda92b2",
+  "corpus:sblgnt": "9eb0633644305a8ab05a34bb94a2d216d733220167fce7f4f8f4a92f0e79e8df",
+  "corpus:kjv": "82539a00ae10e5af7c8576fc082b63dbbd1be94f44d04b81a0f385795d4685ea",
+  "corpus:web": "78d2721e32cfe01d6620ff8cb2efd706fd7d9bf11e447a7f3203e8a14b7dca73",
+  "annotation:egeneto_labels.tsv": "c8ee557c1cb6ab26c302a603335c702ad196fdea89a841646ff7017780dcdc0e",
+  "depends:per-verb": "940b38169f0fb2dfa7060b8335645498f7df9ec24c3fea4b4fc6622c6df1d904",
+  "params": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "env": "4b537cf793c83fb844b282b8b18ac5ce4e6e71a53cea3bc8b488a603d603df84"
+ },
+ "params": {},
+ "headline": [
+  {
+   "key": "luke_acts_ratio",
+   "value": 3.71600739972272,
+   "low": 2.7916869048460957,
+   "high": 5.052822436692641,
+   "text": "Luke + Acts narrative frame: 2.16 per 1,000 KJV words, 10% straight to the event; the 1830 Book of Mormon is 3.7× (2.8–5.1) that rate."
+  },
+  {
+   "key": "greek_totals",
+   "value": 56,
+   "low": null,
+   "high": null,
+   "text": "Greek NT ἐγένετο: 56 setting-first, 8 straight to the event, 3 subordinate, 135 ordinary verb; English rule agrees on 52/52 rendered settings."
+  }
+ ],
+ "data": {
+  "instances": [
+   {
+    "book": "Mt",
+    "ch": 7,
+    "vs": 28,
+    "pos": 1,
+    "n": 16,
+    "ref": "Mt 7:28",
+    "bucket": "setting"
+   },
+   {
+    "book": "Mt",
+    "ch": 8,
+    "vs": 24,
+    "pos": 4,
+    "n": 18,
+    "ref": "Mt 8:24",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mt",
+    "ch": 8,
+    "vs": 26,
+    "pos": 16,
+    "n": 19,
+    "ref": "Mt 8:26",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mt",
+    "ch": 9,
+    "vs": 10,
+    "pos": 1,
+    "n": 21,
+    "ref": "Mt 9:10",
+    "bucket": "setting"
+   },
+   {
+    "book": "Mt",
+    "ch": 11,
+    "vs": 1,
+    "pos": 1,
+    "n": 21,
+    "ref": "Mt 11:1",
+    "bucket": "setting"
+   },
+   {
+    "book": "Mt",
+    "ch": 11,
+    "vs": 26,
+    "pos": 6,
+    "n": 9,
+    "ref": "Mt 11:26",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mt",
+    "ch": 13,
+    "vs": 53,
+    "pos": 1,
+    "n": 11,
+    "ref": "Mt 13:53",
+    "bucket": "setting"
+   },
+   {
+    "book": "Mt",
+    "ch": 17,
+    "vs": 2,
+    "pos": 16,
+    "n": 21,
+    "ref": "Mt 17:2",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mt",
+    "ch": 19,
+    "vs": 1,
+    "pos": 1,
+    "n": 23,
+    "ref": "Mt 19:1",
+    "bucket": "setting"
+   },
+   {
+    "book": "Mt",
+    "ch": 21,
+    "vs": 42,
+    "pos": 21,
+    "n": 29,
+    "ref": "Mt 21:42",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mt",
+    "ch": 26,
+    "vs": 1,
+    "pos": 1,
+    "n": 14,
+    "ref": "Mt 26:1",
+    "bucket": "setting"
+   },
+   {
+    "book": "Mt",
+    "ch": 27,
+    "vs": 45,
+    "pos": 5,
+    "n": 13,
+    "ref": "Mt 27:45",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mt",
+    "ch": 28,
+    "vs": 2,
+    "pos": 3,
+    "n": 20,
+    "ref": "Mt 28:2",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 1,
+    "vs": 4,
+    "pos": 0,
+    "n": 13,
+    "ref": "Mk 1:4",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 1,
+    "vs": 9,
+    "pos": 1,
+    "n": 19,
+    "ref": "Mk 1:9",
+    "bucket": "setting"
+   },
+   {
+    "book": "Mk",
+    "ch": 1,
+    "vs": 11,
+    "pos": 2,
+    "n": 16,
+    "ref": "Mk 1:11",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 2,
+    "vs": 15,
+    "pos": 1,
+    "n": 26,
+    "ref": "Mk 2:15",
+    "bucket": "event"
+   },
+   {
+    "book": "Mk",
+    "ch": 2,
+    "vs": 23,
+    "pos": 1,
+    "n": 20,
+    "ref": "Mk 2:23",
+    "bucket": "event"
+   },
+   {
+    "book": "Mk",
+    "ch": 2,
+    "vs": 27,
+    "pos": 8,
+    "n": 16,
+    "ref": "Mk 2:27",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 4,
+    "vs": 4,
+    "pos": 1,
+    "n": 18,
+    "ref": "Mk 4:4",
+    "bucket": "setting"
+   },
+   {
+    "book": "Mk",
+    "ch": 4,
+    "vs": 10,
+    "pos": 2,
+    "n": 15,
+    "ref": "Mk 4:10",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 4,
+    "vs": 22,
+    "pos": 9,
+    "n": 16,
+    "ref": "Mk 4:22",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 4,
+    "vs": 39,
+    "pos": 16,
+    "n": 19,
+    "ref": "Mk 4:39",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 5,
+    "vs": 16,
+    "pos": 6,
+    "n": 13,
+    "ref": "Mk 5:16",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 6,
+    "vs": 14,
+    "pos": 7,
+    "n": 28,
+    "ref": "Mk 6:14",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 9,
+    "vs": 3,
+    "pos": 4,
+    "n": 17,
+    "ref": "Mk 9:3",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 9,
+    "vs": 7,
+    "pos": 1,
+    "n": 20,
+    "ref": "Mk 9:7",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 9,
+    "vs": 7,
+    "pos": 6,
+    "n": 20,
+    "ref": "Mk 9:7",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 9,
+    "vs": 26,
+    "pos": 7,
+    "n": 16,
+    "ref": "Mk 9:26",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 11,
+    "vs": 19,
+    "pos": 3,
+    "n": 8,
+    "ref": "Mk 11:19",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 12,
+    "vs": 11,
+    "pos": 2,
+    "n": 10,
+    "ref": "Mk 12:11",
+    "bucket": "verb"
+   },
+   {
+    "book": "Mk",
+    "ch": 15,
+    "vs": 33,
+    "pos": 5,
+    "n": 13,
+    "ref": "Mk 15:33",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 1,
+    "vs": 5,
+    "pos": 0,
+    "n": 27,
+    "ref": "Lk 1:5",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 1,
+    "vs": 8,
+    "pos": 0,
+    "n": 15,
+    "ref": "Lk 1:8",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 1,
+    "vs": 23,
+    "pos": 1,
+    "n": 14,
+    "ref": "Lk 1:23",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 1,
+    "vs": 41,
+    "pos": 1,
+    "n": 23,
+    "ref": "Lk 1:41",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 1,
+    "vs": 44,
+    "pos": 3,
+    "n": 22,
+    "ref": "Lk 1:44",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 1,
+    "vs": 59,
+    "pos": 1,
+    "n": 21,
+    "ref": "Lk 1:59",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 1,
+    "vs": 65,
+    "pos": 1,
+    "n": 20,
+    "ref": "Lk 1:65",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 2,
+    "vs": 1,
+    "pos": 0,
+    "n": 15,
+    "ref": "Lk 2:1",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 2,
+    "vs": 2,
+    "pos": 3,
+    "n": 8,
+    "ref": "Lk 2:2",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 2,
+    "vs": 6,
+    "pos": 0,
+    "n": 13,
+    "ref": "Lk 2:6",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 2,
+    "vs": 13,
+    "pos": 2,
+    "n": 14,
+    "ref": "Lk 2:13",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 2,
+    "vs": 15,
+    "pos": 1,
+    "n": 32,
+    "ref": "Lk 2:15",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 2,
+    "vs": 42,
+    "pos": 2,
+    "n": 12,
+    "ref": "Lk 2:42",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 2,
+    "vs": 46,
+    "pos": 1,
+    "n": 21,
+    "ref": "Lk 2:46",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 3,
+    "vs": 2,
+    "pos": 5,
+    "n": 16,
+    "ref": "Lk 3:2",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 3,
+    "vs": 21,
+    "pos": 0,
+    "n": 16,
+    "ref": "Lk 3:21",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 4,
+    "vs": 25,
+    "pos": 26,
+    "n": 33,
+    "ref": "Lk 4:25",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 4,
+    "vs": 36,
+    "pos": 1,
+    "n": 25,
+    "ref": "Lk 4:36",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 5,
+    "vs": 1,
+    "pos": 0,
+    "n": 22,
+    "ref": "Lk 5:1",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 5,
+    "vs": 12,
+    "pos": 1,
+    "n": 31,
+    "ref": "Lk 5:12",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 5,
+    "vs": 17,
+    "pos": 1,
+    "n": 36,
+    "ref": "Lk 5:17",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 6,
+    "vs": 1,
+    "pos": 0,
+    "n": 20,
+    "ref": "Lk 6:1",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 6,
+    "vs": 6,
+    "pos": 0,
+    "n": 24,
+    "ref": "Lk 6:6",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 6,
+    "vs": 12,
+    "pos": 0,
+    "n": 20,
+    "ref": "Lk 6:12",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 6,
+    "vs": 13,
+    "pos": 2,
+    "n": 17,
+    "ref": "Lk 6:13",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 6,
+    "vs": 16,
+    "pos": 7,
+    "n": 9,
+    "ref": "Lk 6:16",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 6,
+    "vs": 49,
+    "pos": 24,
+    "n": 31,
+    "ref": "Lk 6:49",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 7,
+    "vs": 11,
+    "pos": 1,
+    "n": 19,
+    "ref": "Lk 7:11",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 8,
+    "vs": 1,
+    "pos": 1,
+    "n": 24,
+    "ref": "Lk 8:1",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 8,
+    "vs": 22,
+    "pos": 0,
+    "n": 27,
+    "ref": "Lk 8:22",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 8,
+    "vs": 24,
+    "pos": 22,
+    "n": 24,
+    "ref": "Lk 8:24",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 9,
+    "vs": 18,
+    "pos": 1,
+    "n": 23,
+    "ref": "Lk 9:18",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 9,
+    "vs": 28,
+    "pos": 0,
+    "n": 21,
+    "ref": "Lk 9:28",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 9,
+    "vs": 29,
+    "pos": 1,
+    "n": 18,
+    "ref": "Lk 9:29",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 9,
+    "vs": 33,
+    "pos": 1,
+    "n": 36,
+    "ref": "Lk 9:33",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 9,
+    "vs": 34,
+    "pos": 4,
+    "n": 18,
+    "ref": "Lk 9:34",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 9,
+    "vs": 35,
+    "pos": 2,
+    "n": 16,
+    "ref": "Lk 9:35",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 9,
+    "vs": 37,
+    "pos": 0,
+    "n": 14,
+    "ref": "Lk 9:37",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 9,
+    "vs": 51,
+    "pos": 0,
+    "n": 19,
+    "ref": "Lk 9:51",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 10,
+    "vs": 21,
+    "pos": 37,
+    "n": 40,
+    "ref": "Lk 10:21",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 11,
+    "vs": 1,
+    "pos": 1,
+    "n": 30,
+    "ref": "Lk 11:1",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 11,
+    "vs": 14,
+    "pos": 5,
+    "n": 17,
+    "ref": "Lk 11:14",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 11,
+    "vs": 27,
+    "pos": 0,
+    "n": 26,
+    "ref": "Lk 11:27",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 11,
+    "vs": 30,
+    "pos": 2,
+    "n": 17,
+    "ref": "Lk 11:30",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 13,
+    "vs": 19,
+    "pos": 14,
+    "n": 27,
+    "ref": "Lk 13:19",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 14,
+    "vs": 1,
+    "pos": 1,
+    "n": 21,
+    "ref": "Lk 14:1",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 15,
+    "vs": 14,
+    "pos": 4,
+    "n": 15,
+    "ref": "Lk 15:14",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 16,
+    "vs": 22,
+    "pos": 0,
+    "n": 22,
+    "ref": "Lk 16:22",
+    "bucket": "event"
+   },
+   {
+    "book": "Lk",
+    "ch": 17,
+    "vs": 11,
+    "pos": 1,
+    "n": 15,
+    "ref": "Lk 17:11",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 17,
+    "vs": 14,
+    "pos": 10,
+    "n": 16,
+    "ref": "Lk 17:14",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 17,
+    "vs": 26,
+    "pos": 2,
+    "n": 17,
+    "ref": "Lk 17:26",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 17,
+    "vs": 28,
+    "pos": 2,
+    "n": 13,
+    "ref": "Lk 17:28",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 18,
+    "vs": 35,
+    "pos": 0,
+    "n": 15,
+    "ref": "Lk 18:35",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 19,
+    "vs": 9,
+    "pos": 12,
+    "n": 19,
+    "ref": "Lk 19:9",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 19,
+    "vs": 15,
+    "pos": 1,
+    "n": 24,
+    "ref": "Lk 19:15",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 19,
+    "vs": 29,
+    "pos": 1,
+    "n": 18,
+    "ref": "Lk 19:29",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 20,
+    "vs": 1,
+    "pos": 1,
+    "n": 24,
+    "ref": "Lk 20:1",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 22,
+    "vs": 14,
+    "pos": 2,
+    "n": 11,
+    "ref": "Lk 22:14",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 22,
+    "vs": 24,
+    "pos": 0,
+    "n": 12,
+    "ref": "Lk 22:24",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 22,
+    "vs": 44,
+    "pos": 7,
+    "n": 18,
+    "ref": "Lk 22:44",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 22,
+    "vs": 66,
+    "pos": 2,
+    "n": 20,
+    "ref": "Lk 22:66",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 23,
+    "vs": 44,
+    "pos": 8,
+    "n": 16,
+    "ref": "Lk 23:44",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 24,
+    "vs": 4,
+    "pos": 1,
+    "n": 17,
+    "ref": "Lk 24:4",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 24,
+    "vs": 15,
+    "pos": 1,
+    "n": 14,
+    "ref": "Lk 24:15",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 24,
+    "vs": 19,
+    "pos": 14,
+    "n": 29,
+    "ref": "Lk 24:19",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 24,
+    "vs": 21,
+    "pos": 24,
+    "n": 25,
+    "ref": "Lk 24:21",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 24,
+    "vs": 30,
+    "pos": 1,
+    "n": 16,
+    "ref": "Lk 24:30",
+    "bucket": "setting"
+   },
+   {
+    "book": "Lk",
+    "ch": 24,
+    "vs": 31,
+    "pos": 11,
+    "n": 14,
+    "ref": "Lk 24:31",
+    "bucket": "verb"
+   },
+   {
+    "book": "Lk",
+    "ch": 24,
+    "vs": 51,
+    "pos": 1,
+    "n": 15,
+    "ref": "Lk 24:51",
+    "bucket": "setting"
+   },
+   {
+    "book": "Jn",
+    "ch": 1,
+    "vs": 3,
+    "pos": 3,
+    "n": 12,
+    "ref": "Jn 1:3",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 1,
+    "vs": 3,
+    "pos": 7,
+    "n": 12,
+    "ref": "Jn 1:3",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 1,
+    "vs": 6,
+    "pos": 0,
+    "n": 8,
+    "ref": "Jn 1:6",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 1,
+    "vs": 10,
+    "pos": 9,
+    "n": 16,
+    "ref": "Jn 1:10",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 1,
+    "vs": 14,
+    "pos": 4,
+    "n": 23,
+    "ref": "Jn 1:14",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 1,
+    "vs": 17,
+    "pos": 14,
+    "n": 15,
+    "ref": "Jn 1:17",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 1,
+    "vs": 28,
+    "pos": 3,
+    "n": 12,
+    "ref": "Jn 1:28",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 2,
+    "vs": 1,
+    "pos": 6,
+    "n": 18,
+    "ref": "Jn 2:1",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 3,
+    "vs": 25,
+    "pos": 0,
+    "n": 11,
+    "ref": "Jn 3:25",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 5,
+    "vs": 9,
+    "pos": 2,
+    "n": 20,
+    "ref": "Jn 5:9",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 6,
+    "vs": 16,
+    "pos": 3,
+    "n": 11,
+    "ref": "Jn 6:16",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 6,
+    "vs": 21,
+    "pos": 9,
+    "n": 18,
+    "ref": "Jn 6:21",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 7,
+    "vs": 43,
+    "pos": 2,
+    "n": 8,
+    "ref": "Jn 7:43",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 10,
+    "vs": 19,
+    "pos": 2,
+    "n": 10,
+    "ref": "Jn 10:19",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 10,
+    "vs": 22,
+    "pos": 0,
+    "n": 9,
+    "ref": "Jn 10:22",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 10,
+    "vs": 35,
+    "pos": 10,
+    "n": 17,
+    "ref": "Jn 10:35",
+    "bucket": "verb"
+   },
+   {
+    "book": "Jn",
+    "ch": 19,
+    "vs": 36,
+    "pos": 0,
+    "n": 11,
+    "ref": "Jn 19:36",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 1,
+    "vs": 19,
+    "pos": 2,
+    "n": 21,
+    "ref": "Ac 1:19",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 2,
+    "vs": 2,
+    "pos": 1,
+    "n": 19,
+    "ref": "Ac 2:2",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 4,
+    "vs": 5,
+    "pos": 0,
+    "n": 17,
+    "ref": "Ac 4:5",
+    "bucket": "setting"
+   },
+   {
+    "book": "Ac",
+    "ch": 5,
+    "vs": 5,
+    "pos": 10,
+    "n": 17,
+    "ref": "Ac 5:5",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 5,
+    "vs": 7,
+    "pos": 0,
+    "n": 15,
+    "ref": "Ac 5:7",
+    "bucket": "setting"
+   },
+   {
+    "book": "Ac",
+    "ch": 5,
+    "vs": 11,
+    "pos": 1,
+    "n": 14,
+    "ref": "Ac 5:11",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 6,
+    "vs": 1,
+    "pos": 8,
+    "n": 25,
+    "ref": "Ac 6:1",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 7,
+    "vs": 13,
+    "pos": 11,
+    "n": 17,
+    "ref": "Ac 7:13",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 7,
+    "vs": 29,
+    "pos": 8,
+    "n": 17,
+    "ref": "Ac 7:29",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 7,
+    "vs": 31,
+    "pos": 11,
+    "n": 14,
+    "ref": "Ac 7:31",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 7,
+    "vs": 40,
+    "pos": 22,
+    "n": 24,
+    "ref": "Ac 7:40",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 8,
+    "vs": 1,
+    "pos": 7,
+    "n": 34,
+    "ref": "Ac 8:1",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 8,
+    "vs": 8,
+    "pos": 0,
+    "n": 8,
+    "ref": "Ac 8:8",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 9,
+    "vs": 3,
+    "pos": 4,
+    "n": 17,
+    "ref": "Ac 9:3",
+    "bucket": "setting"
+   },
+   {
+    "book": "Ac",
+    "ch": 9,
+    "vs": 19,
+    "pos": 4,
+    "n": 13,
+    "ref": "Ac 9:19",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 9,
+    "vs": 32,
+    "pos": 0,
+    "n": 14,
+    "ref": "Ac 9:32",
+    "bucket": "setting"
+   },
+   {
+    "book": "Ac",
+    "ch": 9,
+    "vs": 37,
+    "pos": 0,
+    "n": 15,
+    "ref": "Ac 9:37",
+    "bucket": "setting"
+   },
+   {
+    "book": "Ac",
+    "ch": 9,
+    "vs": 42,
+    "pos": 2,
+    "n": 13,
+    "ref": "Ac 9:42",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 9,
+    "vs": 43,
+    "pos": 0,
+    "n": 11,
+    "ref": "Ac 9:43",
+    "bucket": "event"
+   },
+   {
+    "book": "Ac",
+    "ch": 10,
+    "vs": 10,
+    "pos": 0,
+    "n": 13,
+    "ref": "Ac 10:10",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 10,
+    "vs": 10,
+    "pos": 9,
+    "n": 13,
+    "ref": "Ac 10:10",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 10,
+    "vs": 13,
+    "pos": 1,
+    "n": 10,
+    "ref": "Ac 10:13",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 10,
+    "vs": 16,
+    "pos": 2,
+    "n": 13,
+    "ref": "Ac 10:16",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 10,
+    "vs": 25,
+    "pos": 2,
+    "n": 16,
+    "ref": "Ac 10:25",
+    "bucket": "sub"
+   },
+   {
+    "book": "Ac",
+    "ch": 11,
+    "vs": 10,
+    "pos": 2,
+    "n": 12,
+    "ref": "Ac 11:10",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 11,
+    "vs": 26,
+    "pos": 5,
+    "n": 27,
+    "ref": "Ac 11:26",
+    "bucket": "event"
+   },
+   {
+    "book": "Ac",
+    "ch": 11,
+    "vs": 28,
+    "pos": 20,
+    "n": 23,
+    "ref": "Ac 11:28",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 12,
+    "vs": 18,
+    "pos": 14,
+    "n": 15,
+    "ref": "Ac 12:18",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 14,
+    "vs": 1,
+    "pos": 0,
+    "n": 25,
+    "ref": "Ac 14:1",
+    "bucket": "event"
+   },
+   {
+    "book": "Ac",
+    "ch": 14,
+    "vs": 5,
+    "pos": 2,
+    "n": 17,
+    "ref": "Ac 14:5",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 15,
+    "vs": 39,
+    "pos": 0,
+    "n": 17,
+    "ref": "Ac 15:39",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 16,
+    "vs": 16,
+    "pos": 0,
+    "n": 22,
+    "ref": "Ac 16:16",
+    "bucket": "setting"
+   },
+   {
+    "book": "Ac",
+    "ch": 16,
+    "vs": 26,
+    "pos": 3,
+    "n": 22,
+    "ref": "Ac 16:26",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 19,
+    "vs": 1,
+    "pos": 0,
+    "n": 21,
+    "ref": "Ac 19:1",
+    "bucket": "setting"
+   },
+   {
+    "book": "Ac",
+    "ch": 19,
+    "vs": 10,
+    "pos": 2,
+    "n": 21,
+    "ref": "Ac 19:10",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 19,
+    "vs": 17,
+    "pos": 2,
+    "n": 26,
+    "ref": "Ac 19:17",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 19,
+    "vs": 23,
+    "pos": 0,
+    "n": 12,
+    "ref": "Ac 19:23",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 19,
+    "vs": 34,
+    "pos": 6,
+    "n": 19,
+    "ref": "Ac 19:34",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 20,
+    "vs": 3,
+    "pos": 15,
+    "n": 21,
+    "ref": "Ac 20:3",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 20,
+    "vs": 37,
+    "pos": 3,
+    "n": 14,
+    "ref": "Ac 20:37",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 21,
+    "vs": 1,
+    "pos": 2,
+    "n": 22,
+    "ref": "Ac 21:1",
+    "bucket": "sub"
+   },
+   {
+    "book": "Ac",
+    "ch": 21,
+    "vs": 5,
+    "pos": 2,
+    "n": 28,
+    "ref": "Ac 21:5",
+    "bucket": "sub"
+   },
+   {
+    "book": "Ac",
+    "ch": 21,
+    "vs": 30,
+    "pos": 6,
+    "n": 24,
+    "ref": "Ac 21:30",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 21,
+    "vs": 35,
+    "pos": 2,
+    "n": 17,
+    "ref": "Ac 21:35",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 22,
+    "vs": 6,
+    "pos": 0,
+    "n": 19,
+    "ref": "Ac 22:6",
+    "bucket": "setting"
+   },
+   {
+    "book": "Ac",
+    "ch": 22,
+    "vs": 17,
+    "pos": 0,
+    "n": 16,
+    "ref": "Ac 22:17",
+    "bucket": "setting"
+   },
+   {
+    "book": "Ac",
+    "ch": 23,
+    "vs": 7,
+    "pos": 4,
+    "n": 14,
+    "ref": "Ac 23:7",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 23,
+    "vs": 9,
+    "pos": 0,
+    "n": 29,
+    "ref": "Ac 23:9",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 27,
+    "vs": 27,
+    "pos": 4,
+    "n": 21,
+    "ref": "Ac 27:27",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 27,
+    "vs": 39,
+    "pos": 3,
+    "n": 22,
+    "ref": "Ac 27:39",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 27,
+    "vs": 42,
+    "pos": 4,
+    "n": 13,
+    "ref": "Ac 27:42",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ac",
+    "ch": 27,
+    "vs": 44,
+    "pos": 17,
+    "n": 23,
+    "ref": "Ac 27:44",
+    "bucket": "event"
+   },
+   {
+    "book": "Ac",
+    "ch": 28,
+    "vs": 8,
+    "pos": 0,
+    "n": 24,
+    "ref": "Ac 28:8",
+    "bucket": "event"
+   },
+   {
+    "book": "Ac",
+    "ch": 28,
+    "vs": 17,
+    "pos": 0,
+    "n": 40,
+    "ref": "Ac 28:17",
+    "bucket": "setting"
+   },
+   {
+    "book": "Ro",
+    "ch": 7,
+    "vs": 13,
+    "pos": 4,
+    "n": 30,
+    "ref": "Ro 7:13",
+    "bucket": "verb"
+   },
+   {
+    "book": "Ro",
+    "ch": 11,
+    "vs": 34,
+    "pos": 9,
+    "n": 10,
+    "ref": "Ro 11:34",
+    "bucket": "verb"
+   },
+   {
+    "book": "1Co",
+    "ch": 15,
+    "vs": 45,
+    "pos": 3,
+    "n": 17,
+    "ref": "1Co 15:45",
+    "bucket": "verb"
+   },
+   {
+    "book": "2Co",
+    "ch": 1,
+    "vs": 19,
+    "pos": 20,
+    "n": 29,
+    "ref": "2Co 1:19",
+    "bucket": "verb"
+   },
+   {
+    "book": "1Th",
+    "ch": 3,
+    "vs": 4,
+    "pos": 13,
+    "n": 16,
+    "ref": "1Th 3:4",
+    "bucket": "verb"
+   },
+   {
+    "book": "2Ti",
+    "ch": 3,
+    "vs": 9,
+    "pos": 16,
+    "n": 17,
+    "ref": "2Ti 3:9",
+    "bucket": "verb"
+   },
+   {
+    "book": "2Ti",
+    "ch": 3,
+    "vs": 11,
+    "pos": 6,
+    "n": 23,
+    "ref": "2Ti 3:11",
+    "bucket": "verb"
+   },
+   {
+    "book": "Heb",
+    "ch": 2,
+    "vs": 2,
+    "pos": 7,
+    "n": 17,
+    "ref": "Heb 2:2",
+    "bucket": "verb"
+   },
+   {
+    "book": "Heb",
+    "ch": 5,
+    "vs": 9,
+    "pos": 2,
+    "n": 10,
+    "ref": "Heb 5:9",
+    "bucket": "verb"
+   },
+   {
+    "book": "Heb",
+    "ch": 11,
+    "vs": 7,
+    "pos": 25,
+    "n": 27,
+    "ref": "Heb 11:7",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 2,
+    "vs": 8,
+    "pos": 16,
+    "n": 20,
+    "ref": "Re 2:8",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 6,
+    "vs": 12,
+    "pos": 11,
+    "n": 27,
+    "ref": "Re 6:12",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 6,
+    "vs": 12,
+    "pos": 15,
+    "n": 27,
+    "ref": "Re 6:12",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 6,
+    "vs": 12,
+    "pos": 24,
+    "n": 27,
+    "ref": "Re 6:12",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 8,
+    "vs": 1,
+    "pos": 7,
+    "n": 14,
+    "ref": "Re 8:1",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 8,
+    "vs": 7,
+    "pos": 5,
+    "n": 34,
+    "ref": "Re 8:7",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 8,
+    "vs": 8,
+    "pos": 16,
+    "n": 22,
+    "ref": "Re 8:8",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 8,
+    "vs": 11,
+    "pos": 9,
+    "n": 26,
+    "ref": "Re 8:11",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 11,
+    "vs": 13,
+    "pos": 5,
+    "n": 35,
+    "ref": "Re 11:13",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 11,
+    "vs": 15,
+    "pos": 13,
+    "n": 32,
+    "ref": "Re 11:15",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 12,
+    "vs": 7,
+    "pos": 1,
+    "n": 25,
+    "ref": "Re 12:7",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 12,
+    "vs": 10,
+    "pos": 9,
+    "n": 44,
+    "ref": "Re 12:10",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 16,
+    "vs": 2,
+    "pos": 13,
+    "n": 33,
+    "ref": "Re 16:2",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 16,
+    "vs": 3,
+    "pos": 11,
+    "n": 24,
+    "ref": "Re 16:3",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 16,
+    "vs": 4,
+    "pos": 16,
+    "n": 18,
+    "ref": "Re 16:4",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 16,
+    "vs": 10,
+    "pos": 13,
+    "n": 26,
+    "ref": "Re 16:10",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 16,
+    "vs": 18,
+    "pos": 9,
+    "n": 25,
+    "ref": "Re 16:18",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 16,
+    "vs": 18,
+    "pos": 13,
+    "n": 25,
+    "ref": "Re 16:18",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 16,
+    "vs": 19,
+    "pos": 1,
+    "n": 34,
+    "ref": "Re 16:19",
+    "bucket": "verb"
+   },
+   {
+    "book": "Re",
+    "ch": 18,
+    "vs": 2,
+    "pos": 12,
+    "n": 32,
+    "ref": "Re 18:2",
+    "bucket": "verb"
+   }
+  ],
+  "totals": {
+   "setting": 56,
+   "verb": 135,
+   "event": 8,
+   "sub": 3
+  },
+  "by_book": {
+   "Mt": {
+    "setting": 6,
+    "verb": 7
+   },
+   "Mk": {
+    "verb": 15,
+    "setting": 2,
+    "event": 2
+   },
+   "Lk": {
+    "verb": 30,
+    "setting": 38,
+    "event": 1
+   },
+   "Jn": {
+    "verb": 17
+   },
+   "Ac": {
+    "verb": 36,
+    "setting": 10,
+    "event": 5,
+    "sub": 3
+   },
+   "Ro": {
+    "verb": 2
+   },
+   "1Co": {
+    "verb": 1
+   },
+   "2Co": {
+    "verb": 1
+   },
+   "Ga": {},
+   "Eph": {},
+   "Php": {},
+   "Col": {},
+   "1Th": {
+    "verb": 1
+   },
+   "2Th": {},
+   "1Ti": {},
+   "2Ti": {
+    "verb": 2
+   },
+   "Tit": {},
+   "Phm": {},
+   "Heb": {
+    "verb": 3
+   },
+   "Jas": {},
+   "1Pe": {},
+   "2Pe": {},
+   "1Jn": {},
+   "2Jn": {},
+   "3Jn": {},
+   "Jud": {},
+   "Re": {
+    "verb": 20
+   }
+  },
+  "calibration": {
+   "setting": {
+    "verses": 56,
+    "rendered": 52,
+    "rule_agrees": 52
+   },
+   "event": {
+    "verses": 8,
+    "rendered": 8,
+    "rule_agrees": 7
+   },
+   "sub": {
+    "verses": 3,
+    "rendered": 1
+   },
+   "verb": {
+    "verses": 124,
+    "rendered": 1
+   }
+  },
+  "kjv_nt_phrase": 65,
+  "kjv_orphans": [
+   "Luke 8:40",
+   "Luke 9:57",
+   "Luke 10:38",
+   "1 Thessalonians 3:4"
+  ],
+  "levels": {
+   "Gospels + Acts": {
+    "kjv_words": 107806.0,
+    "kjv_words_frame": 45454.85655897474,
+    "greek_verbs": 18600.0,
+    "greek_verbs_frame": 8203.0,
+    "kjv_verbs": 19154,
+    "kjv_verbs_frame": 7936.561552059251,
+    "counts": {
+     "setting": 56,
+     "verb": 105,
+     "event": 8,
+     "sub": 3
+    },
+    "counts_frame": {
+     "setting": 51,
+     "verb": 78,
+     "event": 7,
+     "sub": 3
+    },
+    "kjv_phrase_all": 64
+   },
+   "Luke + Acts": {
+    "kjv_words": 50160.0,
+    "kjv_words_frame": 22721.33447974556,
+    "greek_verbs": 8395.0,
+    "greek_verbs_frame": 3962.0,
+    "kjv_verbs": 8761,
+    "kjv_verbs_frame": 3910.4547996086653,
+    "counts": {
+     "verb": 66,
+     "setting": 48,
+     "event": 6,
+     "sub": 3
+    },
+    "counts_frame": {
+     "verb": 45,
+     "setting": 44,
+     "event": 5,
+     "sub": 3
+    },
+    "kjv_phrase_all": 54
+   },
+   "Matthew + Mark + John": {
+    "kjv_words": 57646.0,
+    "kjv_words_frame": 22733.52207922916,
+    "greek_verbs": 10205.0,
+    "greek_verbs_frame": 4241.0,
+    "kjv_verbs": 10393,
+    "kjv_verbs_frame": 4026.1067524505856,
+    "counts": {
+     "setting": 8,
+     "verb": 39,
+     "event": 2
+    },
+    "counts_frame": {
+     "setting": 7,
+     "verb": 33,
+     "event": 2
+    },
+    "kjv_phrase_all": 10
+   }
+  },
+  "rows": {
+   "Gospels + Acts": {
+    "setting": 51,
+    "event": 7,
+    "per_1k": [
+     1.1219923207508267,
+     0.1539989459854076,
+     1.2759912667362343
+    ],
+    "per_100_verbs": 0.7070583932707546,
+    "event_share": 0.1206896551724138,
+    "event_share_ci": [
+     0.1206896551724138,
+     0.04992661602348073,
+     0.2329836377079936
+    ],
+    "bom_ratio": 6.280455072906049,
+    "bom_ratio_1k": [
+     4.822836446218237,
+     8.32434008350692
+    ],
+    "bom_ratio_per_verb": 7.923221690032839,
+    "bom_ratio_verbs": [
+     6.084336548000471,
+     10.501721792324403
+    ],
+    "kjv_verbs_per_greek_verb": 1.0297849462365591
+   },
+   "Luke + Acts": {
+    "setting": 44,
+    "event": 5,
+    "per_1k": [
+     1.936505975880195,
+     0.22005749725911306,
+     2.156563473139308
+    ],
+    "per_100_verbs": 1.2367491166077738,
+    "event_share": 0.10204081632653061,
+    "event_share_ci": [
+     0.10204081632653061,
+     0.03397170498395576,
+     0.22227669628262678
+    ],
+    "bom_ratio": 3.71600739972272,
+    "bom_ratio_1k": [
+     2.7916869048460957,
+     5.052822436692641
+    ],
+    "bom_ratio_per_verb": 4.529763007269083,
+    "bom_ratio_verbs": [
+     3.403028764257295,
+     6.159322545411889
+    ],
+    "kjv_verbs_per_greek_verb": 1.0435973793924955
+   },
+   "Matthew + Mark + John": {
+    "setting": 7,
+    "event": 2,
+    "per_1k": [
+     0.30791533206355476,
+     0.08797580916101565,
+     0.3958911412245704
+    ],
+    "per_100_verbs": 0.21221410044800754,
+    "event_share": 0.2222222222222222,
+    "event_share_ci": [
+     0.2222222222222222,
+     0.028144973477898197,
+     0.600093573716312
+    ],
+    "bom_ratio": 20.24244796023749,
+    "bom_ratio_1k": [
+     10.62592647306849,
+     44.382103675240906
+    ],
+    "bom_ratio_per_verb": 26.39871896285773,
+    "bom_ratio_verbs": [
+     13.857555530513718,
+     57.8798910193347
+    ],
+    "kjv_verbs_per_greek_verb": 1.0184223419892209
+   }
+  },
+  "bom_1830": {
+   "per_1k": 8.013805824157398,
+   "per_100_verbs": 5.602180397682613,
+   "event_share": 0.6974716652136007
+  },
+  "borderline": [
+   "Ac 11:26",
+   "Ac 14:1",
+   "Ac 9:43"
+  ],
+  "subject_after_time": [
+   "Ac 19:23",
+   "Ac 8:1",
+   "Lk 1:5"
+  ]
+ }
+}

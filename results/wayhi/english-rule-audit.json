@@ -1,0 +1,71 @@
+{
+ "id": "english-rule-audit",
+ "family": "wayhi",
+ "title": "English rule vs hand labels, 120 Book of Mormon cases",
+ "label": "exploratory",
+ "question": "How often does the English rule agree with a hand reading of Book of Mormon instances?",
+ "generated_utc": "2026-10-19T14:24:53+00:00",
+ "fingerprint": "229ef35b24508314fba2ae001f341446f88f9fe681c61279dcf43f90ab343adf",
+ "inputs": {
+  "code:analyses/wayhi/english_rule_audit.py": "34c9c960b6a6b0df8985ba51e8ac8957bdc6f45130dff94688f2e2db1aa329b9",
+  "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
+  "lib:src/bomstylo/english.py": "7b01e9429943c042a91c6ac82bd51d80eccb195316d6d5592612f71f12928300",
+  "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
+  "lib:src/bomstylo/stats.py": "b108a4b53460072d206d608df26968b5e9037d69011db269d61f19a5e91d4116",
+  "annotation:wayhi_audit_bom.tsv": "332468ecbb1362bddbb5a04a9d8df9d0d706a8fb126bd1170e978ed7f4a3c61e",
+  "params": "6601c30aeccfa41ad11bd928e247d9227a9b769db711f493e4a12eb4d6c4a045",
+  "env": "e806395824fab178796864d06f942b96252ba82c1dd7f5ba53348baff2e2bd10"
+ },
+ "params": {
+  "sample_seed": 20261018,
+  "sample_size": 120
+ },
+ "headline": [
+  {
+   "key": "agreement_revised",
+   "value": 0.9916666666666667,
+   "low": 0.954444486766407,
+   "high": 0.9997890405218783,
+   "text": "English rule vs hand labels on 120 Book of Mormon cases: revised rule agrees on 119 (95%-100%), registered rule on 119. Disagreements (revised): Alma 49:28."
+  }
+ ],
+ "data": {
+  "n": 120,
+  "hand": {
+   "event": 76,
+   "time": 44
+  },
+  "revised": {
+   "confusion": {
+    "rule event | hand event": 75,
+    "rule time | hand event": 1,
+    "rule time | hand time": 44
+   },
+   "agree": 119,
+   "share": [
+    0.9916666666666667,
+    0.954444486766407,
+    0.9997890405218783
+   ],
+   "disagreements": [
+    "Alma 49:28"
+   ]
+  },
+  "registered": {
+   "confusion": {
+    "rule event | hand event": 75,
+    "rule time | hand event": 1,
+    "rule time | hand time": 44
+   },
+   "agree": 119,
+   "share": [
+    0.9916666666666667,
+    0.954444486766407,
+    0.9997890405218783
+   ],
+   "disagreements": [
+    "Alma 49:28"
+   ]
+  }
+ }
+}

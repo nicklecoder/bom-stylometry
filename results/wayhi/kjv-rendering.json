@@ -1,0 +1,218 @@
+{
+ "id": "kjv-rendering",
+ "family": "wayhi",
+ "title": "KJV rendering of each Hebrew bucket, and calibration of the English rule",
+ "label": "exploratory",
+ "question": "How consistently did the KJV render each kind of wayhi/wehayah as 'came to pass', and how often does the English rule recover the Hebrew bucket?",
+ "generated_utc": "2026-10-19T14:25:53+00:00",
+ "fingerprint": "f5452bc09697f798046bca0be7a9d33da24d1bcde1fe0c346287853605520069",
+ "inputs": {
+  "code:analyses/wayhi/kjv_rendering.py": "62db68b8a063bf2617e0071997667a843e6197d2ea0c0ca323f3a7735275dcf8",
+  "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
+  "lib:src/bomstylo/corpus.py": "9da5021f951175c8ce21aeaa2ae53339109be63ef4a4a7058684a9ddc12edc3f",
+  "lib:src/bomstylo/english.py": "7b01e9429943c042a91c6ac82bd51d80eccb195316d6d5592612f71f12928300",
+  "lib:src/bomstylo/genre.py": "e3a48db26830b00628ea487306b9800d04e534a68fe0bbfaa4d73a4b078837f4",
+  "lib:src/bomstylo/hebrew.py": "d57a2f794878c0b18a82c127905072a610c6920e86c01ab2729ad4559c811a44",
+  "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
+  "corpus:wlc": "76934ca84402366e1215003024d369a8bbf00b6baa286f702039c2d5daf3a66a",
+  "corpus:kjv": "82539a00ae10e5af7c8576fc082b63dbbd1be94f44d04b81a0f385795d4685ea",
+  "params": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "env": "e806395824fab178796864d06f942b96252ba82c1dd7f5ba53348baff2e2bd10"
+ },
+ "params": {},
+ "headline": [
+  {
+   "key": "rendered_setting",
+   "value": 0.8434343434343434,
+   "low": null,
+   "high": null,
+   "text": "The KJV renders 84% of setting-first wayhi as 'came to pass' (334 of 396 single-form verses); ordinary-verb wayhi 2.5%; future setting-first wehayah 49%."
+  },
+  {
+   "key": "kjv_additions",
+   "value": 31,
+   "low": null,
+   "high": null,
+   "text": "KJV past 'it came to pass' with no wayhi in the verse: 31 of 388 (8%)."
+  },
+  {
+   "key": "rule_agreement",
+   "value": 0.9910179640718563,
+   "low": null,
+   "high": null,
+   "text": "English rule (revised) agrees with the Hebrew on 331 of 334 rendered past settings (registered rule 302 of 334); future settings 77 of 85."
+  }
+ ],
+ "data": {
+  "calibration": {
+   "revised": {
+    "past|verb": {
+     "not rendered": 309,
+     "English says time": 6,
+     "English says event": 2
+    },
+    "past|time": {
+     "English says time": 331,
+     "not rendered": 62,
+     "English says event": 3
+    },
+    "future|time": {
+     "English says time": 77,
+     "not rendered": 87,
+     "English says event": 8
+    },
+    "future|verb": {
+     "not rendered": 141,
+     "English says time": 3,
+     "English says event": 4
+    },
+    "future|event": {
+     "not rendered": 3,
+     "English says event": 2
+    }
+   },
+   "registered": {
+    "past|verb": {
+     "not rendered": 309,
+     "English says time": 6,
+     "English says event": 2
+    },
+    "past|time": {
+     "English says event": 32,
+     "English says time": 302,
+     "not rendered": 62
+    },
+    "future|time": {
+     "English says event": 14,
+     "English says time": 71,
+     "not rendered": 87
+    },
+    "future|verb": {
+     "not rendered": 141,
+     "English says time": 1,
+     "English says event": 6
+    },
+    "future|event": {
+     "not rendered": 3,
+     "English says event": 2
+    }
+   }
+  },
+  "rendering": {
+   "past|verb": {
+    "verses": 317,
+    "rendered": 8,
+    "share": 0.025236593059936908
+   },
+   "past|time": {
+    "verses": 396,
+    "rendered": 334,
+    "share": 0.8434343434343434
+   },
+   "future|time": {
+    "verses": 172,
+    "rendered": 85,
+    "share": 0.4941860465116279
+   },
+   "future|verb": {
+    "verses": 148,
+    "rendered": 7,
+    "share": 0.0472972972972973
+   },
+   "future|event": {
+    "verses": 5,
+    "rendered": 2,
+    "share": 0.4
+   }
+  },
+  "rule_agreement_on_settings": {
+   "revised": {
+    "past": [
+     331,
+     334
+    ],
+    "future": [
+     77,
+     85
+    ]
+   },
+   "registered": {
+    "past": [
+     302,
+     334
+    ],
+    "future": [
+     71,
+     85
+    ]
+   }
+  },
+  "unmatched_verses": 12,
+  "kjv_orphans": {
+   "future": 21,
+   "past": 31
+  },
+  "kjv_orphan_refs": {
+   "future": [
+    "Genesis 12:12",
+    "Genesis 24:43",
+    "Exodus 16:5",
+    "Exodus 22:27",
+    "Numbers 5:27",
+    "Numbers 17:5",
+    "1 Samuel 10:5",
+    "1 Samuel 23:23",
+    "1 Kings 18:12",
+    "Isaiah 22:7",
+    "Jeremiah 42:16",
+    "Ezekiel 24:14",
+    "Hosea 1:10",
+    "Hosea 2:21",
+    "Joel 2:28",
+    "Joel 2:32",
+    "Joel 3:18",
+    "Micah 5:10",
+    "Nahum 3:7",
+    "Zechariah 8:13",
+    "Zechariah 8:23"
+   ],
+   "past": [
+    "Genesis 30:41",
+    "Genesis 38:9",
+    "Exodus 17:11",
+    "Exodus 33:7",
+    "Exodus 33:8",
+    "Exodus 33:9",
+    "Numbers 16:42",
+    "Numbers 17:8",
+    "Numbers 21:9",
+    "Numbers 26:1",
+    "Judges 2:19",
+    "1 Samuel 1:12",
+    "1 Samuel 13:22",
+    "1 Samuel 16:23",
+    "1 Samuel 17:48",
+    "1 Samuel 24:1",
+    "1 Samuel 24:5",
+    "1 Samuel 24:16",
+    "2 Samuel 19:25",
+    "1 Kings 5:7",
+    "2 Kings 3:15",
+    "2 Kings 24:20",
+    "Nehemiah 4:7",
+    "Nehemiah 4:12",
+    "Nehemiah 4:15",
+    "Nehemiah 4:16",
+    "Isaiah 48:5",
+    "Jeremiah 3:9",
+    "Jeremiah 37:11",
+    "Jeremiah 52:3",
+    "Amos 7:2"
+   ]
+  },
+  "kjv_totals": {
+   "past": 388,
+   "future": 117
+  }
+ }
+}

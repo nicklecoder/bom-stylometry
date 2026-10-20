@@ -1,0 +1,3285 @@
+{
+ "id": "prereg-jst-then",
+ "family": "wayhi",
+ "title": "Pre-registered: is 'it came to pass' Smith's all-purpose 'then'? (PREREG 30, JST)",
+ "label": "registered",
+ "question": "When Joseph Smith added 'it came to pass' to the KJV in the JST, was it event-first at the Book of Mormon's share?",
+ "generated_utc": "2026-10-19T14:29:18+00:00",
+ "fingerprint": "323adbee81c55be35a82a88ac243406c7e7e783e35a61c53f787f2a0efea0d65",
+ "inputs": {
+  "code:analyses/wayhi/prereg_jst_then.py": "9f49fcd10c5fe24cdc50d770e834b2831f8ad7920620bd6b84a656af9616dc60",
+  "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
+  "lib:src/bomstylo/corpus.py": "9da5021f951175c8ce21aeaa2ae53339109be63ef4a4a7058684a9ddc12edc3f",
+  "lib:src/bomstylo/english.py": "7b01e9429943c042a91c6ac82bd51d80eccb195316d6d5592612f71f12928300",
+  "lib:src/bomstylo/jst.py": "86e50d631e00fbc7ba165b9efc500290c75f78cdaf571a7b6d1d9af83bc5e4c2",
+  "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
+  "lib:src/bomstylo/stats.py": "b108a4b53460072d206d608df26968b5e9037d69011db269d61f19a5e91d4116",
+  "corpus:jst-1867": "c29b7ab833acbcd60d71f446c1d32632a34c8c0c65a3076eadeb640c1f357ebc",
+  "corpus:kjv": "82539a00ae10e5af7c8576fc082b63dbbd1be94f44d04b81a0f385795d4685ea",
+  "preregistration:PREREGISTRATION_30.md": "1e5036484d42165939a5f3514869f56d3f50f87ad1e90700833eae6745ad56fd",
+  "params": "c89cdfcf87b9a2ba7dfa5010cb5877142c144f84eedca559cd8daaba5b417c5e",
+  "env": "e806395824fab178796864d06f942b96252ba82c1dd7f5ba53348baff2e2bd10"
+ },
+ "params": {
+  "B": 0.71,
+  "thresholds": [
+   0.35,
+   0.56
+  ],
+  "min_added": 30,
+  "headnote_lines": 4,
+  "robustness_headnote_lines": [
+   2,
+   3,
+   6,
+   8
+  ]
+ },
+ "headline": [
+  {
+   "key": "S_registered",
+   "value": 0.75,
+   "low": 0.6105361100688396,
+   "high": 0.8596513964118091,
+   "text": "PREREG 30 (registered): 52 added formulas in JST OT narrative, 39 event-first, S = 0.75 (0.61–0.86). Verdict: R1, the habit transfers."
+  },
+  {
+   "key": "S_boundary_corrected",
+   "value": 0.8085106382978723,
+   "low": 0.6674026631661145,
+   "high": 0.90850843199181,
+   "text": "Without the five boundary spill-overs (Amendment 2): 47 added, 38 event-first, S = 0.81 (0.67–0.91); verdict unchanged. Shows the idiom was Smith's by 1830; whether he had it before the Book of Mormon is untested."
+  }
+ ],
+ "data": {
+  "books": {
+   "Genesis": {
+    "jst_words": 50632,
+    "kjv_words": 38515,
+    "kjv_formulas": 63,
+    "removed": 2,
+    "match_ratio": 0.9262884590419317,
+    "lines": [
+     298,
+     11410
+    ]
+   },
+   "Exodus": {
+    "jst_words": 32164,
+    "kjv_words": 32768,
+    "kjv_formulas": 26,
+    "removed": 1,
+    "match_ratio": 0.9390869140625,
+    "lines": [
+     11410,
+     18565
+    ]
+   },
+   "Numbers": {
+    "jst_words": 33185,
+    "kjv_words": 32942,
+    "kjv_formulas": 10,
+    "removed": 1,
+    "match_ratio": 0.9630866371197863,
+    "lines": [
+     23782,
+     31548
+    ]
+   },
+   "Joshua": {
+    "jst_words": 19068,
+    "kjv_words": 18866,
+    "kjv_formulas": 28,
+    "removed": 4,
+    "match_ratio": 0.9595568748012298,
+    "lines": [
+     37679,
+     41977
+    ]
+   },
+   "Judges": {
+    "jst_words": 20472,
+    "kjv_words": 19006,
+    "kjv_formulas": 26,
+    "removed": 2,
+    "match_ratio": 0.9676944122908555,
+    "lines": [
+     41977,
+     46530
+    ]
+   },
+   "Ruth": {
+    "jst_words": 1216,
+    "kjv_words": 2583,
+    "kjv_formulas": 3,
+    "removed": 2,
+    "match_ratio": 0.45799457994579945,
+    "lines": [
+     46530,
+     46798
+    ]
+   },
+   "1 Samuel": {
+    "jst_words": 25000,
+    "kjv_words": 25145,
+    "kjv_formulas": 33,
+    "removed": 2,
+    "match_ratio": 0.9653609067409028,
+    "lines": [
+     46798,
+     52295
+    ]
+   },
+   "2 Samuel": {
+    "jst_words": 20491,
+    "kjv_words": 20717,
+    "kjv_formulas": 26,
+    "removed": 2,
+    "match_ratio": 0.9577641550417532,
+    "lines": [
+     52295,
+     56832
+    ]
+   },
+   "1 Kings": {
+    "jst_words": 24495,
+    "kjv_words": 24586,
+    "kjv_formulas": 40,
+    "removed": 1,
+    "match_ratio": 0.9613601236476044,
+    "lines": [
+     56832,
+     62213
+    ]
+   },
+   "2 Kings": {
+    "jst_words": 23369,
+    "kjv_words": 23589,
+    "kjv_formulas": 36,
+    "removed": 0,
+    "match_ratio": 0.9676544151935224,
+    "lines": [
+     62213,
+     67219
+    ]
+   },
+   "1 Chronicles": {
+    "jst_words": 20047,
+    "kjv_words": 20414,
+    "kjv_formulas": 9,
+    "removed": 1,
+    "match_ratio": 0.943421181542079,
+    "lines": [
+     67219,
+     72264
+    ]
+   },
+   "2 Chronicles": {
+    "jst_words": 25693,
+    "kjv_words": 26122,
+    "kjv_formulas": 19,
+    "removed": 0,
+    "match_ratio": 0.9452568716024806,
+    "lines": [
+     72264,
+     78035
+    ]
+   },
+   "Ezra": {
+    "jst_words": 7915,
+    "kjv_words": 7453,
+    "kjv_formulas": 0,
+    "removed": 0,
+    "match_ratio": 0.9588085334764525,
+    "lines": [
+     78035,
+     79871
+    ]
+   },
+   "Nehemiah": {
+    "jst_words": 11803,
+    "kjv_words": 10497,
+    "kjv_formulas": 13,
+    "removed": 0,
+    "match_ratio": 0.9665618748213776,
+    "lines": [
+     79871,
+     82632
+    ]
+   },
+   "Esther": {
+    "jst_words": 3981,
+    "kjv_words": 5714,
+    "kjv_formulas": 4,
+    "removed": 2,
+    "match_ratio": 0.6774588729436472,
+    "lines": [
+     82632,
+     83526
+    ]
+   },
+   "Matthew": {
+    "jst_words": 27785,
+    "kjv_words": 23726,
+    "kjv_formulas": 6,
+    "removed": 0,
+    "match_ratio": 0.9229115738008935,
+    "lines": [
+     141535,
+     147909
+    ]
+   },
+   "Mark": {
+    "jst_words": 14909,
+    "kjv_words": 15186,
+    "kjv_formulas": 4,
+    "removed": 2,
+    "match_ratio": 0.7875016462531279,
+    "lines": [
+     147909,
+     151377
+    ]
+   },
+   "Luke": {
+    "jst_words": 28266,
+    "kjv_words": 25986,
+    "kjv_formulas": 40,
+    "removed": 4,
+    "match_ratio": 0.9078349880704994,
+    "lines": [
+     151377,
+     158004
+    ]
+   },
+   "John": {
+    "jst_words": 18816,
+    "kjv_words": 19127,
+    "kjv_formulas": 0,
+    "removed": 0,
+    "match_ratio": 0.9189627228525121,
+    "lines": [
+     158004,
+     162467
+    ]
+   },
+   "Acts": {
+    "jst_words": 24245,
+    "kjv_words": 24282,
+    "kjv_formulas": 14,
+    "removed": 0,
+    "match_ratio": 0.9703895889959641,
+    "lines": [
+     162467,
+     168253
+    ]
+   }
+  },
+  "panels": {
+   "primary (OT narrative)": {
+    "added": {
+     "event": 39,
+     "time": 13,
+     "n": 52,
+     "share": [
+      0.75,
+      0.6105361100688396,
+      0.8596513964118091
+     ]
+    },
+    "retained": {
+     "event": 42,
+     "time": 275,
+     "n": 317,
+     "share": [
+      0.13249211356466878,
+      0.09718398010145073,
+      0.17484498104612095
+     ]
+    },
+    "added, new composition": {
+     "event": 1,
+     "time": 2,
+     "n": 3,
+     "share": [
+      0.3333333333333333,
+      0.008403758659612636,
+      0.9057006759497539
+     ]
+    },
+    "added, revision": {
+     "event": 38,
+     "time": 11,
+     "n": 49,
+     "share": [
+      0.7755102040816326,
+      0.6337569811407235,
+      0.882256579445809
+     ]
+    },
+    "added_per_1k_jst_words": 0.1627385136340449,
+    "jst_words": 319531
+   },
+   "secondary (NT narrative)": {
+    "added": {
+     "event": 2,
+     "time": 3,
+     "n": 5,
+     "share": [
+      0.4,
+      0.052744950526316906,
+      0.8533672003653268
+     ]
+    },
+    "retained": {
+     "event": 15,
+     "time": 43,
+     "n": 58,
+     "share": [
+      0.25862068965517243,
+      0.1525518683651048,
+      0.39043166086847503
+     ]
+    },
+    "added, new composition": {
+     "event": 1,
+     "time": 0,
+     "n": 1,
+     "share": [
+      1.0,
+      0.025,
+      1.0
+     ]
+    },
+    "added, revision": {
+     "event": 1,
+     "time": 3,
+     "n": 4,
+     "share": [
+      0.25,
+      0.006309463209709866,
+      0.8058795503167565
+     ]
+    },
+    "added_per_1k_jst_words": 0.04385157120179616,
+    "jst_words": 114021
+   }
+  },
+  "verdict": "R1 HABIT TRANSFERS: H_then is a sufficient explanation of the event-first share",
+  "interval_straddles": false,
+  "amendment2_boundary_corrected": {
+   "primary (OT narrative)": {
+    "added": {
+     "event": 38,
+     "time": 9,
+     "n": 47,
+     "share": [
+      0.8085106382978723,
+      0.6674026631661145,
+      0.90850843199181
+     ]
+    },
+    "retained": {
+     "event": 42,
+     "time": 275,
+     "n": 317,
+     "share": [
+      0.13249211356466878,
+      0.09718398010145073,
+      0.17484498104612095
+     ]
+    },
+    "added, new composition": {
+     "event": 1,
+     "time": 2,
+     "n": 3,
+     "share": [
+      0.3333333333333333,
+      0.008403758659612636,
+      0.9057006759497539
+     ]
+    },
+    "added, revision": {
+     "event": 37,
+     "time": 7,
+     "n": 44,
+     "share": [
+      0.8409090909090909,
+      0.6993467862283121,
+      0.9335565387971044
+     ]
+    },
+    "added_per_1k_jst_words": 0.14709057963077135,
+    "jst_words": 319531
+   },
+   "secondary (NT narrative)": {
+    "added": {
+     "event": 2,
+     "time": 3,
+     "n": 5,
+     "share": [
+      0.4,
+      0.052744950526316906,
+      0.8533672003653268
+     ]
+    },
+    "retained": {
+     "event": 15,
+     "time": 43,
+     "n": 58,
+     "share": [
+      0.25862068965517243,
+      0.1525518683651048,
+      0.39043166086847503
+     ]
+    },
+    "added, new composition": {
+     "event": 1,
+     "time": 0,
+     "n": 1,
+     "share": [
+      1.0,
+      0.025,
+      1.0
+     ]
+    },
+    "added, revision": {
+     "event": 1,
+     "time": 3,
+     "n": 4,
+     "share": [
+      0.25,
+      0.006309463209709866,
+      0.8058795503167565
+     ]
+    },
+    "added_per_1k_jst_words": 0.04385157120179616,
+    "jst_words": 114021
+   }
+  },
+  "amendment2_verdict": "R1 HABIT TRANSFERS: H_then is a sufficient explanation of the event-first share",
+  "robustness_headnote_lines": {
+   "2": {
+    "added": 53,
+    "S": 0.7547169811320755,
+    "verdict": "R1"
+   },
+   "3": {
+    "added": 53,
+    "S": 0.7547169811320755,
+    "verdict": "R1"
+   },
+   "6": {
+    "added": 52,
+    "S": 0.75,
+    "verdict": "R1"
+   },
+   "8": {
+    "added": 52,
+    "S": 0.75,
+    "verdict": "R1"
+   }
+  },
+  "added_examples": {
+   "Genesis": [
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Moses looked and beheld the world upon which he was created. And as "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that it was for the space of many hours before Moses did again receive hi"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that when Moses had said these words, behold, Satan came tempting him, sa"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass that Moses looked upon Satan, and said. Who art thou, for behold I am a so"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Moses began to fear exceedingly; and as he began to fear, he saw the"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Satan cried with a loud voice, with weeping, and wailing, and gnashi"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that when Satan had departed from the presence of Moses, that Moses lifte"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, as the voice was still speaking, he cast his eyes^^ and beheld the earth "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Moses called upon God, saying. Tell me, I pray thee, why these thing"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Moses spake unto the Lord, saying. Be merciful unto thy servant, God"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that the Lord spake unto Moses, saying, Behold, I reveal unto you concern"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that after I, the Lord God, had driven them out, that Adam began to till "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that all the days of Jared were nine hundred and fiixty-two years ; and h"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass that Enoch journeyed in the land, among the people : and as he journeyed, "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Enoch went forth in the land, among the people, standing upon the hi"
+    }
+   ],
+   "Exodus": [],
+   "Numbers": [],
+   "Joshua": [],
+   "Judges": [
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass in the days when the judges ruled, that there was a famine in the land. An"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, when they were come to Beth-lehem, that all the city was moved about them"
+    }
+   ],
+   "Ruth": [],
+   "1 Samuel": [],
+   "2 Samuel": [],
+   "1 Kings": [],
+   "2 Kings": [],
+   "1 Chronicles": [],
+   "2 Chronicles": [],
+   "Ezra": [],
+   "Nehemiah": [
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass in the days of Ahasuerus, (this is Ahasucrus which reigned from India even"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, when the king's commandment and his decree was heard, and when many maide"
+    }
+   ],
+   "Esther": [],
+   "Matthew": [
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "new composition",
+     "text": "it came to pass that Jesus grew up with his brethren, and waxed strong, and waited upon th"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass that, as Jesus* taught his disciples, he said unto them. Take heed that ye"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass the same day, Jesus went out of the house, and sat by the sea side. And gr"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass in those days, that Jesus came from Nazareth of Galilee, and was baptized "
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, as Jesus sat at meat in his house, many publicans and sinners sat also to"
+    }
+   ],
+   "Mark": [],
+   "Luke": [],
+   "John": [],
+   "Acts": []
+  },
+  "all_formulas": {
+   "Genesis": [
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Moses looked and beheld the world upon which he was created. And as "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that it was for the space of many hours before Moses did again receive hi"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that when Moses had said these words, behold, Satan came tempting him, sa"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass that Moses looked upon Satan, and said. Who art thou, for behold I am a so"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Moses began to fear exceedingly; and as he began to fear, he saw the"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Satan cried with a loud voice, with weeping, and wailing, and gnashi"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that when Satan had departed from the presence of Moses, that Moses lifte"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, as the voice was still speaking, he cast his eyes^^ and beheld the earth "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Moses called upon God, saying. Tell me, I pray thee, why these thing"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Moses spake unto the Lord, saying. Be merciful unto thy servant, God"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that the Lord spake unto Moses, saying, Behold, I reveal unto you concern"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that after I, the Lord God, had driven them out, that Adam began to till "
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that Cain brought of the fruit of the ground an offering unto the Lord. A"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that Cain took one of his brother's daughters to wife, and they loved Sat"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that while they were in the field, Cain rose up against Abel his brother,"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that all the days of Jared were nine hundred and fiixty-two years ; and h"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass that Enoch journeyed in the land, among the people : and as he journeyed, "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Enoch went forth in the land, among the people, standing upon the hi"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass when they heard him, no man laid hands on him, for fear came on all them t"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "new composition",
+     "text": "it came to pass, as I jourlej^ed from the land of Cainan by he sea east, I beheld a vision"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, when the Lord had spoken with Adam our father, that Adam cried unto the L"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Enocb continued his speech, saying,. Behold, our father Adam taught "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that I turned and went up on the mount; and as I stood upon the mount, I "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that I beheld in the valley of Shum, and, lo ! a great people which dwelt"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that the jord said unto me, Look, and T Doked, and I beheld the land of >"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Enoch continued to call upon all the people, lave it were the people"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass in his days, that he built a city that was called the city of Holiness, ev"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Enoch talked with the Lord, and he said unto the Lord, Surely, Zion "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that the Lord showed unto Enoch all the inhabitants of the earth, and he "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that the God of heaven looked upon the residue of the people, and wept; a"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that the Lord spake unto Enoch, and told Enoch all the doings of the chil"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Enoch looked, and from Noah he beheld all the families of the earth "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Enoch looked upon the earth, and he heard a voice from the bowels th"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Enoch continued his cry unto the Lord, spying, I ask thee, Lord, in "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Enoch cried unto the Lord, saying. When the Son of Man cometh in the"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Enoch saw the day of the coming of the Son of Man, in the last days,"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Zion was not, for God received it up into his own bosom ; and from t"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Methuselah, the son of Enoch, was not taken, that the covenants of t"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Methuselah pro])hesied that from his loins should spring all the kin"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Methuselah lived one hundred and eighty-seven years, and begat Lamec"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Noah prophesied, and taught the things of <xod, even as it was in th"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass that Noah called upon the children of men, that they should repent, but th"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Noah <}ontinued his preaching unto the people, saying. Hearken and g"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, after seven days, that the waters of the flood were upon the earth. In th"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, at the end of forty days, that Noa,h opened the window of the ark which h"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, in the six hundred and first year, in the first month, the first day of t"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that many journeyed from the east, and as they journeyed from the east, t"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when he was come near to enter into Egypt, that he said unto Sarai his wi"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that when Abram was come into Egypt, the Egyptians beheld the woman, that"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, in the days of Amraphel king of Shioar, ftnd Arioch king of Ellasar, and "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "new composition",
+     "text": "it came to pass, that God blessed Abram, and gave unto him riches, and honor, and lands fo"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "new composition",
+     "text": "it came to pass, that after these things, the word of the Lord came unto Abram in a vision"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Abram .^ looked forth and saw the days of the Son of Man, and was gl"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that when the sun went down, and it was dark, behold, a smoking furnace, "
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, that Abram fell on his face, and called upon the name of the Lord. And Go"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass that Abraham returned unto his tent. AND it came to pass, that there came "
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, when Lot fled, his wife looked back from behind him, and became a pillar "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when God l:^.d destroyed the cities of the plain, tiiat God spake unto Ab"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the morrow, that the first-born said unto the younger. Behold, I lay ye"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when God caused me to wander from my father's house, that I said unto her"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass that the water was spent in the bottle, and she cast the child under one o"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the time, that Abimelech and Phicol the chief captain of his host spake"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after these things, that God did try Abraham and said unto him, Abraham ; "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after these things, that it was told Abraham, saying, Behold, Milcah, she "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, before he had done speaking, that behold, Rebekah came out, who was born "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as the camels had done drinking, that the man took a gold ear-ring of hal"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass when he saw the ear-rings, and bracelets upon his sister's hands, and when"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that, when Abraham's servant heard these words, he worshipped the Lord, b"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after the death of Abraham, that (rod »lessed his son Isaac ; and Isaac dw"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when he had been there a long time, that Abimelech king of tlie Philistin"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass the same day, that Isaac's servants came, and told him concerning the well"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that when Isaac was old, and his eyes were dim, so that he could not see,"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as soon as Isaac had made an end of blessing Jacob, and Jacob was yet sca"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Jacob saw Rachel the daughter of Laban his mothers brother, and the "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Laban heard the tidings of Jacob his sister's son, that he ran to me"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the evening, that he took Leah his daughter, and brought her to Jacob, "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that in the morning, behold, it was Leah ; and he said to Laban, What is "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Rachel had borne Joseph, that Jacob said unto Laban, Send me away, t"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, whensoever the stronger cattle did conceive, that Jacob laid the rods bef"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the time that the cattle conceived, that I lifted up mine eyes, and saw"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the third day, when they were sore, that two of the sons of Jacob, Sime"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when she was in hard labour, that the midwife said unto her. Fear not ; t"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as her soul And Bachel died, and was buried in the way to Ephrath, which "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Joseph was come unto his brethren, that they stripped Joseph out of "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at that time, that Judah Avent down from bis brethren, and turned into a c"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when he married his brother's wife, that he would not lie with her, lest "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass about three months after, that it was told Judah, saying, Tamar thy daught"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the time of her travail, that, behold, twins were in her womb. And it c"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when she travailed, that the one ])ut out his hand; and the midwife took "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as he drew back his hand, that, behold, his brother came out; and she sai"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass from the time that he had made him overseer in his house, and over all tha"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after these things, that his master's wife cast her eyes upon Joseph ; and"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as she spake to Joseph day by day, that he hearkened not unto her, to lie"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass about this time, that Joseph went into the house to do his business; and t"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when she saw that he had left his garment in her hand, and was fled forth"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, Avhen he heard that I lifted up my voice and cried, that he left his garm"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as I lifted up my voice and cried, that he left his garment with me, and "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when his master heard the words of his wife, which she spake unto him, sa"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after these things, that the butler of the king of Egypt and his baker had"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass the third day, which was Pharaoh's birthday, that he made a feast unto all"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the end of two full years, that Pharaoh And, behold, there came up out "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the morning that his spirit was troubled; and he sent and called for al"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as he interpreted to us, so it was ; me he restored unto mine office, and"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass as they emptied their sacks, that, behold, every man's bundle of money was"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when they had eaten up the corn which they had brought out of Egypt, thei"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when we came to the inn, that we opened our sacks, and, behold, every man"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass when we came up unto thy servant my father, we told him the words of my lo"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after these things, that it was told Joseph, saying, Behold, thy father is"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, because the midwives feared God, that he made them houses. And Pharaoh ch"
+    }
+   ],
+   "Exodus": [
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in those days, when Moses was grown, that he went out unto his brethren, a"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in process of time, that the king of Egypt ^ied ; and the children of Isra"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that the Lord appeared unto him as he was in the way, by the inn. The Lor"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, on the day the Lord spake unto Moses, in the land of Egypt, that the Lord"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that at midnight the Lord smote all the fir& tborn in the land of Egypt, "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the end of the four hundred and thirty years, even the self-same day it"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that all the hosts of the Lord went out from the land of Eg3^pt. It is a "
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass the self-same day, that the Lord did bring the children of Israel out of t"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Pharaoh would hardly let us go, that the Lord slew all the first-bor"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Pharaoh had let the people go, that God led them not through the way"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that in the morning watch the Lord looked unto the host of the Egyptians "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as Aaron spake ^unto the whole congregation of the children of Israel, th"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that at even the quails came up, and covered the camp ; and in the mornin"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that on the sixth day they gathered twice as much bread, two omers for on"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that there went out some of the people on the seventh day for to gather, "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Moses held up his hand, that Israel prevailed; and when he let down "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the morrow, that Moses sat to judge the people ; and the people stood b"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the third day in the morning, that there were thunders and lightnings, "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as soon as he came nigh unto the camp, that he saw the calf, and the danc"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the morrow, that Moses said unto the people. Ye have sinned a great sin"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that every one which sought the Lord went out unto the tabernacle of the "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Moses went out unto the tabernacle, that all the people rose up, and"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as Moses entered into the taberna.clc, the cloudy pillar descended, and s"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Moses came down from mount Sinai with the two tables of testimony in"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the first month in the second year, on the first day of the month, that"
+    }
+   ],
+   "Numbers": [
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the day that Moses had fully set up the tabernacle, and had anointed it"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the twentieth day of the second month, in the second year, that the clo"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the ark set forward, that Moses said,. Rise up, Lord, and let thine "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that, when the Spirit rested upon them, they prophesied, and did not ceas"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as he had made an end of speaking all these words, that the ground clave "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the congregation was gathered against Moses and against Aaron, that "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that on the morrow Moses went into the tabernacle of witness ; and, behol"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that if a serpent had bitten any man, when he beheld the serpent of brass"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after the plague, that the Lord spake unto Moses and unto Eleazar the son "
+    }
+   ],
+   "Joshua": [
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that the Lord spake unto Joshua the son of Nun, Moses' minister, saying, "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass about the time of shutting of the gate, when it was dark, that the men wen"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after three days, that the oGicers went through the host : And they comman"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the CHAPTEIl lY. people removed from their tents, to pass over Jorda"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when all the people were clean passed over Jordan, that the Lord spake un"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when all the kings of the Amorites, which were on the side of Jordan west"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when they had done circumcising all the people^ that they abode in their "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Joshua was by Jericho, that he lifted up his eyes and looked, and, b"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Joshua had spoken unto the people, that the seven priests bearing th"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the seventh day, that they rose early about the dawning of the day, and"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the seventh time, when the priests blew with the trumpets, Joshua said "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the people heard the sound of the trumpet, and the people shouted wi"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the king of Ai saw it, that they hasted and rose up earl}', and the "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Israel had made an end of slaying all the inhabitants of Ai in the f"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when all the kings which were on this side Jordan, in the hills, and in t"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the end of three days after they had made a league with them, that they"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Adonizedek king of Jerusalem had heard how Joshua had taken At, and "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as they fled from before Israel, and were in the going down to Beth-horon"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Joshua and the children of Israel had made an end of slaying them wi"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when they brought out those kings unto Joshua, that Joshua called for all"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the time of the going down of the sun, that Joshua commanded, and they "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Jabin king of Hazor had heard those things, that he sent to Jobab ki"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as she came unto him, that she moved him to ask of her father a field ; a"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the children of Israel were waxen strong, that they put the Canaanit"
+    }
+   ],
+   "Judges": [
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after these things, that Joshua the son of Nun, the servant of the Lord, d"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that the children of Israel asked the Lord, saying, Who shall go up for u"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Israel was strong, that they put the Canaanites to tribute, and did "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the angel of the Lord spake these words unto all the children of Isr"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the judge was dead, that they returned, and corrupted themselves mor"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when he was come, that he blew a trumpet in the mountain of Ephraim, and "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the children of Israel cried unto the Lord because of the Midianites"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass the same night, that the Lord said unto him, Take thy father's young bullo"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass the same night, that the Lord said unto him, Arise, get thee down unto the"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as soon as Gideon was dead, that the children of Israel turned again, and"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the morrow, that the people went out into the field; and they told Abim"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in process of time, that the children of Ammon made war against Israel. - "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when he saw her, that he rent his clothes, and said, Alas, my daughter ! "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the end of two months, that she returned unto her father, who did with "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the flame went up toward heaven from off the altar, that the angel o"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when they saw him, that they brought thirty companions to be with him. An"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the seventh day, that they said unto Samson*s wife, Entice thy husband,"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the seventh day, that he told her, because she lay sore upon him ; and "
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass within a while after, in the time of wheat harvest, that Samson visited hi"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when he had made an end of speaking, that he cast away the jawbone out of"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass afterward, that he loved a woman in the valley of Sorek, whose name was De"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when she pressed him daily with her words, and urged him, so that his sou"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when their hearts were merry, that they said. Call for Samson, that he ma"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in those days, when there was no king in Israel, that there was a certain "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the fourth daj^, when they arose early in the morning, that he rose up "
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass in the days when the judges ruled, that there was a famine in the land. An"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, when they were come to Beth-lehem, that all the city was moved about them"
+    }
+   ],
+   "Ruth": [
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at midnight, that the man was afraid, and turned himself; and, behold, a w"
+    }
+   ],
+   "1 Samuel": [
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as she continued praying before the Lord, that Eli marked her mouth. Now "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the time was come about after Hannah had conceived, that she bare a "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at that time, when Eli was laid down in his place, and his eyes began to w"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when he made mention of the ark of God, that he fell from off the seat ba"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as the ark of God came to Ekron, that the Ekronites cried out, saying, Th"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, while the ark abode in Kirjath-jearim, that the time was long; for it was"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Samuel was old, that he made his sons judges over Israel. Now the na"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass about the spring of the day, that Samuel called Saul to the top of the hou"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when all that knew him beforetime saw that, behold, he prophesied among t"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that as soon as he had made an end of offering the burnt offering, behold"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the day of battle, that there was neither sword nor spear found in the "
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass upon a day, that Jonathan the son of Saul said unto the young man that bar"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, while Saul talked unto the priest, that the noise that was in the host of"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when they were come, that he looked on Eliab, and said. Surely the Lord's"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the evil spirit, which was not of God, was upon Saul, that David too"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the Philistine arose, and came and drew nigh to meet David, that Dav"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when he had made an end of speaking unto Saul, that the soul of Jonathan "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass as they came. when David was returned from the slaughter of the Philistine"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the morrow, that the evil spirit which was not of God came upon Saul, a"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the time when Merab Saul's daughter should And Michal SauFs daughter lo"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the morrow, which was the second day of the month, that David's place w"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the morning, that Jonathan wojit out into the field at the time a|)])oi"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Abiathar the son of Ahimelech fled to David to Keilah, that he came "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Saul was returning from following the Philistines, that it was told "
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass afterward, that David's heart smote him, because he had cut off Saul's ski"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when David hnd made an end of speaking these words unto Saul, that Saul s"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the morning, when the wine was gone out of Nabal, and his wife had told"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass about ten days after, that the Lord smote Nabal, that he died. And when Da"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in those days, that the Philistines gathered their armies together for war"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when David and his men were come to Ziklag on the third day, that the Ama"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the morrow, when the Philistines came to strip the slain, that they fou"
+    }
+   ],
+   "2 Samuel": [
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after the death of Saul, when David was returned from the slaughter of the"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after this, that David inquired of the Lord, saying. Shall I go up into an"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that as many as came to the place where Asahel fell down and died stood s"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, while there was war between the house of Saul and the house of David, tha"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as she made haste to flee, that he fell, and became lame. And his name wa"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the king sat in his house, and the Lord had given him rest round abo"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass that night, that the word of the Lord came unto Nathan, saying, Go and tel"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass that David smote the Philistines, and subdued them ; and David took Metheg"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after this, that the king of the children of Ammon died, and Hanun his son"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, after the year was expired, at the time when kings go forth to battle, th"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in an evening-tide, that David arose from ofl\" his bed, and walked upon th"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the morning, that David wrote a letter to Joab, and sent it by the hand"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Joab observed the city, ihat he assigned Uriah unto a place where he"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after this, that Absalom the son of David had a fair sister, whose name wa"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after two full years, that Absalom had sheepshearers in Baal-hazor, which "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, while they were in the wa}\", that tidings came to David, saying, Absalom "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as soon as he had made an end of speaking, that, behold, the king^s sons "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after this, that Absalom prepared him chariots and horses, and fifty men t"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after forty years, that Absalom said unto the king, I pray thee, let me go"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that when David was come to the top of the mount, where he worshipped God"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, after they were departed, that they came up out of the well, and went and"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when David was come to Mahanaim, that Shobi the son of Nahash of Eabbah o"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when ho was come to Jerusalem to meet the king, that the king said unto h"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after this^ that there was again a battle with the Philistines at Gob; the"
+    }
+   ],
+   "1 Kings": [
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the end of three years, that two of the servants of Shimei ran away unt"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass the third day after that I was delivered, that we two in the house, And th"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Hiram heard the words of Solomon, that he rejoiced greatly, and said"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the four hundred and eightieth year after the children of Israel were c"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the priests were come out of the holy place, that the cloud filled t"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Solomon had finished the building of the house of the Lord, and the "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the end of twenty years, when Solomon had built the two houses, the hou"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Solomon was old, his wives turned away his heart after other gods; a"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when David male in Edom : (For six months did Joab remain there with all "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at that time when Jeroboam went out of Jerusalem, that the prophet Ahijah "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Jeroboam the son of Nebat, who was yet in Egypt, heard it, (for he w"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when all Israel heard that Jeroboam was come again, that they sent and ca"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when king Jeroboam heard the saying of the man of God, which had cried ag"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as they sat at the table, that the word of the Lord came unto the prophet"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, after he had buried him, that he spake to his sons, saying, When I am dea"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the fifth year of king Rehoboam, that Shishak king of Egypt came up aga"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Baasha heard thereof, that he left off building of Ramah, and dwelt "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when he reigned, that he s.iiote all the house of Jeroboam; he left not t"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when he began to resign, as soon as he sat on his throne, that he slew al"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Zimri saw that the city was taken, that he went into the palace of t"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as if it had been a light thing for him to walk in the sins of Jeroboam t"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after a while, that the brook dried up, because there had been no rain in "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after these things, that the son of the woman, the mistress of the house, "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after many days, that the word of the Lord came to Elijah in the third yea"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Ahab saw Elijah, that Ahab said unto him. Art thou he that troubleth"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at noon, that Elijah mocked them, and said, Cry aloud; for he is a god: ei"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when midday was past, and they prophesied until the time of the off'ering"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the time of the off'ering of the evening sacrifice, that Elijah the pro"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the seventh time, that he said. Behold, there ariseth a little cloud ou"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the mean while, that the heaven was black with clouds and wind, and the"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Benhadad heard this message, as he was drinking, he and the kings in"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the return of the year that Ben-hadad numbered the Syrians, and went up"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after these things, that Naboth, the Jezreelite had a vineyard, which was "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Jezebel heard that Naboth was stoned, and was dead, that Jezebel sai"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Ahab heard that Naboth was dead, that Ahab rose up to go down to the"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Ahab heard those words, that he rent his clothes, and put sackcloth "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the third year, that Jehoshaphat the king of Judah came down to the kin"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the captains of the chariots saw Jehosha- ))hat, that they said, Sur"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the captains of the chariots perceived that it was not the king of I"
+    }
+   ],
+   "2 Kings": [
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the Lord would take up Elijah into heaven b}^ a whirlwind, that Elij"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when they were gone over, that Elijah said unto Elisha, Ask what I shall "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as they still went on, and talked, that, behold, there appeared a chariot"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Ahab was dead, that the king of Moab rebelled against the king of Is"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the minstrel played, that the hand of the Lord came upon him. And he"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the morning, when the meat offering wa^ offered, that, behold, there ca"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Vie vessels were full, that she said unto her son, Bring me yet a ve"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the man of God saw her afar off, that he said to Gehazi his servant,"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as they were eating of the pottage, that they cried out, and said, thou m"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the king of Israel had read the letter. that he rent his clothes, an"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when they were come into Samaria,, that Elisha said. Lord, open the eyes "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after this, that Ben-hadad king of Syria gathered all his host, and went u"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the king heard the words of the woman, that he rent his clothes ; an"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass as the man of God had spoken to the king, saying. Two measures of barley f"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the seven years' end, that the woman returned out of the land of the Ph"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as he was telling the king how he had restored a dead body to life, that,"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the morrow, that he took a thick cloth, and di})ped it in water, and sp"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Joram saw Jehu, that he said, Is it peace. Jehu ? And he answered, W"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the letter carae to them, that they took the king's sons, and slew s"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the morning, that he went out, and stood, and said to all the people. Y"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as soon as he had made an end of offering the burnt offering, that Jehu s"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as they were burying a man, that, behold, they spied a band of men ; and "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as soon as the kingdom was confirmed in his hand, that he slew his servan"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass. Shallum the son of Jabesh began to reign in the nine and thirtieth year o"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the third year of Hoshea son of Elah king of Israel, that Hezekiah the "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the fourth year of king Hezekiah, which was the seventh '-ea>r of Hoshe"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when king Hezekiah heard it, that he rent his clothes, and covered himsel"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass that night> that the angel of the Lord went out, and smote in the camp of "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as he was worshipping in the house of Nisroch his god, that Adrammelech a"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, afore Isaiah was gone out into the middle court, that the word of the Lor"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the eighteenth year of king Josiah, that the king sent Shaphun the son "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the king had heard the words of the book of the law, that he rent hi"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in Jerusalem and Judah, until he had cast them out from his presence, that"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the ninth year of bis reign, in the tenth month, in the tenth day of th"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the seventh month, that Ishmael, the son of Nethaniah, the son of Elish"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the seven and thirtieth year of the captivity of Jehoiachin king of Jud"
+    }
+   ],
+   "1 Chronicles": [
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the morrow, when the Philistines came to strip the slain, that they fou"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when God helped the Levites that bare the ark of the covenant of the Lord"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as the ark of the covenant of the Lord came to the city of David, that Mi"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as David sat in his house, that David said to Nathan the prophet, Lo, I d"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass the same night, that the word of God came to Nathan, saying, Go and tell D"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that David smote the Philistines, and subdued them, and took Gath and her"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after this, that Nahash the king of the ehildren of Auimon died, and his s"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after this, that there arose war at Gezer with the Philistines; at which t"
+    }
+   ],
+   "2 Chronicles": [
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the priests were come out of the holy place ; (for all the priests t"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the end of twenty years, wherein Solomon had built the house of the Lor"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Jeroboam the son of Nebat, who was in Egypt whither he had fled from"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Rehoboam had established the kingdom, and had strengthened himself, "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that in the fifth year of king Rehoboam, Shishak king of Egypt came up ag"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that God smote Jeroboam and all Israel before Abijah and Judah. And the c"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Baasha heard it, that he left ofi\" building of Ramah, and let his wo"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the captains of the chariots saw Jehoshaphat, that they said. It is "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that, when the captains of the chariots perceived that it was not the kin"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "IT came to pass after this also, that the children of Moab, and the children of Ammon, and"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that in process of time, after the end of two years, his bowels fell out "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that, when Jehu was executing judgment upon the house of Ahab, and found "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass after this, that Joash was minded to repair the house of the Lord. And he "
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that at what time the chest was brought unto the king's office by the han"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass at the end of the year, that the host of Syria came up against him; and th"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when tha kingdom was established to him, that he slew his servants that h"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, after that Amaziah was come from the slaughter of the Edomites, that he b"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as he talked with him, that the king said unto him, Art thou made of the "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the king had heard the words of the law, that he rent his clothes. A"
+    }
+   ],
+   "Ezra": [],
+   "Nehemiah": [
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the month Chisleu, in the twentieth year, as I was in Shushan the palac"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when I heard these words, that I sat down and wept, and mourned certain d"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in the month Nisan, in the twentieth year of Artaxerxes the king, that win"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that when Sanballat heard that we builded the wall, he was wroth, and too"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that when Sanballat, and Tobiah, and the Arabians, and the Ammonites, and"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that when the Jews which dwelt by them came, they said unto us ten times."
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when our enemies heard that it was known unto us, and God had brought the"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass from that time forth, that the half of my servants wrought in the work, an"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Sanballat, and Tobiah, and Geshem the Arabian, and the rest of our e"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that when all our enemies heard thereof, and all the heathen that were ab"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the JLl wall was built, and I had set up the doors, and the porters "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when they had heard the law, that they separated from Israel all the mixe"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that when the gates of Jerusalem began to be dark before the sabbath, I c"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass in the days of Ahasuerus, (this is Ahasucrus which reigned from India even"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, when the king's commandment and his decree was heard, and when many maide"
+    }
+   ],
+   "Esther": [
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when they spake daily unto him, and he hearkened not unto them, that they"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the third day, that Esther put on tier royal apparel, and stood in the "
+    }
+   ],
+   "Matthew": [
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "new composition",
+     "text": "it came to pass that Jesus grew up with his brethren, and waxed strong, and waited upon th"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass that, as Jesus* taught his disciples, he said unto them. Take heed that ye"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass when Jesus bad ended these sayings with his disciples, the people were ast"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as Jesus sat at meat in the house, behold, many publicans and sinners cam"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Jesus had made an end of commanding his twelve disciples, he departe"
+    },
+    {
+     "kind": "event",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass the same day, Jesus went out of the house, and sat by the sea side. And gr"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Jesus had finished these parables, he departed thence. And when Lo w"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Jesus had finished these sayings, he departed from Galilee, and came"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when Jesua had finished all these sayings, he said unto his disciples, Ye"
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass in those days, that Jesus came from Nazareth of Galilee, and was baptized "
+    },
+    {
+     "kind": "time",
+     "status": "added",
+     "context": "revision",
+     "text": "it came to pass, as Jesus sat at meat in his house, many publicans and sinners sat also to"
+    }
+   ],
+   "Mark": [
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that he went through the cornfields on the Sabbath day ; and his disciple"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass as he sowed, some fell by the wayside, and the fowls of the air came and d"
+    }
+   ],
+   "Luke": [
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that when Elizabeth heard the salutation of Mary, the babe leaped in her "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that on the eighth day they came to circumcise the child; and they called"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in those days, that there went out a decree from Caesar Augustus, that all"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the angels were gone away from them into heaven, the shepherds said "
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, .\\fter three days they found him in the temple, sitting in the midst of t"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass that Jesus also came unto John ; and being baptized of him, and prajdng, t"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as the people pressed upon him, to hear the word of God, he stood by the "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when he was in a certain city, behold, a man, full of leprosy, who, seein"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on a certain day, as he was teaching, that there were Pharisees and doctor"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the second Sabbath after this, that he went through the cornfield; and "
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass also on another Sabbath, that he entered into the synagogue, and taught. A"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in those days, that he went out into a mountain to pray, and continued all"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass the day after, that he went into a city called Nain ; and many of his disc"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass afterward, that he went throughout every city and village, preaching and s"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on a certain day, that he went into a ship with his disciples ; and he sai"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that, when Jesus was returned, the people received him : for thej were al"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as he went alone with his disciples to pray, he asked them, saying. Who s"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, eight days after these sayings, that he took Peter and John and James, an"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the next day, when they were come down from the hill, much people met h"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the time was come that he shoiild be received up, he steadfastly set"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as they went in the way, a certain man said unto him, Lord, I will follow"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as they went, they entered into a certain village; and a certain woman na"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as Jesus was praying in a certain place, when he ceased, one of his disci"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when the devil was gone out, the dumb spake ; and the people wondered. Bu"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as he spake these things, a certain woman of the company, lifted up her v"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as he went into the house of one of the chief Pharisees to eat bread on t"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that the beggar died, and was carried of the angels into Abraham's bosom."
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "It came to pass, as he went to Jerusalem, that he passed through the midst of Galilee and "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as they went, they wer*^ cleansed. And fell down on his face at Jesus' fe"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as he was come nigh unto Jeri*cho, a certain blind man sat by the wayside"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when he was returned, having received the kingdom, then he commanded thes"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, when he was come nigh to Bethpage and Bethany, at the mount called the mo"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that on one of those days, as he taught the people in the temple, and pre"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that while they communed together, and reasoned, Jesus himself drew near,"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as he sat at meat with them, that he took bread, and blessed, and brake, "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, while he blessed them, he was taken from them, and carried up into heaven"
+    }
+   ],
+   "John": [],
+   "Acts": [
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass on the morrow, that their rulers, and elders, and scribes, And Annas the h"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as Peter passed throughout all these regions, he came down also to the sa"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in those days, that she was sick, and died; whom when they had washed, the"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that he tarried many days in Joppa with one Simon a tanner. THERE was a c"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that a whole year they assembled themselves with the church, and taught m"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass in Iconium, that they went both together into the synagogue of the Jews, a"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, as we went to prayer, a certain damsel possessed with a spirit of divinat"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that, while JT^L Apollos was at Corinth, Paul having passed through the u"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that after we were gotten from them, and had launched, we came with a str"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that, as I made my journey, and was come nigh unto Damascus about noon, s"
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that, when I was come again to Jerusalem, even while I prayed in the temp"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that they escaped all safe to land. AND when they were escaped, then they"
+    },
+    {
+     "kind": "event",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that the father of Publius lay sick of a fever and of a bloody flux ; to "
+    },
+    {
+     "kind": "time",
+     "status": "retained",
+     "context": "revision",
+     "text": "it came to pass, that after three days Paul called the chief of the Jews together ; and wh"
+    }
+   ]
+  }
+ }
+}

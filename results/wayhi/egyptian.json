@@ -1,0 +1,959 @@
+{
+ "id": "egyptian",
+ "family": "wayhi",
+ "title": "Egyptian narrative openings, and the Hebrew + Egyptian additive model",
+ "label": "exploratory",
+ "question": "Do Egyptian narratives open clauses with 'then / it came to pass' at a rate and mix that, alone or added to Hebrew, matches the Book of Mormon?",
+ "generated_utc": "2026-10-19T14:29:56+00:00",
+ "fingerprint": "be05965242b07d29f3ca2a01002a546016f67820cb57ba70524fc28a9e704620",
+ "inputs": {
+  "code:analyses/wayhi/egyptian.py": "1cae2ae9253fc8c18ba0f9df08f5b0cd0e823bba7ca358d39345eee2f16167a4",
+  "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
+  "lib:src/bomstylo/egyptian.py": "b16a2d7882f80f97b21762fd50cd36f0643f76c6121edb7da448632ea9fb0ac5",
+  "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
+  "lib:src/bomstylo/results.py": "bba2a1088e277b88a7e67d3f52d7c70ec74f4b2751226c59e06851e6e0f959cb",
+  "lib:src/bomstylo/stats.py": "b108a4b53460072d206d608df26968b5e9037d69011db269d61f19a5e91d4116",
+  "corpus:aed-tei": "b20448b1b5077058bf8597f50078c109aade4594e52afe1c419f11a445002ea6",
+  "corpus:tla": "4a519288557ca9258c4771308e1194c9c9557213f236cef4f0eeba05afcec299",
+  "depends:genre-ladder": "5ec96f8bcc6b90ba878aa40c7322351f4538f1218df1e9e0d8d85e03ecc0921c",
+  "params": "a3ada3da49b27fbb4f6adba6a7935647a82ad2c915c5747063649635a0d6b94b",
+  "env": "e806395824fab178796864d06f942b96252ba82c1dd7f5ba53348baff2e2bd10"
+ },
+ "params": {
+  "markers": {
+   "40111": "ꜥḥꜥ.n",
+   "650007": "wn.ꞽn"
+  },
+  "tla_date_cutoff": -200,
+  "min_tokens": 500,
+  "expansion_hieroglyphic": 1.47,
+  "date_limit_bc": 500
+ },
+ "headline": [
+  {
+   "key": "matched_range_high",
+   "value": 22.436322537350662,
+   "low": null,
+   "high": null,
+   "text": "Egyptian connected narratives matched in genre and date run 0–22 old-particle openings per 1,000 estimated translation words by text (Piye c. 727 BC: 8.26); they bracket the Book of Mormon's 8.01 (1830 frame), so the rate test is inconclusive, not negative."
+  },
+  {
+   "key": "additive_demotic_max",
+   "value": 6.181290306890713,
+   "low": null,
+   "high": null,
+   "text": "Hebrew settings + Demotic ḫpr: 5.7–6.2 per 1,000 against the 1830 frame's 8.01; the Demotic texts fail on genre, so this does not decide the question."
+  },
+  {
+   "key": "rylands_openings",
+   "value": 12,
+   "low": null,
+   "high": null,
+   "text": "pRylands 9 narration (c. 513 BC): 12 'it came to pass' openings in 5,602 German words (2.14), 1 setting-first, 11 straight to the event."
+  }
+ ],
+ "data": {
+  "subsets": {
+   "Earlier Egyptian": {
+    "sentences": 12773,
+    "lemma_tokens": 70267,
+    "translated_words": 119921,
+    "markers": {
+     "ꜥḥꜥ.n": 101,
+     "wn.ꞽn": 21
+    },
+    "total": 122,
+    "expansion": 1.7066475016721931,
+    "per1k_tokens": 1.7362346478432265,
+    "per1k_translated": 1.0173364131386495
+   },
+   "Late Egyptian": {
+    "sentences": 3606,
+    "lemma_tokens": 24437,
+    "translated_words": 35804,
+    "markers": {
+     "wn.ꞽn": 116,
+     "ꜥḥꜥ.n": 31
+    },
+    "total": 147,
+    "expansion": 1.4651552972950854,
+    "per1k_tokens": 6.015468347178459,
+    "per1k_translated": 4.105686515473131
+   },
+   "Demotic": {
+    "sentences": 2825,
+    "lemma_tokens": 27113,
+    "translated_words": 31317,
+    "markers": {},
+    "total": 0,
+    "expansion": 1.1550547707741674,
+    "per1k_tokens": 0.0,
+    "per1k_translated": 0.0
+   }
+  },
+  "expansion": {
+   "Middle Egyptian": 1.7066475016721931,
+   "Late Egyptian": 1.4651552972950854,
+   "Late Period": 1.4651552972950854
+  },
+  "named": {
+   "texts": {
+    "Sinuhe (pBerlin 3022, B)": {
+     "id": "JIPPXMXOTNCQDIKJIQVYWMKOWU",
+     "period": "Middle Egyptian",
+     "kind": "literary",
+     "genre": "literary tale",
+     "composed": "c. 1900 BC",
+     "tokens": 3194,
+     "markers": {
+      "ꜥḥꜥ.n": 6,
+      "wn.ꞽn": 1
+     },
+     "total": 7,
+     "manuscript_date_earliest": -1992,
+     "manuscript_date_latest": -1794,
+     "per1k_tokens": 2.1916092673763305,
+     "per1k_translated": 1.2841604755691882,
+     "expansion_used": 1.7066475016721931,
+     "below_floor": false,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "Shipwrecked Sailor": {
+     "id": "QUFWZTEPLRE4NHKCPAJXGSAOSQ",
+     "period": "Middle Egyptian",
+     "kind": "literary",
+     "genre": "literary tale",
+     "composed": "c. 1900 BC",
+     "tokens": 1300,
+     "markers": {
+      "ꜥḥꜥ.n": 27
+     },
+     "total": 27,
+     "manuscript_date_earliest": -1992,
+     "manuscript_date_latest": -1794,
+     "per1k_tokens": 20.76923076923077,
+     "per1k_translated": 12.1696078123226,
+     "expansion_used": 1.7066475016721931,
+     "below_floor": false,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "Tales of pWestcar": {
+     "id": "J4EXGHLCL5DR7JHSPDWTVEKMDY",
+     "period": "Middle Egyptian",
+     "kind": "literary",
+     "genre": "literary tales",
+     "composed": "c. 1600 BC",
+     "tokens": 3391,
+     "markers": {
+      "ꜥḥꜥ.n": 107,
+      "wn.ꞽn": 19
+     },
+     "total": 126,
+     "manuscript_date_earliest": -1649,
+     "manuscript_date_latest": -1551,
+     "per1k_tokens": 37.15718077263344,
+     "per1k_translated": 21.772030097736295,
+     "expansion_used": 1.7066475016721931,
+     "below_floor": false,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "Eloquent Peasant (B1)": {
+     "id": "PVLMEE7Y45FPXBSMF47T6PNPEE",
+     "period": "Middle Egyptian",
+     "kind": "literary",
+     "genre": "literary tale with speeches",
+     "composed": "c. 1850 BC",
+     "tokens": 3161,
+     "markers": {
+      "ꜥḥꜥ.n": 7,
+      "wn.ꞽn": 4
+     },
+     "total": 11,
+     "manuscript_date_earliest": -1992,
+     "manuscript_date_latest": -1794,
+     "per1k_tokens": 3.479911420436571,
+     "per1k_translated": 2.039033495216155,
+     "expansion_used": 1.7066475016721931,
+     "below_floor": false,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "Herdsman's Tale": {
+     "id": "QKN2PJK4CVGI7GXJSMMPTIZZYY",
+     "period": "Middle Egyptian",
+     "kind": "literary",
+     "genre": "literary tale",
+     "composed": "c. 1800 BC",
+     "tokens": 176,
+     "markers": {},
+     "total": 0,
+     "manuscript_date_earliest": -1992,
+     "manuscript_date_latest": -1794,
+     "per1k_tokens": 0.0,
+     "per1k_translated": 0.0,
+     "expansion_used": 1.7066475016721931,
+     "below_floor": true,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "Carnarvon Tablet I (Kamose)": {
+     "id": "BMVO6CBMDNBQFMXW3DSIW66WSM",
+     "period": "Middle Egyptian",
+     "kind": "historical",
+     "genre": "royal campaign narrative",
+     "composed": "c. 1550 BC",
+     "tokens": 440,
+     "markers": {
+      "wn.ꞽn": 1
+     },
+     "total": 1,
+     "manuscript_date_earliest": -1550,
+     "manuscript_date_latest": -1293,
+     "per1k_tokens": 2.272727272727273,
+     "per1k_translated": 1.331691090574022,
+     "expansion_used": 1.7066475016721931,
+     "below_floor": true,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "Kamose Stela I": {
+     "id": "65XN4FHYGNH4FE6V6UEXOT6ZK4",
+     "period": "Middle Egyptian",
+     "kind": "historical",
+     "genre": "royal campaign narrative",
+     "composed": "c. 1550 BC",
+     "tokens": 171,
+     "markers": {},
+     "total": 0,
+     "manuscript_date_earliest": -1649,
+     "manuscript_date_latest": -1551,
+     "per1k_tokens": 0.0,
+     "per1k_translated": 0.0,
+     "expansion_used": 1.7066475016721931,
+     "below_floor": true,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "Kamose Stela II": {
+     "id": "SXQSUAMQH5F2HORTAGXSEWEUGM",
+     "period": "Middle Egyptian",
+     "kind": "historical",
+     "genre": "royal campaign narrative",
+     "composed": "c. 1550 BC",
+     "tokens": 837,
+     "markers": {
+      "ꜥḥꜥ.n": 1
+     },
+     "total": 1,
+     "manuscript_date_earliest": -1649,
+     "manuscript_date_latest": -1551,
+     "per1k_tokens": 1.1947431302270013,
+     "per1k_translated": 0.7000526641010391,
+     "expansion_used": 1.7066475016721931,
+     "below_floor": false,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "Tale of Two Brothers": {
+     "id": "C6HNRC4K7FAYBHNDS3LV24EANI",
+     "period": "Late Egyptian",
+     "kind": "literary",
+     "genre": "literary tale",
+     "composed": "c. 1200 BC",
+     "tokens": 4337,
+     "markers": {
+      "wn.ꞽn": 65,
+      "ꜥḥꜥ.n": 5
+     },
+     "total": 70,
+     "manuscript_date_earliest": -1203,
+     "manuscript_date_latest": -1195,
+     "per1k_tokens": 16.140189070786256,
+     "per1k_translated": 11.016026151346324,
+     "expansion_used": 1.4651552972950854,
+     "below_floor": false,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "Contendings of Horus and Seth": {
+     "id": "W25WDE27ZVAFXBDULVGJH7CHUQ",
+     "period": "Late Egyptian",
+     "kind": "literary",
+     "genre": "literary tale",
+     "composed": "c. 1150 BC",
+     "tokens": 4776,
+     "markers": {
+      "ꜥḥꜥ.n": 61,
+      "wn.ꞽn": 96
+     },
+     "total": 157,
+     "manuscript_date_earliest": -1145,
+     "manuscript_date_latest": -1071,
+     "per1k_tokens": 32.87269681742043,
+     "per1k_translated": 22.436322537350662,
+     "expansion_used": 1.4651552972950854,
+     "below_floor": false,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "The Doomed Prince": {
+     "id": "MTBRL3MIIJDKXAOF2336WRLMZA",
+     "period": "Late Egyptian",
+     "kind": "literary",
+     "genre": "literary tale",
+     "composed": "c. 1300 BC",
+     "tokens": 1630,
+     "markers": {
+      "ꜥḥꜥ.n": 5,
+      "wn.ꞽn": 29
+     },
+     "total": 34,
+     "manuscript_date_earliest": -1290,
+     "manuscript_date_latest": -1214,
+     "per1k_tokens": 20.858895705521473,
+     "per1k_translated": 14.236644909949398,
+     "expansion_used": 1.4651552972950854,
+     "below_floor": false,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "The Taking of Joppa": {
+     "id": "SSS2W6HDXFA23OBG2ER6DYGGCY",
+     "period": "Late Egyptian",
+     "kind": "literary",
+     "genre": "literary tale",
+     "composed": "c. 1250 BC",
+     "tokens": 569,
+     "markers": {
+      "wn.ꞽn": 1
+     },
+     "total": 1,
+     "manuscript_date_earliest": -1290,
+     "manuscript_date_latest": -1214,
+     "per1k_tokens": 1.757469244288225,
+     "per1k_translated": 1.1995105553198344,
+     "expansion_used": 1.4651552972950854,
+     "below_floor": false,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "Truth and Falsehood": {
+     "id": "5UEPUHOXE5CCRF5VQGC4V7SQWQ",
+     "period": "Late Egyptian",
+     "kind": "literary",
+     "genre": "literary tale",
+     "composed": "c. 1250 BC",
+     "tokens": 1215,
+     "markers": {
+      "wn.ꞽn": 30
+     },
+     "total": 30,
+     "manuscript_date_earliest": -1292,
+     "manuscript_date_latest": -1187,
+     "per1k_tokens": 24.691358024691358,
+     "per1k_translated": 16.852382863629277,
+     "expansion_used": 1.4651552972950854,
+     "below_floor": false,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "Astarte and the Sea": {
+     "id": "IAE36426UNFSJHISJPKBZGSUSY",
+     "period": "Late Egyptian",
+     "kind": "literary",
+     "genre": "literary tale",
+     "composed": "c. 1400 BC",
+     "tokens": 761,
+     "markers": {
+      "wn.ꞽn": 3,
+      "ꜥḥꜥ.n": 6
+     },
+     "total": 9,
+     "manuscript_date_earliest": -1550,
+     "manuscript_date_latest": -1187,
+     "per1k_tokens": 11.826544021024967,
+     "per1k_translated": 8.071870635733077,
+     "expansion_used": 1.4651552972950854,
+     "below_floor": false,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "Report of Wenamun": {
+     "id": "HSPTIJABEREHFI6HCEUABYSFGE",
+     "period": "Late Egyptian",
+     "kind": "historical",
+     "genre": "first-person travel report",
+     "composed": "c. 1050 BC",
+     "tokens": 3044,
+     "markers": {},
+     "total": 0,
+     "manuscript_date_earliest": -1070,
+     "manuscript_date_latest": -712,
+     "per1k_tokens": 0.0,
+     "per1k_translated": 0.0,
+     "expansion_used": 1.4651552972950854,
+     "below_floor": false,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    },
+    "Bentresh Stela": {
+     "id": "4VLZLA44UVGJZN22WIWP774LOQ",
+     "period": "Late Egyptian",
+     "kind": "historical",
+     "genre": "temple legend in royal style",
+     "composed": "c. 400 BC (set in Ramesside times)",
+     "tokens": 972,
+     "markers": {
+      "ꜥḥꜥ.n": 23
+     },
+     "total": 23,
+     "manuscript_date_earliest": -332,
+     "manuscript_date_latest": -31,
+     "per1k_tokens": 23.662551440329217,
+     "per1k_translated": 16.150200244311392,
+     "expansion_used": 1.4651552972950854,
+     "below_floor": false,
+     "date_ok": false,
+     "genre_ok": true,
+     "matched": false
+    },
+    "Piye Victory Stela": {
+     "id": "66ATQAWY55BNBFZYHSRGQK5RG4",
+     "period": "Late Period",
+     "kind": "historical",
+     "genre": "royal campaign narrative",
+     "composed": "c. 727 BC",
+     "tokens": 4379,
+     "markers": {
+      "ꜥḥꜥ.n": 47,
+      "wn.ꞽn": 6
+     },
+     "total": 53,
+     "manuscript_date_earliest": -740,
+     "manuscript_date_latest": -714,
+     "per1k_tokens": 12.103219913222198,
+     "per1k_translated": 8.260707882343057,
+     "expansion_used": 1.4651552972950854,
+     "below_floor": false,
+     "date_ok": true,
+     "genre_ok": true,
+     "matched": true
+    }
+   },
+   "groups": {
+    "Middle Egyptian narrative": {
+     "n_texts": 5,
+     "tokens": 11883,
+     "total": 172,
+     "per1k_tokens": 14.474459311621644,
+     "per1k_translated": 8.481223742711602
+    },
+    "Late Egyptian narrative": {
+     "n_texts": 8,
+     "tokens": 17304,
+     "total": 324,
+     "per1k_tokens": 18.723994452149793,
+     "per1k_translated": 12.779528891386002
+    },
+    "Late Period narrative": {
+     "n_texts": 1,
+     "tokens": 4379,
+     "total": 53,
+     "per1k_tokens": 12.103219913222198,
+     "per1k_translated": 8.260707882343057
+    },
+    "all named narrative texts": {
+     "n_texts": 14,
+     "tokens": 33566,
+     "total": 549,
+     "per1k_tokens": 16.355836262885063,
+     "per1k_translated": 10.547742019472711
+    }
+   },
+   "min_tokens": 500
+  },
+  "hieroglyphic": {
+   "Piye Victory Stela (c. 727 BC)": {
+    "tokens": 4379,
+    "translated_word_equiv": 6437,
+    "old_particles": 53,
+    "hpr_initial": 2,
+    "per_1k": 8.54,
+    "below_floor": false,
+    "date_ok": true,
+    "genre_ok": true,
+    "matched": true
+   },
+   "Taharqa flood stela, Cairo JE 48400 (c. 680 BC)": {
+    "tokens": 381,
+    "translated_word_equiv": 560,
+    "old_particles": 0,
+    "hpr_initial": 1,
+    "per_1k": 1.79,
+    "below_floor": true,
+    "date_ok": true,
+    "genre_ok": true,
+    "matched": true
+   },
+   "Taharqa stela Cairo JE 36861, lower text": {
+    "tokens": 377,
+    "translated_word_equiv": 554,
+    "old_particles": 0,
+    "hpr_initial": 0,
+    "per_1k": 0.0,
+    "below_floor": true,
+    "date_ok": false,
+    "genre_ok": true,
+    "matched": false
+   },
+   "Banishment stela of Aspelta(?) (c. 600 BC)": {
+    "tokens": 216,
+    "translated_word_equiv": 318,
+    "old_particles": 0,
+    "hpr_initial": 0,
+    "per_1k": 0.0,
+    "below_floor": true,
+    "date_ok": true,
+    "genre_ok": true,
+    "matched": true
+   },
+   "Stela of Aryamani": {
+    "tokens": 435,
+    "translated_word_equiv": 639,
+    "old_particles": 0,
+    "hpr_initial": 0,
+    "per_1k": 0.0,
+    "below_floor": true,
+    "date_ok": false,
+    "genre_ok": true,
+    "matched": false
+   }
+  },
+  "demotic": {
+   "demotic loose, all dates": {
+    "sentences": 1567,
+    "words": 13365,
+    "n": 38,
+    "time": 17,
+    "event": 21,
+    "formula_translated": 13,
+    "all_per_1k": [
+     2.843247287691732,
+     2.012051002259345,
+     3.9025790437156465
+    ],
+    "time_per_1k": [
+     1.2719790497568275,
+     0.7409746703783984,
+     2.0365616772096233
+    ],
+    "event_per_1k": [
+     1.5712682379349046,
+     0.9726398042705714,
+     2.4018504103960647
+    ],
+    "event_share": [
+     0.5526315789473685,
+     0.38299075116428966,
+     0.7137585009994039
+    ],
+    "date_ok": false,
+    "genre_ok": false,
+    "matched": false
+   },
+   "demotic loose, 700–300 BC": {
+    "sentences": 792,
+    "words": 6213,
+    "n": 17,
+    "time": 10,
+    "event": 7,
+    "formula_translated": 7,
+    "all_per_1k": [
+     2.7361982938998874,
+     1.5939363382596643,
+     4.3809185282321925
+    ],
+    "time_per_1k": [
+     1.6095284081764043,
+     0.7718314334673159,
+     2.9599800486106194
+    ],
+    "event_per_1k": [
+     1.126669885723483,
+     0.4529797282343257,
+     2.3213705716565873
+    ],
+    "event_share": [
+     0.4117647058823529,
+     0.18443696178394667,
+     0.6707528460532426
+    ],
+    "date_ok": true,
+    "genre_ok": false,
+    "matched": false
+   },
+   "demotic strict, all dates": {
+    "sentences": 1306,
+    "words": 11030,
+    "n": 36,
+    "time": 15,
+    "event": 21,
+    "formula_translated": 13,
+    "all_per_1k": [
+     3.2638259292837715,
+     2.28594355551362,
+     4.518510833112982
+    ],
+    "time_per_1k": [
+     1.3599274705349047,
+     0.7611410818479887,
+     2.2429935513586443
+    ],
+    "event_per_1k": [
+     1.9038984587488668,
+     1.1785431535880495,
+     2.9103110367129106
+    ],
+    "event_share": [
+     0.5833333333333334,
+     0.40756524089177654,
+     0.7448589516735322
+    ],
+    "date_ok": false,
+    "genre_ok": false,
+    "matched": false
+   },
+   "demotic strict, 700–300 BC": {
+    "sentences": 641,
+    "words": 4916,
+    "n": 15,
+    "time": 8,
+    "event": 7,
+    "formula_translated": 7,
+    "all_per_1k": [
+     3.051261187957689,
+     1.7077677243253284,
+     5.032591308276209
+    ],
+    "time_per_1k": [
+     1.627339300244101,
+     0.7025696047088082,
+     3.2065071644005925
+    ],
+    "event_per_1k": [
+     1.4239218877135882,
+     0.5724904498616489,
+     2.9338233038450725
+    ],
+    "event_share": [
+     0.4666666666666667,
+     0.2126667295193079,
+     0.7341386527226034
+    ],
+    "date_ok": true,
+    "genre_ok": false,
+    "matched": false
+   }
+  },
+  "rylands": {
+   "all sentences": {
+    "sentences": 1012,
+    "words": 9421,
+    "openings": 15,
+    "per_1k": [
+     1.592187665852882,
+     0.8911353500459945,
+     2.626071422512031
+    ],
+    "time_first": 1,
+    "event_first": 14,
+    "event_share": [
+     0.9333333333333333,
+     0.6805154334216966,
+     0.9983135697586473
+    ],
+    "examples": [
+     [
+      "ꞽ.ꞽr=s-ḫpr wn-nꜣ.w ḥr-wḏꜣ sꜣ pꜣy=f-ṯꜣw-ꜥ.wy-bꜣst.t",
+      "Es traf sich, daß Horudja, Sohn des Peftjauawibastet, mit Peteese in Herakleopolis war."
+     ],
+     [
+      "ḫpr wꜥ.t nḫy ꜥꜣ.t n pꜣ dmy",
+      "Es war eine große Totenklage in der Stadt."
+     ],
+     [
+      "ḫpr pꜣy hꜣ-byn",
+      "\"Da kam diese schlimme Zeit.\""
+     ],
+     [
+      "ꞽ.ꞽr=s-ḫpr ꞽw wn wꜥ sẖ-ꞽw =f-ꞽp ꞽs pꜣ mr-rw.t ꞽy-m",
+      "Nun war da ein Rechnungsschreiber des Vorzimmervorstehers mit Namen Imhotep, Sohn des Pascheriset, d"
+     ],
+     [
+      "ꞽ.ꞽr=s-ḫpr ꞽw nfr pꜣ-tꜣ-rsy m-šs",
+      "\"Es fügt sich, daß es um das Südland sehr gut steht.\""
+     ],
+     [
+      "ꞽ.ꞽr=s-ḫpr ꞽw nkꜣw sꜣ ptḥ-nfr pꜣ wꜥb-n-sbk nty n ḥ",
+      "Es traf sich (nun), daß sich Nikau, Sohn des Ptahnefer, der Priester des Sobek, der (jetzt auch) Pro"
+     ],
+     [
+      "ḫpr rmṯ nb nty n tꜣy=w-ḏy ꞽw =w swr ḥq.t",
+      "Alle Leute, die in Teudjoi waren, fingen an, Bier zu trinken."
+     ],
+     [
+      "ḫpr dwꜣ ṯꜣy (=y) wꜥ.t šꜥd.ṱ n ḏmꜥ m-ḏr.t.ṱ(=y)",
+      "Am (nächsten) Morgen nahm ich ein Papyrusblatt in meine Hand."
+     ],
+     [
+      "ꞽ.ꞽr=s-ḫpr wn-nꜣ.w bn ḥr-wḏꜣ sꜣ pꜣy=f-ṯꜣw-ꜥ.wy-bꜣs",
+      "Es traf sich, daß Horudja, Sohn des Peftjauawibastet, nicht in Teudjoi war."
+     ],
+     [
+      "ḫpr pꜣ-dy-ꜣs.t sꜣ ꞽr.t=w-r=w ꞽw =f ꞽr n pꜣ-tꜣ-rsy ",
+      "Peteese, Sohn des Irturu, begann, das Südland zu verwalten,"
+     ],
+     [
+      "ꞽ.ꞽr=s-ḫpr wn-nꜣ.w mn rmṯ ꞽw =f ꜥy-n-ms bnr-n =y",
+      "Es traf sich, daß es keinen alten Mann unter ihnen gab außer mir."
+     ],
+     [
+      "ḫpr =s n ḥꜣty =w",
+      "Sie dachten:"
+     ],
+     [
+      "ḫpr wḏꜣ-smꜣ-tꜣ.wy sꜣ pꜣ-dy-ꜣs.t n tꜣy=w-ḏy ꞽw =f ꞽ",
+      "Udjasemataui, Sohn des Peteese, lebte in Teudjoi, indem er den Kult für Amun und seine Neunheit verr"
+     ],
+     [
+      "ꞽ.ꞽr=s-ḫpr ꞽw (=y) ꜥḥꜥ ꞽ.ꞽr-ḥr-n pꜣ snty n rhy ꞽrm",
+      "Es geschah, daß ich am Abend zusammen mit Sematauitefnacht vor dem Senti erschien."
+     ],
+     [
+      "ꞽ.ꞽr=s-ḫpr ḏd wn-nꜣ.w-ꞽw ẖr-ḫnsw šm md ꞽrm pꜣ mr-",
+      "\"Es ist (aber) so, daß Cherchons (fast schon) darangegangen wäre, mit dem Vorzimmervorsteher wegen d"
+     ]
+    ],
+    "date_ok": true,
+    "genre_ok": false,
+    "matched": false
+   },
+   "unquoted (narrative frame)": {
+    "sentences": 627,
+    "words": 5602,
+    "openings": 12,
+    "per_1k": [
+     2.1420921099607284,
+     1.106850251467729,
+     3.74180382866422
+    ],
+    "time_first": 1,
+    "event_first": 11,
+    "event_share": [
+     0.9166666666666666,
+     0.6152038348490559,
+     0.9978924067681397
+    ],
+    "examples": [
+     [
+      "ꞽ.ꞽr=s-ḫpr wn-nꜣ.w ḥr-wḏꜣ sꜣ pꜣy=f-ṯꜣw-ꜥ.wy-bꜣst.t",
+      "Es traf sich, daß Horudja, Sohn des Peftjauawibastet, mit Peteese in Herakleopolis war."
+     ],
+     [
+      "ḫpr wꜥ.t nḫy ꜥꜣ.t n pꜣ dmy",
+      "Es war eine große Totenklage in der Stadt."
+     ],
+     [
+      "ꞽ.ꞽr=s-ḫpr ꞽw wn wꜥ sẖ-ꞽw =f-ꞽp ꞽs pꜣ mr-rw.t ꞽy-m",
+      "Nun war da ein Rechnungsschreiber des Vorzimmervorstehers mit Namen Imhotep, Sohn des Pascheriset, d"
+     ],
+     [
+      "ꞽ.ꞽr=s-ḫpr ꞽw nkꜣw sꜣ ptḥ-nfr pꜣ wꜥb-n-sbk nty n ḥ",
+      "Es traf sich (nun), daß sich Nikau, Sohn des Ptahnefer, der Priester des Sobek, der (jetzt auch) Pro"
+     ],
+     [
+      "ḫpr rmṯ nb nty n tꜣy=w-ḏy ꞽw =w swr ḥq.t",
+      "Alle Leute, die in Teudjoi waren, fingen an, Bier zu trinken."
+     ],
+     [
+      "ḫpr dwꜣ ṯꜣy (=y) wꜥ.t šꜥd.ṱ n ḏmꜥ m-ḏr.t.ṱ(=y)",
+      "Am (nächsten) Morgen nahm ich ein Papyrusblatt in meine Hand."
+     ],
+     [
+      "ꞽ.ꞽr=s-ḫpr wn-nꜣ.w bn ḥr-wḏꜣ sꜣ pꜣy=f-ṯꜣw-ꜥ.wy-bꜣs",
+      "Es traf sich, daß Horudja, Sohn des Peftjauawibastet, nicht in Teudjoi war."
+     ],
+     [
+      "ḫpr pꜣ-dy-ꜣs.t sꜣ ꞽr.t=w-r=w ꞽw =f ꞽr n pꜣ-tꜣ-rsy ",
+      "Peteese, Sohn des Irturu, begann, das Südland zu verwalten,"
+     ],
+     [
+      "ꞽ.ꞽr=s-ḫpr wn-nꜣ.w mn rmṯ ꞽw =f ꜥy-n-ms bnr-n =y",
+      "Es traf sich, daß es keinen alten Mann unter ihnen gab außer mir."
+     ],
+     [
+      "ḫpr =s n ḥꜣty =w",
+      "Sie dachten:"
+     ],
+     [
+      "ḫpr wḏꜣ-smꜣ-tꜣ.wy sꜣ pꜣ-dy-ꜣs.t n tꜣy=w-ḏy ꞽw =f ꞽ",
+      "Udjasemataui, Sohn des Peteese, lebte in Teudjoi, indem er den Kult für Amun und seine Neunheit verr"
+     ],
+     [
+      "ꞽ.ꞽr=s-ḫpr ꞽw (=y) ꜥḥꜥ ꞽ.ꞽr-ḥr-n pꜣ snty n rhy ꞽrm",
+      "Es geschah, daß ich am Abend zusammen mit Sematauitefnacht vor dem Senti erschien."
+     ]
+    ],
+    "date_ok": true,
+    "genre_ok": false,
+    "matched": false
+   }
+  },
+  "additive_model": {
+   "hebrew_setting": [
+    2.9174643776069416,
+    2.5663148255572756,
+    3.3032464881950743
+   ],
+   "rows": {
+    "Hebrew + demotic loose, all dates": {
+     "time": [
+      4.189443427363769,
+      3.6584390479853397,
+      4.954026054816564
+     ],
+     "event": [
+      1.5712682379349046,
+      0.9726398042705714,
+      2.4018504103960647
+     ],
+     "total": [
+      5.760711665298674,
+      4.929515379866286,
+      6.820043421322588
+     ],
+     "matched": false
+    },
+    "Hebrew + demotic loose, 700–300 BC": {
+     "time": [
+      4.526992785783346,
+      3.6892958110742575,
+      5.877444426217561
+     ],
+     "event": [
+      1.126669885723483,
+      0.4529797282343257,
+      2.3213705716565873
+     ],
+     "total": [
+      5.653662671506829,
+      4.511400715866606,
+      7.298382905839134
+     ],
+     "matched": false
+    },
+    "Hebrew + demotic strict, all dates": {
+     "time": [
+      4.277391848141846,
+      3.6786054594549302,
+      5.160457928965586
+     ],
+     "event": [
+      1.9038984587488668,
+      1.1785431535880495,
+      2.9103110367129106
+     ],
+     "total": [
+      6.181290306890713,
+      5.203407933120562,
+      7.435975210719924
+     ],
+     "matched": false
+    },
+    "Hebrew + demotic strict, 700–300 BC": {
+     "time": [
+      4.544803677851043,
+      3.62003398231575,
+      6.123971542007534
+     ],
+     "event": [
+      1.4239218877135882,
+      0.5724904498616489,
+      2.9338233038450725
+     ],
+     "total": [
+      5.968725565564631,
+      4.62523210193227,
+      7.95005568588315
+     ],
+     "matched": false
+    },
+    "Hebrew + pRylands 9": {
+     "time": [
+      3.095972053437002,
+      2.921983800667329,
+      3.9120454898773627
+     ],
+     "event": [
+      1.9635844341306676,
+      0.9802142747655909,
+      3.513394950607275
+     ],
+     "total": [
+      5.05955648756767,
+      4.02431462907467,
+      6.659268206271161
+     ],
+     "matched": false
+    },
+    "Hebrew + Piye (old particles, all straight-to-event)": {
+     "time": [
+      2.9174643776069416,
+      2.5663148255572756,
+      3.3032464881950743
+     ],
+     "event": [
+      8.260707882343057,
+      8.260707882343057,
+      8.260707882343057
+     ],
+     "total": [
+      11.17817225995,
+      11.17817225995,
+      11.17817225995
+     ],
+     "matched": true,
+     "note": "Piye rate is per estimated translation word; no interval is given for the scale factor"
+    }
+   },
+   "bom_1830": {
+    "time": 2.424403331283886,
+    "event": 5.5894024928735115,
+    "total": 8.013805824157398,
+    "event_share": 0.6974716652136006
+   }
+  },
+  "matched_range": [
+   0.0,
+   22.436322537350662
+  ]
+ }
+}

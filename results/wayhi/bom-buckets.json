@@ -1,0 +1,1282 @@
+{
+ "id": "bom-buckets",
+ "family": "wayhi",
+ "title": "Book of Mormon uses by bucket and genre step, current and 1830 texts",
+ "label": "exploratory",
+ "question": "How often does the Book of Mormon use the formula, setting-first vs straight to the event, at each genre step, in the current and 1830 texts?",
+ "generated_utc": "2026-10-19T14:40:42+00:00",
+ "fingerprint": "08cea6e295d4738d08c5c1eef086b4770ae368860ee0b7d364ebd35b998c9759",
+ "inputs": {
+  "code:analyses/wayhi/bom_buckets.py": "c70e42c5865a6423f45d443db8e97b6282fa54d0c1ea15d28171c457cc17d73a",
+  "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
+  "lib:src/bomstylo/corpus.py": "9da5021f951175c8ce21aeaa2ae53339109be63ef4a4a7058684a9ddc12edc3f",
+  "lib:src/bomstylo/edition1830.py": "6e51cefd97cea1b959d48b49c1b933b02b483a2fd2e1a75b129ecbc536acec86",
+  "lib:src/bomstylo/english.py": "7b01e9429943c042a91c6ac82bd51d80eccb195316d6d5592612f71f12928300",
+  "lib:src/bomstylo/genre.py": "e3a48db26830b00628ea487306b9800d04e534a68fe0bbfaa4d73a4b078837f4",
+  "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
+  "lib:src/bomstylo/spans.py": "0fdf2b8532e11b9dc7670536eec8b794db1b997eaa594fb59123b24b48674174",
+  "lib:src/bomstylo/stats.py": "b108a4b53460072d206d608df26968b5e9037d69011db269d61f19a5e91d4116",
+  "corpus:bom-current": "b6362df3f54d9ea69b1e2a5e35f1d0ee8c0cf24b19045d2602fdf166c49a68ef",
+  "corpus:bom-1830": "ad5db97a2969aac5e12d39b2f22b6afff011eedd68e77a0965b58b78379b9eb1",
+  "annotation:embedded.tsv": "1b2e32cda9c03ed2e26a404e637dabe7aa204bf03bbab58ace25e43b9a09f8a7",
+  "annotation:records.tsv": "3ac15e8bcde17db5b00c96f97e27cc7fa82f0fd77a3646bc84425154fbff915c",
+  "params": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "env": "e806395824fab178796864d06f942b96252ba82c1dd7f5ba53348baff2e2bd10"
+ },
+ "params": {},
+ "headline": [
+  {
+   "key": "frame_rate_current",
+   "value": 7.763323541754091,
+   "low": null,
+   "high": null,
+   "text": "Narrative frame, current text: 7.76 past-tense uses per 1,000 words (335 setting-first, 775 straight to the event, 142,980 words)."
+  },
+  {
+   "key": "frame_rate_1830",
+   "value": 8.013805824157398,
+   "low": null,
+   "high": null,
+   "text": "Narrative frame, 1830 text: 8.01 per 1,000 words."
+  },
+  {
+   "key": "frame_event_share",
+   "value": 0.6981981981981982,
+   "low": 0.6702434187455807,
+   "high": 0.7250980880907538,
+   "text": "Straight-to-the-event share, narrative frame, current text: 70% (67%–73%), 775 of 1,110."
+  },
+  {
+   "key": "removed_after_1830",
+   "value": 42,
+   "low": null,
+   "high": null,
+   "text": "Uses removed after 1830: 42 (12 past setting-first, 30 past straight-to-event, 0 future); current-text uses not found in the 1830 OCR by the aligner: 51 (an earlier hand check found these present but garbled or misaligned; its per-case labels weren't kept)."
+  }
+ ],
+ "data": {
+  "e1830": {
+   "old_total": 1451,
+   "new_total": 1445,
+   "status": {
+    "present": 1288,
+    "unmatched (OCR)": 121,
+    "removed": 42
+   },
+   "removed": [
+    {
+     "vi": 225,
+     "ref": "1 Nephi 10:17",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that i nephi was desirous also that i might",
+     "new": "the son of god was the messiah who should come i nephi was desirous also that"
+    },
+    {
+     "vi": 717,
+     "ref": "2 Nephi 4:10",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "behold it came to pass that he spake unto the pons of ishmael yea",
+     "new": "father had made an end of speaking unto them behold he spake unto the sons of"
+    },
+    {
+     "vi": 2246,
+     "ref": "Mosiah 22:10",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that king limhi caused that his people sliould gather",
+     "new": "that the king hearkened unto the words of gideon and king limhi caused that his people"
+    },
+    {
+     "vi": 2255,
+     "ref": "Mosiah 23:3",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that they fled eight days journey into the wilderness",
+     "new": "king noah could not overtake them to destroy them and they fled eight days journey into"
+    },
+    {
+     "vi": 2257,
+     "ref": "Mosiah 23:5",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that they pitched their tents and began to till",
+     "new": "beautiful and pleasant land a land of pure water and they pitched their tents and began"
+    },
+    {
+     "vi": 2258,
+     "ref": "Mosiah 23:6",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that the people were desirous that alma should be",
+     "new": "buildings yea they were industrious and did labor exceedingly and the people were desirous that alma"
+    },
+    {
+     "vi": 2286,
+     "ref": "Mosiah 23:34",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that the lamanites had compassion on amulon and his",
+     "new": "their brethren that they should not destroy their husbands and the lamanites had compassion on amulon"
+    },
+    {
+     "vi": 2289,
+     "ref": "Mosiah 23:37",
+     "key": {
+      "revised": "past_time",
+      "registered": "past_time"
+     },
+     "old": "but it came to pass that after alma had shewn them the way that",
+     "new": "would grant unto them their lives and their liberty but after alma had shown them the"
+    },
+    {
+     "vi": 2302,
+     "ref": "Mosiah 24:11",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and t came to pass that amulon commanded them that they should stop their",
+     "new": "afflictions that they began to cry mightily to god and amulon commanded them that they should"
+    },
+    {
+     "vi": 2303,
+     "ref": "Mosiah 24:12",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that alma and his people did not raise their",
+     "new": "found calling upon god should be put to death and alma and his people did not"
+    },
+    {
+     "vi": 2311,
+     "ref": "Mosiah 24:20",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that alma and his people departed into the wilderness",
+     "new": "all their task masters were in a profound sleep and alma and his people departed into"
+    },
+    {
+     "vi": 2316,
+     "ref": "Mosiah 24:25",
+     "key": {
+      "revised": "past_time",
+      "registered": "past_time"
+     },
+     "old": "and it came to pass that after they had been in the wilderness twelve",
+     "new": "the valley and took their journey into the wilderness and after they had been in the"
+    },
+    {
+     "vi": 2422,
+     "ref": "Mosiah 28:6",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that king mosiah went and inquired of the lord",
+     "new": "they might go up to the land of nephi and king mosiah went and inquired of"
+    },
+    {
+     "vi": 2704,
+     "ref": "Alma 8:5",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that they were baptized throughout all the land so",
+     "new": "of the land which was by the wilderness side and they were baptized throughout all the"
+    },
+    {
+     "vi": 2717,
+     "ref": "Alma 8:18",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that he entered the city by another way yea",
+     "new": "lord he returned speedily to the land of ammonihah and he entered the city by another"
+    },
+    {
+     "vi": 2718,
+     "ref": "Alma 8:19",
+     "key": {
+      "revised": "past_time",
+      "registered": "past_time"
+     },
+     "old": "and it came to pass that as he entered the city he w as",
+     "new": "is on the south of the city of ammonihah and as he entered the city he"
+    },
+    {
+     "vi": 2796,
+     "ref": "Alma 10:31",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that there was one among them whose name was",
+     "new": "hearts that they should remember these things against him and there was one among them whose"
+    },
+    {
+     "vi": 2911,
+     "ref": "Alma 13:31",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that alma spake many more words unto the people",
+     "new": "hell that ye may not suffer the second death and alma spake many more words unto"
+    },
+    {
+     "vi": 2916,
+     "ref": "Alma 14:5",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that it was done before the chief judge of",
+     "new": "things did the people testify against alma and amulek now this was done before the chief"
+    },
+    {
+     "vi": 2918,
+     "ref": "Alma 14:7",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that he began to plead for them from that",
+     "new": "am guilty and these men are spotless before god and he began to plead for them"
+    },
+    {
+     "vi": 2918,
+     "ref": "Alma 14:7",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that they spit upon him and cast him out",
+     "new": "him saying art thou also possessed with the devil and they spit upon him and cast"
+    },
+    {
+     "vi": 2921,
+     "ref": "Alma 14:10",
+     "key": {
+      "revised": "past_time",
+      "registered": "past_time"
+     },
+     "old": "and it came to pass that when amulek r aw the pains of the",
+     "new": "witness the destruction of those who were consumed by fire and when amulek saw the pains"
+    },
+    {
+     "vi": 2929,
+     "ref": "Alma 14:18",
+     "key": {
+      "revised": "past_time",
+      "registered": "past_time"
+     },
+     "old": "and it came to pass that when they had been cast into pri n",
+     "new": "them to the officers to be cast into prison and when they had been cast into"
+    },
+    {
+     "vi": 2951,
+     "ref": "Alma 15:11",
+     "key": {
+      "revised": "past_time",
+      "registered": "past_time"
+     },
+     "old": "and it came to pass that when alma had said these words that zeezrom",
+     "new": "him according to his faith which is in christ and when alma had said these words"
+    },
+    {
+     "vi": 2971,
+     "ref": "Alma 16:12",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and il came to pass that the lamanites did not come again to war",
+     "new": "nehor who were slain and their lands remained desolate and the lamanites did not come again"
+    },
+    {
+     "vi": 3006,
+     "ref": "Alma 17:26",
+     "key": {
+      "revised": "past_time",
+      "registered": "past_time"
+     },
+     "old": "and it came to pass that after he had been in the sev vice",
+     "new": "of lamoni according to the custom of the lamanites and after he had been in the"
+    },
+    {
+     "vi": 3100,
+     "ref": "Alma 20:2",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that the voice of the lord came to amnion",
+     "new": "nephi that he might show him unto his father and the voice of the lord came"
+    },
+    {
+     "vi": 3126,
+     "ref": "Alma 20:28",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that lamoni found favor in the eyes of the",
+     "new": "proceeded on their journey towards the land of middoni and lamoni found favor in the eyes"
+    },
+    {
+     "vi": 3176,
+     "ref": "Alma 22:25",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that tkey were pacified towards aaron and those which",
+     "new": "king stood forth among them and administered unto them and they were pacified towards aaron and"
+    },
+    {
+     "vi": 3225,
+     "ref": "Alma 24:21",
+     "key": {
+      "revised": "past_time",
+      "registered": "past_time"
+     },
+     "old": "and it came to pass that when the people saw that they were coming",
+     "new": "people of anti nephi lehi out of the land now when the people saw that they"
+    },
+    {
+     "vi": 3302,
+     "ref": "Alma 27:14",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that they gathered together all their people yea all",
+     "new": "the words which the lord had said unto him and they gathered together all their people"
+    },
+    {
+     "vi": 3308,
+     "ref": "Alma 27:20",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that they went and told the chief judge all",
+     "new": "the land of zarahemla even to his own house and they went and told the chief"
+    },
+    {
+     "vi": 3370,
+     "ref": "Alma 30:21",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that he came over into the land of gideon",
+     "new": "that he should be carried out of the land and he came over into the land"
+    },
+    {
+     "vi": 3772,
+     "ref": "Alma 43:19",
+     "key": {
+      "revised": "past_time",
+      "registered": "past_time"
+     },
+     "old": "and it came to pass that when the armies of the lamanites saw that",
+     "new": "with cimeters and all manner of weapons of war and when the armies of the lamanites"
+    },
+    {
+     "vi": 3788,
+     "ref": "Alma 43:35",
+     "key": {
+      "revised": "past_time",
+      "registered": "past_time"
+     },
+     "old": "and it came to pass that as the lamanites had passed the hill riplah",
+     "new": "a part of the army of moroni was concealed and as the lamanites had passed the"
+    },
+    {
+     "vi": 3794,
+     "ref": "Alma 43:41",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that moroni and his army began to fall upon",
+     "new": "the lamanites in the valley on the other side of the river sidon and began to"
+    },
+    {
+     "vi": 3795,
+     "ref": "Alma 43:42",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that the lamanites did tlee again before them towards",
+     "new": "began to fall upon them and to slay them and the lamanites did flee again before"
+    },
+    {
+     "vi": 3827,
+     "ref": "Alma 44:20",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that he took the weapons of war from the",
+     "new": "work of death should cease again among the people and he took the weapons of war"
+    },
+    {
+     "vi": 4502,
+     "ref": "Helaman 2:8",
+     "key": {
+      "revised": "past_time",
+      "registered": "past_time"
+     },
+     "old": "and it came to pass that when the servant of helaman had known all",
+     "new": "to the judgment seat that he might murder helaman and when the servant of helaman had"
+    },
+    {
+     "vi": 5145,
+     "ref": "3 Nephi 7:23",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that thus passed away the thirty and second year",
+     "new": "signs also and did do some miracles among the people thus passed away the thirty and"
+    },
+    {
+     "vi": 5230,
+     "ref": "3 Nephi 11:16",
+     "key": {
+      "revised": "past_event",
+      "registered": "past_event"
+     },
+     "old": "and it came to pass that vv hen they had all gone forth and",
+     "new": "whom it was written by the prophets that should come and when they had all gone"
+    },
+    {
+     "vi": 5502,
+     "ref": "3 Nephi 19:30",
+     "key": {
+      "revised": "past_time",
+      "registered": "past_time"
+     },
+     "old": "and it came to pass that when jesus had spake these words he came",
+     "new": "be one that i may be glorified in them and when jesus had spoken these words"
+    }
+   ],
+   "reverse": {
+    "present in 1830": 1305,
+    "unmatched": 89,
+    "absent from 1830": 51
+   },
+   "added": [
+    {
+     "ref": "1 Nephi 3:22",
+     "new": "god and it came to pass that we went down to the land",
+     "old": "us be faithful in keeping the commandments of the lord therefore let us go down to"
+    },
+    {
+     "ref": "1 Nephi 8:1",
+     "new": "him and it came to pass that we had gathered together all manner",
+     "old": "did offer sacrifice and burnt offerings unto hirn audit came to passthot we had gathered together"
+    },
+    {
+     "ref": "1 Nephi 13:16",
+     "new": "slain and it came to pass that i nephi beheld that the gentiles",
+     "old": "was upon them that were gathered together against them to battle and i nephi beheld that"
+    },
+    {
+     "ref": "1 Nephi 14:9",
+     "new": "yea and it came to pass that he said unto me look and",
+     "old": "joyous to the soul and after that he had iaid these words he said unto me"
+    },
+    {
+     "ref": "1 Nephi 14:15",
+     "new": "glory and it came to pass that i beheld that the wrath of",
+     "old": "power of crod in great glory anu it canie lo pass that i beheld that the"
+    },
+    {
+     "ref": "1 Nephi 16:10",
+     "new": "wilderness and it came to pass that as my father arose in the",
+     "old": "take his journey into the wilderness and it came lo pass that as my father arose"
+    },
+    {
+     "ref": "1 Nephi 16:13",
+     "new": "laman and it came to pass that we traveled for the space of",
+     "old": "the wilderness across the river laman and it cam to pass that we travelled for the"
+    },
+    {
+     "ref": "1 Nephi 16:21",
+     "new": "lord now it came to pass that i nephi having been afflicted with",
+     "old": "did murmur against the lord now it cam e to pass that i nephi having been"
+    },
+    {
+     "ref": "Jacob 5:39",
+     "new": "vineyard and it came to pass that they beheld that the fruit of",
+     "old": "into the nethermost parts of the vineyard and it cameto pass that they beheld that the"
+    },
+    {
+     "ref": "Enos 1:19",
+     "new": "and now it came to pass that i enos went about among the",
+     "old": "faith was like unto thine and now it canie to pass that i enos went obout"
+    },
+    {
+     "ref": "Omni 1:10",
+     "new": "chemish behold it came to pass that i saw much war and contention",
+     "old": "abinadom i am the son of cheniish behold itcame to pass that i saw much war"
+    },
+    {
+     "ref": "Omni 1:18",
+     "new": "them but it came to pass that mosiah caused that they should be",
+     "old": "sons and he called their names mosiah and helorum and helaman and he caused that they"
+    },
+    {
+     "ref": "Mosiah 8:4",
+     "new": "spake and it came to pass that after he had done all this",
+     "old": "all the words which he spalce and it camfe io pass that after he had done"
+    },
+    {
+     "ref": "Mosiah 18:34",
+     "new": "them and it came to pass that alma and the people of the",
+     "old": "his army to destroy them and it came to pc ss that alma and the people"
+    },
+    {
+     "ref": "Mosiah 19:10",
+     "new": "children and it came to pass that the lamanites did pursue them and",
+     "old": "their women and their children and it came to p s that the lamanites did pursue"
+    },
+    {
+     "ref": "Mosiah 26:25",
+     "new": "and it shall come to pass that when the second trump shall sound",
+     "old": "eternally at my right hand and it shall come to ass that when the second trump"
+    },
+    {
+     "ref": "Mosiah 26:37",
+     "new": "out and it came to pass that alma did regulate all the affairs",
+     "old": "their names w re blotted out and it came i pass that alma did regulate all"
+    },
+    {
+     "ref": "Alma 1:5",
+     "new": "life and it came to pass that he did teach these things so",
+     "old": "all men should have eternal hfe and it canje to pass that he did teach these"
+    },
+    {
+     "ref": "Alma 1:19",
+     "new": "death but it came to pass that whosoever did not belong to the",
+     "old": "sliould not any man belonging to the church arise and persecute those that did not belong"
+    },
+    {
+     "ref": "Alma 6:3",
+     "new": "and it also came to pass that whosoever did belong to the church",
+     "old": "was received into the church and it also eame to pass that whomsoever did belong to"
+    },
+    {
+     "ref": "Alma 10:28",
+     "new": "and now it came to pass that when amulek had spoken these words",
+     "old": "rested upon us according to the words which he spake and now when amulek had spoken"
+    },
+    {
+     "ref": "Alma 14:23",
+     "new": "prison and it came to pass after they had thus suffered for many",
+     "old": "with strong cords and confined in prison and it qame to pass after they had thus"
+    },
+    {
+     "ref": "Alma 18:8",
+     "new": "them and it came to pass that king lamoni inquired of his servants",
+     "old": "a practice of plunder imong them anri ame to pn ss that king lamoni inquired of"
+    },
+    {
+     "ref": "Alma 19:1",
+     "new": "loss and it came to pass that after two days and two nights",
+     "old": "the lamanites greatly lamenting his loss and it came tof pass that after two days and"
+    },
+    {
+     "ref": "Alma 25:1",
+     "new": "behold now it came to pass that those lamanites were more angry because",
+     "old": "book of alma and behold now it came to pa s that those lamanites were more"
+    },
+    {
+     "ref": "Alma 26:10",
+     "new": "god and it came to pass that when ammon had said these words",
+     "old": "er according to my faith and desires which is in god now when ammon had said"
+    },
+    {
+     "ref": "Alma 30:5",
+     "new": "nephi and it came to pass that in the commencement of the seventeenth",
+     "old": "the judges over the people of nephi book of alma and it came to pass in"
+    },
+    {
+     "ref": "Alma 31:36",
+     "new": "thee now it came to pass that when alma had said these words",
+     "old": "dumb book op alma ibat ye shall no more have utterance now when alma had said"
+    },
+    {
+     "ref": "Alma 46:28",
+     "new": "and now it came to pass that when moroni had said these words",
+     "old": "destroyed until we bring it upon us by our own transgressions and when moroni had said"
+    },
+    {
+     "ref": "Alma 49:28",
+     "new": "people and it came to pass that on the other hand the people",
+     "old": "i the safety of his people and it came t pass that on the other hand"
+    },
+    {
+     "ref": "Alma 50:25",
+     "new": "year and it came to pass that in the commencement of the twenty",
+     "old": "twentieth year and in these prosperous circumstances were the people of nephi in the commencement of"
+    },
+    {
+     "ref": "Alma 51:5",
+     "new": "bloodshed and it came to pass that those who were desirous that pahoran",
+     "old": "the free government and to establish a king over the land and those who were desirous"
+    },
+    {
+     "ref": "Alma 51:28",
+     "new": "lamanites and it came to pass that they marched to the borders of",
+     "old": "afforded strong holds for the lamanites and it came to pasis that they marched to the"
+    },
+    {
+     "ref": "Alma 53:3",
+     "new": "nephi and it came to pass that after the lamanites had finished burying",
+     "old": "all the people of nephi and it came to to pass that after the lamanites had"
+    },
+    {
+     "ref": "Alma 54:1",
+     "new": "and now it came to pass in the commencement of the twenty and",
+     "old": "o the reign of the judges over the people of nephi and in the commencement of"
+    },
+    {
+     "ref": "Alma 56:39",
+     "new": "night and it came to pass that before the dawn of the morning",
+     "old": "did camp for the night and it came to pa s that before the dawn of"
+    },
+    {
+     "ref": "Alma 62:14",
+     "new": "lamanites and it came to pass that moroni and pahoran leaving a large",
+     "old": "the land against ti e lamanites and it cpiv to pass that morcni and pahoran leaving"
+    },
+    {
+     "ref": "Alma 62:22",
+     "new": "wall and it came to pass that moroni caused that his men should",
+     "old": "and now when moroni saw that they were fleeing before him he did cause that his"
+    },
+    {
+     "ref": "Helaman 4:10",
+     "new": "lamanites and it came to pass in the sixty and first year of",
+     "old": "fallen into the hands of the lamanites and it caine to pass in the sixty and"
+    },
+    {
+     "ref": "Helaman 6:41",
+     "new": "destruction and it came to pass that thus ended the sixty and eighth",
+     "old": "to battle and they did commence the work of death yea insomuch that in the fifty"
+    },
+    {
+     "ref": "Helaman 10:12",
+     "new": "behold now it came to pass that when the lord had spoken these",
+     "old": "smitten even unto destruction and behold now it carfic to pass that when the lord had"
+    },
+    {
+     "ref": "Helaman 10:15",
+     "new": "destruction and it came to pass that when nephi had declared unto them",
+     "old": "shall be smitten even unto destruction and it rame to pass that when nephi had declared"
+    },
+    {
+     "ref": "3 Nephi 5:2",
+     "new": "things which had come to pass already they knew that it must needs",
+     "old": "thing in the words of all the holy prophets which had spoken for they knew that"
+    },
+    {
+     "ref": "3 Nephi 5:2",
+     "new": "all things should come to pass according to that which had been spoken",
+     "old": "knew it must needs be that all things should come o pass according to that which"
+    },
+    {
+     "ref": "3 Nephi 8:20",
+     "new": "land and it came to pass that there was thick darkness upon all",
+     "old": "whole earth insomuch that they were found in broken fragments and in seams and in cracks"
+    },
+    {
+     "ref": "3 Nephi 11:18",
+     "new": "him and it came to pass that he spake unto nephi for nephi",
+     "old": "of jesus and did worship him and it ame to pass that he spake unto nephi"
+    },
+    {
+     "ref": "3 Nephi 19:4",
+     "new": "chosen and it came to pass that they went forth and stood in",
+     "old": "unto them for they were praying unto the father in his name and jesus came and"
+    },
+    {
+     "ref": "3 Nephi 19:7",
+     "new": "jesus and it came to pass that they arose and ministered unto the",
+     "old": "the name of jesus and it f am e to pass that they arose and ministered"
+    },
+    {
+     "ref": "4 Nephi 1:42",
+     "new": "years and it came to pass that the wicked part of the people",
+     "old": "also two hundred and sixty years and it came to pasfe that the wicked part of"
+    },
+    {
+     "ref": "Ether 9:23",
+     "new": "peace and it came to pass that coriantum did walk in the steps",
+     "old": "day and he died in peace and it canie to pass that coriantum did walk in"
+    },
+    {
+     "ref": "Ether 11:14",
+     "new": "people and it came to pass that ethem did execute judgment in wickedness",
+     "old": "and withdrew from among the people and it ame to pass that ethem did execute judgement"
+    }
+   ]
+  },
+  "current|revised": {
+   "whole text": {
+    "words": 268275,
+    "counts": {
+     "past_time": 412,
+     "past_event": 940,
+     "future_time": 30,
+     "future_event": 31
+    }
+   },
+   "without KJV quotations": {
+    "words": 256149,
+    "counts": {
+     "past_time": 410,
+     "past_event": 938,
+     "future_time": 19,
+     "future_event": 27
+    }
+   },
+   "narrative frame": {
+    "words": 142980,
+    "counts": {
+     "past_time": 335,
+     "past_event": 775,
+     "future_time": 4,
+     "future_event": 6
+    }
+   },
+   "speech (not KJV)": {
+    "words": 113169,
+    "counts": {
+     "past_event": 163,
+     "past_time": 75,
+     "future_time": 15,
+     "future_event": 21
+    }
+   }
+  },
+  "1830|revised": {
+   "whole text": {
+    "words": 268443,
+    "counts": {
+     "past_time": 424,
+     "past_event": 970,
+     "future_time": 30,
+     "future_event": 31
+    }
+   },
+   "without KJV quotations": {
+    "words": 256317,
+    "counts": {
+     "past_time": 422,
+     "past_event": 968,
+     "future_time": 19,
+     "future_event": 27
+    }
+   },
+   "narrative frame": {
+    "words": 143128,
+    "counts": {
+     "past_time": 347,
+     "past_event": 800,
+     "future_time": 4,
+     "future_event": 6
+    }
+   },
+   "speech (not KJV)": {
+    "words": 113189,
+    "counts": {
+     "past_event": 168,
+     "past_time": 75,
+     "future_time": 15,
+     "future_event": 21
+    }
+   }
+  },
+  "current|registered": {
+   "whole text": {
+    "words": 268275,
+    "counts": {
+     "past_time": 398,
+     "past_event": 954,
+     "future_time": 19,
+     "future_event": 42
+    }
+   },
+   "without KJV quotations": {
+    "words": 256149,
+    "counts": {
+     "past_time": 396,
+     "past_event": 952,
+     "future_time": 8,
+     "future_event": 38
+    }
+   },
+   "narrative frame": {
+    "words": 142980,
+    "counts": {
+     "past_time": 323,
+     "past_event": 787,
+     "future_event": 8,
+     "future_time": 2
+    }
+   },
+   "speech (not KJV)": {
+    "words": 113169,
+    "counts": {
+     "past_event": 165,
+     "past_time": 73,
+     "future_time": 6,
+     "future_event": 30
+    }
+   }
+  },
+  "1830|registered": {
+   "whole text": {
+    "words": 268443,
+    "counts": {
+     "past_time": 410,
+     "past_event": 984,
+     "future_time": 19,
+     "future_event": 42
+    }
+   },
+   "without KJV quotations": {
+    "words": 256317,
+    "counts": {
+     "past_time": 408,
+     "past_event": 982,
+     "future_time": 8,
+     "future_event": 38
+    }
+   },
+   "narrative frame": {
+    "words": 143128,
+    "counts": {
+     "past_time": 335,
+     "past_event": 812,
+     "future_event": 8,
+     "future_time": 2
+    }
+   },
+   "speech (not KJV)": {
+    "words": 113189,
+    "counts": {
+     "past_event": 170,
+     "past_time": 73,
+     "future_time": 6,
+     "future_event": 30
+    }
+   }
+  },
+  "narrators": {
+   "(none)": {
+    "revised": {
+     "counts": {},
+     "event_share": [
+      0,
+      0,
+      null,
+      null,
+      null
+     ]
+    },
+    "registered": {
+     "counts": {},
+     "event_share": [
+      0,
+      0,
+      null,
+      null,
+      null
+     ]
+    }
+   },
+   "Nephi1": {
+    "revised": {
+     "counts": {
+      "past_time": 38,
+      "past_event": 113,
+      "future_time": 1
+     },
+     "event_share": [
+      113,
+      151,
+      0.7483443708609272,
+      0.6713304361366272,
+      0.8153493506609757
+     ]
+    },
+    "registered": {
+     "counts": {
+      "past_time": 37,
+      "past_event": 114,
+      "future_event": 1
+     },
+     "event_share": [
+      114,
+      151,
+      0.7549668874172185,
+      0.6784212342683745,
+      0.8212315650563062
+     ]
+    }
+   },
+   "Jacob": {
+    "revised": {
+     "counts": {
+      "past_event": 10,
+      "past_time": 4
+     },
+     "event_share": [
+      10,
+      14,
+      0.7142857142857143,
+      0.4189647428163391,
+      0.9161106816928725
+     ]
+    },
+    "registered": {
+     "counts": {
+      "past_event": 10,
+      "past_time": 4
+     },
+     "event_share": [
+      10,
+      14,
+      0.7142857142857143,
+      0.4189647428163391,
+      0.9161106816928725
+     ]
+    }
+   },
+   "Enos": {
+    "revised": {
+     "counts": {
+      "past_event": 4,
+      "past_time": 2
+     },
+     "event_share": [
+      4,
+      6,
+      0.6666666666666666,
+      0.22277809550351213,
+      0.9567281317072583
+     ]
+    },
+    "registered": {
+     "counts": {
+      "past_event": 4,
+      "past_time": 2
+     },
+     "event_share": [
+      4,
+      6,
+      0.6666666666666666,
+      0.22277809550351213,
+      0.9567281317072583
+     ]
+    }
+   },
+   "Jarom": {
+    "revised": {
+     "counts": {
+      "past_event": 4
+     },
+     "event_share": [
+      4,
+      4,
+      1.0,
+      0.3976353643835253,
+      1.0
+     ]
+    },
+    "registered": {
+     "counts": {
+      "past_event": 4
+     },
+     "event_share": [
+      4,
+      4,
+      1.0,
+      0.3976353643835253,
+      1.0
+     ]
+    }
+   },
+   "Omni": {
+    "revised": {
+     "counts": {
+      "past_event": 2
+     },
+     "event_share": [
+      2,
+      2,
+      1.0,
+      0.15811388300841897,
+      1.0
+     ]
+    },
+    "registered": {
+     "counts": {
+      "past_event": 2
+     },
+     "event_share": [
+      2,
+      2,
+      1.0,
+      0.15811388300841897,
+      1.0
+     ]
+    }
+   },
+   "Amaron": {
+    "revised": {
+     "counts": {
+      "past_event": 2
+     },
+     "event_share": [
+      2,
+      2,
+      1.0,
+      0.15811388300841897,
+      1.0
+     ]
+    },
+    "registered": {
+     "counts": {
+      "past_event": 2
+     },
+     "event_share": [
+      2,
+      2,
+      1.0,
+      0.15811388300841897,
+      1.0
+     ]
+    }
+   },
+   "Chemish": {
+    "revised": {
+     "counts": {},
+     "event_share": [
+      0,
+      0,
+      null,
+      null,
+      null
+     ]
+    },
+    "registered": {
+     "counts": {},
+     "event_share": [
+      0,
+      0,
+      null,
+      null,
+      null
+     ]
+    }
+   },
+   "Abinadom": {
+    "revised": {
+     "counts": {
+      "past_event": 1
+     },
+     "event_share": [
+      1,
+      1,
+      1.0,
+      0.025,
+      1.0
+     ]
+    },
+    "registered": {
+     "counts": {
+      "past_event": 1
+     },
+     "event_share": [
+      1,
+      1,
+      1.0,
+      0.025,
+      1.0
+     ]
+    }
+   },
+   "Amaleki": {
+    "revised": {
+     "counts": {
+      "past_event": 6,
+      "past_time": 2
+     },
+     "event_share": [
+      6,
+      8,
+      0.75,
+      0.3491442055871758,
+      0.9681459737500557
+     ]
+    },
+    "registered": {
+     "counts": {
+      "past_event": 6,
+      "past_time": 2
+     },
+     "event_share": [
+      6,
+      8,
+      0.75,
+      0.3491442055871758,
+      0.9681459737500557
+     ]
+    }
+   },
+   "Mormon": {
+    "revised": {
+     "counts": {
+      "past_time": 266,
+      "past_event": 500,
+      "future_event": 6,
+      "future_time": 3
+     },
+     "event_share": [
+      500,
+      766,
+      0.6527415143603134,
+      0.6178352558988811,
+      0.6864664162771765
+     ]
+    },
+    "registered": {
+     "counts": {
+      "past_time": 255,
+      "past_event": 511,
+      "future_event": 7,
+      "future_time": 2
+     },
+     "event_share": [
+      511,
+      766,
+      0.6671018276762402,
+      0.6324820582183787,
+      0.7004288478633931
+     ]
+    }
+   },
+   "Moroni": {
+    "revised": {
+     "counts": {
+      "past_time": 23,
+      "past_event": 133
+     },
+     "event_share": [
+      133,
+      156,
+      0.8525641025641025,
+      0.7870308254405115,
+      0.9041847363632709
+     ]
+    },
+    "registered": {
+     "counts": {
+      "past_time": 23,
+      "past_event": 133
+     },
+     "event_share": [
+      133,
+      156,
+      0.8525641025641025,
+      0.7870308254405115,
+      0.9041847363632709
+     ]
+    }
+   }
+  },
+  "sensitivity_zeniff_as_frame": {
+   "current": {
+    "words": 144801,
+    "counts": {
+     "past_time": 336,
+     "past_event": 788,
+     "future_time": 4,
+     "future_event": 6
+    }
+   },
+   "1830": {
+    "words": 144949,
+    "counts": {
+     "past_time": 348,
+     "past_event": 813,
+     "future_time": 4,
+     "future_event": 6
+    }
+   }
+  },
+  "event_share": {
+   "current": [
+    775,
+    1110,
+    0.6981981981981982,
+    0.6702434187455807,
+    0.7250980880907538
+   ],
+   "1830": [
+    800,
+    1147,
+    0.6974716652136007,
+    0.6699701725897667,
+    0.7239563621491005
+   ],
+   "current, registered rule": [
+    787,
+    1110,
+    0.709009009009009,
+    0.6813082358109728,
+    0.7355971027645928
+   ],
+   "speech, future": [
+    21,
+    36,
+    0.5833333333333334,
+    0.40756524089177654,
+    0.7448589516735322
+   ]
+  },
+  "removed_by_bucket": {
+   "past_event": 30,
+   "past_time": 12
+  }
+ }
+}

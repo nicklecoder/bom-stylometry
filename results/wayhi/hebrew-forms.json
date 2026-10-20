@@ -1,0 +1,162 @@
+{
+ "id": "hebrew-forms",
+ "family": "wayhi",
+ "title": "Forms of 'and + hayah' in the Hebrew Bible, and wayhi by bucket",
+ "label": "exploratory",
+ "question": "How many wayhi, wehayah and look-alike forms are there, and how do wayhi and wehayah split into setting-first, straight-to-event and ordinary-verb uses?",
+ "generated_utc": "2026-10-19T14:40:43+00:00",
+ "fingerprint": "7ace071f7a44d1b83039a75f5f9df04f22be6df94ca908c6f894851e2306def5",
+ "inputs": {
+  "code:analyses/wayhi/hebrew_forms.py": "e5059d1904173a23f985eedd2ff2d24a95b97421a8c2f68f1091a341e931b5ee",
+  "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
+  "lib:src/bomstylo/genre.py": "e3a48db26830b00628ea487306b9800d04e534a68fe0bbfaa4d73a4b078837f4",
+  "lib:src/bomstylo/hebrew.py": "d57a2f794878c0b18a82c127905072a610c6920e86c01ab2729ad4559c811a44",
+  "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
+  "corpus:wlc": "76934ca84402366e1215003024d369a8bbf00b6baa286f702039c2d5daf3a66a",
+  "params": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "env": "e806395824fab178796864d06f942b96252ba82c1dd7f5ba53348baff2e2bd10"
+ },
+ "params": {},
+ "headline": [
+  {
+   "key": "wayhi",
+   "value": 784,
+   "low": null,
+   "high": null,
+   "text": "Hebrew Bible: 784 wayhi by morphology (421 setting-first, 0 straight to the event, 363 ordinary verb); 357 wehayah."
+  },
+  {
+   "key": "unpointed_pooled",
+   "value": 1224,
+   "low": null,
+   "high": null,
+   "text": "Unpointed ויהי + והיה = 1,224, the only counting rule near 1,204; it pools past wayhi with future wehayah and their look-alikes."
+  }
+ ],
+ "data": {
+  "by_morph": {
+   "HC/Vqw3ms": 784,
+   "HC/Vqq3ms": 357,
+   "HC/Vqw3mp": 105,
+   "HC/Vqq3cp": 98,
+   "HC/Vqq3fs": 87,
+   "HC/Vqw3fs": 86,
+   "HC/Vqp3ms": 44,
+   "HC/Vqj3ms": 27,
+   "HC/Vqq2ms": 25,
+   "HC/Vqw1cs": 23,
+   "HC/Vqq2mp": 16,
+   "HC/Vqp3cp": 16,
+   "HC/Vqq1cs": 12,
+   "HC/Vqj3fs": 11,
+   "HC/Vqw3fp": 10,
+   "HC/Vqi3mp": 10,
+   "HC/Vqp3fs": 7,
+   "HC/Vqv2mp": 7,
+   "HC/Vqv2ms": 6,
+   "HC/Vqp1cs": 6,
+   "HC/Vqi3ms": 5,
+   "HC/Vqq1cp": 5,
+   "HC/Vqw1cp": 4,
+   "HC/Vqp2ms": 2,
+   "HC/Vqi1cs": 2,
+   "HC/Vqq2fs": 2,
+   "HC/Vqj3mp": 2,
+   "HC/R/Vqc": 2,
+   "HC/VNq3fs": 2,
+   "HC/Vqi1cp": 1,
+   "HC/Vqq2cp": 1,
+   "HC/R/Vqc/Sp2ms": 1,
+   "HC/Vqi2ms": 1,
+   "HC/Vqi3fs": 1,
+   "HC/Vqw2ms": 1,
+   "HC/Vqj2ms": 1,
+   "HC/Vqj3fp": 1,
+   "HC/Vqi2fp": 1,
+   "HC/Vqw2fs": 1,
+   "HC/Vqw2mp": 1,
+   "HC/Vqp2mp": 1
+  },
+  "form_names": {
+   "HC/Vqw3ms": "wayhi (and it was / and it came to pass)",
+   "HC/Vqw3mp": "wayyihyu (and they were)",
+   "HC/Vqw3fs": "wattehi (and she/it [fem.] was)",
+   "HC/Vqw2ms": "wattehi (and you were)",
+   "HC/Vqw1cs": "wa'ehi (and I was)",
+   "HC/Vqw3fp": "wattihyenah (and they [fem.] were)",
+   "HC/Vqw1cp": "wanniheyeh (and we were)",
+   "HC/Vqq3ms": "wehayah (and it shall be / shall come to pass)",
+   "HC/Vqq3cp": "wehayu (and they shall be)",
+   "HC/Vqq3fs": "wehayetah (and she/it shall be)",
+   "HC/Vqj3ms": "wihi (and let it be; jussive)",
+   "HC/Vqi3ms": "weyihyeh (and it will be; plain imperfect)"
+  },
+  "by_consonants": {
+   "ויהי": {
+    "HC/Vqw3ms": 784,
+    "HC/Vqi3ms": 5,
+    "HC/Vqj3ms": 27
+   },
+   "והיה": {
+    "HC/Vqp3ms": 44,
+    "HC/Vqq3ms": 357,
+    "HC/Vqv2ms": 6,
+    "HC/Vqq3cp": 1
+   },
+   "והיו": {
+    "HC/Vqq3cp": 97,
+    "HC/Vqp3cp": 16,
+    "HC/Vqv2mp": 7
+   },
+   "ויהיו": {
+    "HC/Vqw3mp": 105,
+    "HC/Vqi3mp": 10,
+    "HC/Vqj3mp": 2
+   },
+   "ותהי": {
+    "HC/Vqw3fs": 86,
+    "HC/Vqj3fs": 11,
+    "HC/Vqi2ms": 1,
+    "HC/Vqi3fs": 1,
+    "HC/Vqw2ms": 1,
+    "HC/Vqj2ms": 1
+   },
+   "והיתה": {
+    "HC/Vqq3fs": 86,
+    "HC/Vqp3fs": 7
+   },
+   "והיית": {
+    "HC/Vqq2ms": 24,
+    "HC/Vqp2ms": 1,
+    "HC/Vqq2fs": 2
+   },
+   "והייתי": {
+    "HC/Vqq1cs": 12,
+    "HC/Vqp1cs": 6
+   }
+  },
+  "counting_rules": {
+   "wayhi only (morphology)": 784,
+   "wayhi + wihi (unpointed ויהי)": 816,
+   "wayhi + wehayah (morphology)": 1141,
+   "unpointed ויהי + unpointed והיה": 1224,
+   "all 3rd-person wayyiqtol (wayhi, wayyihyu, wattehi)": 975,
+   "every hayah form with 'and'": 1775
+  },
+  "buckets": {
+   "past": {
+    "verb": 363,
+    "time": 421
+   },
+   "future": {
+    "time": 184,
+    "verb": 167,
+    "event": 6
+   }
+  },
+  "bucket_rule_instances": {
+   "wayhi": 784,
+   "wehayah": 357
+  }
+ }
+}

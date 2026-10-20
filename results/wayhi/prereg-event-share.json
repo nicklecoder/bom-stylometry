@@ -1,0 +1,196 @@
+{
+ "id": "prereg-event-share",
+ "family": "wayhi",
+ "title": "Pre-registered: what the narrative particle introduces (PREREG 2)",
+ "label": "registered",
+ "question": "Does the Book of Mormon's event/time split of 'it came to pass' match the Egyptian narrative particles (within 0.15), and do English controls fail to?",
+ "generated_utc": "2026-10-19T14:25:53+00:00",
+ "fingerprint": "285056effc9d18d18bf46b9eca70475b6bbe31c1d1953602c0a2a0fd4705bcc6",
+ "inputs": {
+  "code:analyses/wayhi/prereg_event_share.py": "06fdfaba51e4c66b77f2d89aa2e6793b87cdc80dbe2bfd60c35bd694cdd66683",
+  "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
+  "lib:src/bomstylo/controls.py": "b7f69a28328d78995815f16b1e322def6601d13e52aac2adb4f8c7479d2a8f20",
+  "lib:src/bomstylo/corpus.py": "9da5021f951175c8ce21aeaa2ae53339109be63ef4a4a7058684a9ddc12edc3f",
+  "lib:src/bomstylo/egyptian.py": "b16a2d7882f80f97b21762fd50cd36f0643f76c6121edb7da448632ea9fb0ac5",
+  "lib:src/bomstylo/english.py": "7b01e9429943c042a91c6ac82bd51d80eccb195316d6d5592612f71f12928300",
+  "lib:src/bomstylo/genre.py": "e3a48db26830b00628ea487306b9800d04e534a68fe0bbfaa4d73a4b078837f4",
+  "lib:src/bomstylo/hebrew.py": "d57a2f794878c0b18a82c127905072a610c6920e86c01ab2729ad4559c811a44",
+  "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
+  "lib:src/bomstylo/spans.py": "0fdf2b8532e11b9dc7670536eec8b794db1b997eaa594fb59123b24b48674174",
+  "corpus:aed-tei": "b20448b1b5077058bf8597f50078c109aade4594e52afe1c419f11a445002ea6",
+  "corpus:wlc": "76934ca84402366e1215003024d369a8bbf00b6baa286f702039c2d5daf3a66a",
+  "corpus:bom-current": "b6362df3f54d9ea69b1e2a5e35f1d0ee8c0cf24b19045d2602fdf166c49a68ef",
+  "corpus:kjv": "82539a00ae10e5af7c8576fc082b63dbbd1be94f44d04b81a0f385795d4685ea",
+  "corpus:late-war": "e79f5de876e4706f091c6b993bfceac70ac802891854a2502fdbcc333a98b43a",
+  "annotation:embedded.tsv": "1b2e32cda9c03ed2e26a404e637dabe7aa204bf03bbab58ace25e43b9a09f8a7",
+  "annotation:records.tsv": "3ac15e8bcde17db5b00c96f97e27cc7fa82f0fd77a3646bc84425154fbff915c",
+  "preregistration:PREREGISTRATION_2.md": "641515663c886b41d6d3804c89c8c595b16913cd9bb15485c679039af61b29ee",
+  "params": "3ce4149e27e55851d7d26ed31a29fe17a1b05d3d8fb515bd36a3e8bd53f82e7c",
+  "env": "e806395824fab178796864d06f942b96252ba82c1dd7f5ba53348baff2e2bd10"
+ },
+ "params": {
+  "min_tokens": 500
+ },
+ "headline": [
+  {
+   "key": "gap",
+   "value": 0.288512911843277,
+   "low": null,
+   "high": null,
+   "text": "PREREG 2 (registered): Egyptian particles 1.00 event-first, Book of Mormon frame 0.71; gap 0.29 > 0.15. Verdict: MISS: the book does not match the Egyptian proportion"
+  }
+ ],
+ "data": {
+  "egyptian": {
+   "Sinuhe (pBerlin 3022, B)": {
+    "period": "Middle Egyptian",
+    "tokens": 3194,
+    "event": 7
+   },
+   "Shipwrecked Sailor": {
+    "period": "Middle Egyptian",
+    "tokens": 1300,
+    "event": 27
+   },
+   "Tales of pWestcar": {
+    "period": "Middle Egyptian",
+    "tokens": 3391,
+    "event": 117,
+    "other": 9
+   },
+   "Eloquent Peasant (B1)": {
+    "period": "Middle Egyptian",
+    "tokens": 3161,
+    "event": 10,
+    "other": 1
+   },
+   "Herdsman's Tale": {
+    "period": "Middle Egyptian",
+    "tokens": 176
+   },
+   "Carnarvon Tablet I (Kamose)": {
+    "period": "Middle Egyptian",
+    "tokens": 440,
+    "event": 1
+   },
+   "Kamose Stela I": {
+    "period": "Middle Egyptian",
+    "tokens": 171
+   },
+   "Kamose Stela II": {
+    "period": "Middle Egyptian",
+    "tokens": 837,
+    "event": 1
+   },
+   "Tale of Two Brothers": {
+    "period": "Late Egyptian",
+    "tokens": 4337,
+    "event": 64,
+    "other": 6
+   },
+   "Contendings of Horus and Seth": {
+    "period": "Late Egyptian",
+    "tokens": 4776,
+    "other": 88,
+    "event": 69
+   },
+   "The Doomed Prince": {
+    "period": "Late Egyptian",
+    "tokens": 1630,
+    "event": 34
+   },
+   "The Taking of Joppa": {
+    "period": "Late Egyptian",
+    "tokens": 569,
+    "event": 1
+   },
+   "Truth and Falsehood": {
+    "period": "Late Egyptian",
+    "tokens": 1215,
+    "event": 27,
+    "other": 3
+   },
+   "Astarte and the Sea": {
+    "period": "Late Egyptian",
+    "tokens": 761,
+    "event": 7,
+    "other": 2
+   },
+   "Report of Wenamun": {
+    "period": "Late Egyptian",
+    "tokens": 3044
+   },
+   "Bentresh Stela": {
+    "period": "Late Egyptian",
+    "tokens": 972,
+    "event": 23
+   },
+   "Piye Victory Stela": {
+    "period": "Late Period",
+    "tokens": 4379,
+    "event": 51,
+    "other": 2
+   }
+  },
+  "egyptian_pooled": {
+   "event": 438,
+   "time": 0,
+   "other": 111
+  },
+  "E": 1.0,
+  "hebrew": {
+   "whole Hebrew Bible": {
+    "verb_use": 392,
+    "time": 392
+   },
+   "17 narrative units": {
+    "verb_use": 144,
+    "time": 239
+   }
+  },
+  "H": 0.0,
+  "bom_frame": {
+   "time": 324,
+   "event": 799
+  },
+  "B": 0.711487088156723,
+  "bom_by_narrator": {
+   "Nephi1": {
+    "time": 37,
+    "event": 114
+   },
+   "Mormon": {
+    "time": 256,
+    "event": 524
+   },
+   "Moroni": {
+    "time": 23,
+    "event": 132
+   }
+  },
+  "controls": {
+   "KJV Old Testament": {
+    "event": 48,
+    "time": 340
+   },
+   "KJV New Testament": {
+    "time": 51,
+    "event": 14
+   },
+   "The Late War (1819)": {
+    "time": 50,
+    "event": 27
+   }
+  },
+  "verdict": {
+   "R0 boundary |E-H| >= 0.30": true,
+   "R1 E >= 0.50": true,
+   "R2 |B-E| <= 0.15": false,
+   "R3 controls": {
+    "KJV Old Testament": "separate",
+    "The Late War (1819)": "separate"
+   },
+   "overall": "MISS: the book does not match the Egyptian proportion"
+  }
+ }
+}

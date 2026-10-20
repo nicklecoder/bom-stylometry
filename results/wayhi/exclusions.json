@@ -1,0 +1,555 @@
+{
+ "id": "exclusions",
+ "family": "wayhi",
+ "title": "KJV parallels in the Book of Mormon, and the step at which each leaves the comparison",
+ "label": "exploratory",
+ "question": "Which Book of Mormon passages run parallel to the KJV, and does any stay in the narrative frame?",
+ "generated_utc": "2026-10-19T14:25:35+00:00",
+ "fingerprint": "a462e7174c60860e1d0a2b79eb9418f21de2a7e5cc533d9127db0e59e29dce00",
+ "inputs": {
+  "code:analyses/wayhi/exclusions.py": "30c9b4f3a9b2efb031c76f0c00a8ad07b74b9e7be605134f8961b5c93b8ea680",
+  "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
+  "lib:src/bomstylo/corpus.py": "9da5021f951175c8ce21aeaa2ae53339109be63ef4a4a7058684a9ddc12edc3f",
+  "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
+  "lib:src/bomstylo/spans.py": "0fdf2b8532e11b9dc7670536eec8b794db1b997eaa594fb59123b24b48674174",
+  "corpus:bom-current": "b6362df3f54d9ea69b1e2a5e35f1d0ee8c0cf24b19045d2602fdf166c49a68ef",
+  "corpus:kjv": "82539a00ae10e5af7c8576fc082b63dbbd1be94f44d04b81a0f385795d4685ea",
+  "annotation:embedded.tsv": "1b2e32cda9c03ed2e26a404e637dabe7aa204bf03bbab58ace25e43b9a09f8a7",
+  "params": "9b39eee78015d94e3f81a1114b892ca6755ef730ec6240ee4f17670c1e9b2bf6",
+  "env": "e806395824fab178796864d06f942b96252ba82c1dd7f5ba53348baff2e2bd10"
+ },
+ "params": {
+  "ngram": 8,
+  "stock_phrase_verses": 3,
+  "min_per_verse": 2,
+  "gap": 2,
+  "min_per_passage": 6
+ },
+ "headline": [
+  {
+   "key": "parallels_in_frame",
+   "value": 3,
+   "low": null,
+   "high": null,
+   "text": "40 KJV-parallel passages found; 3 keep verses in the narrative frame: 1 Nephi 22:20 (Acts 3, 1 verse, 73 words); 3 Nephi 10:4–10:6 (Matthew 23, 3 verses, 146 words); Mormon 9:22–9:24 (Mark 16, 3 verses, 110 words)."
+  }
+ ],
+ "data": {
+  "passages": [
+   {
+    "bom": "1 Nephi 20:1–21:26",
+    "kjv": "Isaiah 48–49",
+    "verses": 47,
+    "layers": {
+     "quotation": 47
+    },
+    "leaves_at": "step 2 (without KJV quotations)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "1 Nephi 22:20",
+    "kjv": "Acts 3",
+    "verses": 1,
+    "layers": {
+     "frame": 1
+    },
+    "leaves_at": "stays in the narrative frame",
+    "frame_verses": [
+     "1 Nephi 22:20"
+    ],
+    "frame_words": 73
+   },
+   {
+    "bom": "2 Nephi 6:6–6:7",
+    "kjv": "Isaiah 49",
+    "verses": 2,
+    "layers": {
+     "speech": 2
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "2 Nephi 6:16–8:25",
+    "kjv": "Isaiah 49–52",
+    "verses": 35,
+    "layers": {
+     "speech": 3,
+     "quotation": 32
+    },
+    "leaves_at": "step 2 (without KJV quotations)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "2 Nephi 9:50",
+    "kjv": "Isaiah 55",
+    "verses": 1,
+    "layers": {
+     "speech": 1
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "2 Nephi 12:1–24:32",
+    "kjv": "Isaiah 2–14",
+    "verses": 261,
+    "layers": {
+     "quotation": 261
+    },
+    "leaves_at": "step 2 (without KJV quotations)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "2 Nephi 26:4",
+    "kjv": "Malachi 4",
+    "verses": 1,
+    "layers": {
+     "speech": 1
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "2 Nephi 27:2–27:5",
+    "kjv": "Isaiah 29",
+    "verses": 3,
+    "layers": {
+     "speech": 3
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "2 Nephi 27:25–27:35",
+    "kjv": "Isaiah 29",
+    "verses": 11,
+    "layers": {
+     "speech": 11
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "2 Nephi 30:9–30:15",
+    "kjv": "Isaiah 11",
+    "verses": 6,
+    "layers": {
+     "speech": 6
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "Mosiah 12:21–12:24",
+    "kjv": "Isaiah 52",
+    "verses": 4,
+    "layers": {
+     "speech": 4
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "Mosiah 12:34–12:36",
+    "kjv": "Exodus 20",
+    "verses": 2,
+    "layers": {
+     "speech": 2
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "Mosiah 13:13–13:14",
+    "kjv": "Deuteronomy 5",
+    "verses": 2,
+    "layers": {
+     "speech": 2
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "Mosiah 13:15–13:20",
+    "kjv": "Exodus 20",
+    "verses": 4,
+    "layers": {
+     "speech": 4
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "Mosiah 14:1–14:12",
+    "kjv": "Isaiah 53",
+    "verses": 12,
+    "layers": {
+     "quotation": 12
+    },
+    "leaves_at": "step 2 (without KJV quotations)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "Mosiah 15:16–15:18",
+    "kjv": "Isaiah 52",
+    "verses": 3,
+    "layers": {
+     "speech": 3
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "Mosiah 15:29–15:31",
+    "kjv": "Isaiah 52",
+    "verses": 3,
+    "layers": {
+     "speech": 3
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "Alma 42:2–42:3",
+    "kjv": "Genesis 3",
+    "verses": 2,
+    "layers": {
+     "speech": 2
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "Helaman 10:7–10:9",
+    "kjv": "Matthew 18–21",
+    "verses": 2,
+    "layers": {
+     "speech": 2
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 10:4–10:6",
+    "kjv": "Matthew 23",
+    "verses": 3,
+    "layers": {
+     "frame": 3
+    },
+    "leaves_at": "stays in the narrative frame",
+    "frame_verses": [
+     "3 Nephi 10:4",
+     "3 Nephi 10:5",
+     "3 Nephi 10:6"
+    ],
+    "frame_words": 146
+   },
+   {
+    "bom": "3 Nephi 11:25",
+    "kjv": "Matthew 28",
+    "verses": 1,
+    "layers": {
+     "speech": 1
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 12:5–12:45",
+    "kjv": "Matthew 5",
+    "verses": 32,
+    "layers": {
+     "speech": 32
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 13:1–13:11",
+    "kjv": "Matthew 6",
+    "verses": 9,
+    "layers": {
+     "speech": 9
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 13:13–15:2",
+    "kjv": "Matthew 6–19",
+    "verses": 46,
+    "layers": {
+     "speech": 46
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 15:17",
+    "kjv": "John 10",
+    "verses": 1,
+    "layers": {
+     "speech": 1
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 15:21",
+    "kjv": "John 10",
+    "verses": 1,
+    "layers": {
+     "speech": 1
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 16:15",
+    "kjv": "Matthew 5",
+    "verses": 1,
+    "layers": {
+     "speech": 1
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 16:18–16:20",
+    "kjv": "Isaiah 52",
+    "verses": 3,
+    "layers": {
+     "speech": 3
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 20:16–20:19",
+    "kjv": "Micah 4–5",
+    "verses": 3,
+    "layers": {
+     "speech": 3
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 20:23–20:27",
+    "kjv": "Acts 3",
+    "verses": 5,
+    "layers": {
+     "speech": 5
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 20:32–20:45",
+    "kjv": "Isaiah 52",
+    "verses": 12,
+    "layers": {
+     "speech": 12
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 21:8",
+    "kjv": "Isaiah 52",
+    "verses": 1,
+    "layers": {
+     "speech": 1
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 21:12–21:21",
+    "kjv": "Micah 5",
+    "verses": 6,
+    "layers": {
+     "speech": 6
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 22:1–22:17",
+    "kjv": "Isaiah 54",
+    "verses": 17,
+    "layers": {
+     "quotation": 17
+    },
+    "leaves_at": "step 2 (without KJV quotations)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 24:1–25:6",
+    "kjv": "Malachi 3–4",
+    "verses": 24,
+    "layers": {
+     "quotation": 24
+    },
+    "leaves_at": "step 2 (without KJV quotations)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "3 Nephi 27:33",
+    "kjv": "Matthew 7",
+    "verses": 1,
+    "layers": {
+     "speech": 1
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "Mormon 9:22–9:24",
+    "kjv": "Mark 16",
+    "verses": 3,
+    "layers": {
+     "frame": 3
+    },
+    "leaves_at": "stays in the narrative frame",
+    "frame_verses": [
+     "Mormon 9:22",
+     "Mormon 9:23",
+     "Mormon 9:24"
+    ],
+    "frame_words": 110
+   },
+   {
+    "bom": "Ether 4:18",
+    "kjv": "Mark 16",
+    "verses": 1,
+    "layers": {
+     "speech": 1
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "Moroni 7:45",
+    "kjv": "1 Corinthians 13",
+    "verses": 1,
+    "layers": {
+     "speech": 1
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   },
+   {
+    "bom": "Moroni 7:48",
+    "kjv": "1 John 3",
+    "verses": 1,
+    "layers": {
+     "speech": 1
+    },
+    "leaves_at": "step 4 (narrative frame)",
+    "frame_verses": [],
+    "frame_words": 0
+   }
+  ],
+  "span_kinds": {
+   "discourse": 46,
+   "prophecy": 7,
+   "quotation": 6,
+   "allegory": 1,
+   "narration": 1,
+   "epistle": 9,
+   "liturgy": 3
+  },
+  "n_spans": 73,
+  "quotation_spans": [
+   "1 Nephi 20:1–1 Nephi 21:26",
+   "2 Nephi 7:1–2 Nephi 8:25",
+   "2 Nephi 12:1–2 Nephi 24:32",
+   "Mosiah 14:1–Mosiah 14:12",
+   "3 Nephi 22:1–3 Nephi 22:17",
+   "3 Nephi 24:1–3 Nephi 25:6"
+  ],
+  "in_frame": [
+   {
+    "bom": "1 Nephi 22:20",
+    "kjv": "Acts 3",
+    "verses": 1,
+    "layers": {
+     "frame": 1
+    },
+    "leaves_at": "stays in the narrative frame",
+    "frame_verses": [
+     "1 Nephi 22:20"
+    ],
+    "frame_words": 73
+   },
+   {
+    "bom": "3 Nephi 10:4–10:6",
+    "kjv": "Matthew 23",
+    "verses": 3,
+    "layers": {
+     "frame": 3
+    },
+    "leaves_at": "stays in the narrative frame",
+    "frame_verses": [
+     "3 Nephi 10:4",
+     "3 Nephi 10:5",
+     "3 Nephi 10:6"
+    ],
+    "frame_words": 146
+   },
+   {
+    "bom": "Mormon 9:22–9:24",
+    "kjv": "Mark 16",
+    "verses": 3,
+    "layers": {
+     "frame": 3
+    },
+    "leaves_at": "stays in the narrative frame",
+    "frame_verses": [
+     "Mormon 9:22",
+     "Mormon 9:23",
+     "Mormon 9:24"
+    ],
+    "frame_words": 110
+   }
+  ]
+ }
+}

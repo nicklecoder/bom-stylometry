@@ -1,0 +1,286 @@
+# Source texts. Nothing listed here is committed (constitution IV).
+#
+# Each source has an id, its edition, a citation, its licence, the pinned raw
+# download(s), the preparation step (a function in src/bomstylo/prepare.py)
+# and its prepared paths under corpora/prepared/, with the digest of
+# corpora/checksums/<id>.sha256.
+#
+#   uv run bomstylo fetch     download, check, prepare, verify (all or some ids)
+#   uv run bomstylo verify    check what is on disk
+#
+# Raw entries: either one file (`url` or `urls`, tried in order; `save_as`;
+# `sha256` of the download), or many unchanged files (`url_template` filled
+# with each name in `files`; checked through the prepared checksums).
+# `notes` records anything a maintainer needs before re-pinning.
+#
+# The report's sources section is generated from this file. Which analyses
+# read each source is in ANALYSES.md (generated from the analyses' own
+# declarations).
+
+sources:
+  - id: bom-current
+    title: "The Book of Mormon (Project Gutenberg eBook #17, 13th edition, mormon13.txt)"
+    edition: >-
+      Text of the 1981 LDS edition (e.g. 2 Nephi 30:6 "pure and delightsome"), as released by
+      Project Gutenberg on 8 March 1992 and last updated 22 May 2005.
+    citation: >-
+      The Book of Mormon. Project Gutenberg eBook #17, file mormon13.txt (13th edition, last
+      updated 22 May 2005). https://www.gutenberg.org/files/17/old/mormon13.txt
+    licence: Project Gutenberg licence (US public domain etext)
+    raw:
+      - url: https://www.gutenberg.org/files/17/old/mormon13.txt
+        save_as: mormon13.txt
+        sha256: 192d7b51bcaaac461bb9fb199c069d75a8318be0c6ca6505aeb3e1e107273031
+    notes: >-
+      The current PG #17 files and the 2024–25 Wayback snapshots have a different layout and
+      don't reproduce this text; use the old/ file.
+    prepare: bom_current
+    prepared:
+      paths: [bom.jsonl]
+      digest: 35ee5e41cda677389a518ee854c501282e71b3dac1d710e99cdb7588488e8f1c
+
+  - id: kjv
+    title: "King James Version (Project Gutenberg eBook #10)"
+    edition: Project Gutenberg plain-text KJV (pg10.txt), 4,455,950 bytes.
+    citation: >-
+      The King James Version of the Bible. Project Gutenberg eBook #10.
+      https://www.gutenberg.org/ebooks/10
+    licence: Project Gutenberg licence (public domain in the USA)
+    raw:
+      - urls:
+          - https://web.archive.org/web/20260621235211id_/https://www.gutenberg.org/cache/epub/10/pg10.txt
+          - https://www.gutenberg.org/cache/epub/10/pg10.txt
+        save_as: pg10.txt
+        sha256: 0204adaed1f25700aa854218cae63c7172228c41088f335e99167a071eed83c0
+    notes: >-
+      The Wayback snapshot is immutable. Avoid snapshot 20261012135648: it is served
+      gzip-encoded.
+    prepare: kjv
+    prepared:
+      paths: [kjv_ot.jsonl, kjv_nt.jsonl]
+      digest: bdf21a085f57565e5a7c5c849e330f7528f02286f364211d736307784a5102cb
+
+  - id: bom-1830
+    title: The Book of Mormon, first edition (Palmyra, 1830), archive.org OCR
+    edition: >-
+      archive.org item bookofmormonacco1830smit (University of Pittsburgh Library System
+      scan), uncorrected OCR (_djvu.txt).
+    citation: >-
+      Smith, Joseph, Jr. The Book of Mormon. Palmyra: E. B. Grandin, 1830. Scan and OCR,
+      Internet Archive, https://archive.org/details/bookofmormonacco1830smit
+    licence: Public domain by date (no licence stated by archive.org)
+    raw:
+      - url: https://archive.org/download/bookofmormonacco1830smit/bookofmormonacco1830smit_djvu.txt
+        save_as: bom1830.txt
+        sha256: 06c116b20e7d2d52fdeb6e898e44b4e8615124847601feb2b75e0e7a432fe6b9
+    notes: >-
+      archive.org has no versioned URLs and re-derives OCR occasionally; its own sha1 for this
+      file is f57b45ffb072ac896cb3199e53254a31ee705f70. No Wayback snapshot exists.
+    prepare: copy
+    prepared:
+      paths: [bom1830.txt]
+      digest: 50c970b9e87e32169aa0a10300dd6be76d887e12327f8d403e8c250deb9d7a26
+
+  - id: wlc
+    title: Westminster Leningrad Codex with OpenScriptures morphology (morphhb)
+    edition: openscriptures/morphhb, commit 3d15126fb1ef74867fc1434be1942e837932691f (wlc/ last changed in 8de8960, 2022).
+    citation: >-
+      Open Scriptures Hebrew Bible (morphhb), Westminster Leningrad Codex with lemma and
+      morphology tagging. https://github.com/openscriptures/morphhb
+    licence: >-
+      OSHB tagging CC BY 4.0 ("Original work of the Open Scriptures Hebrew Bible available at
+      https://github.com/openscriptures/morphhb"); WLC text public domain
+    raw:
+      - url_template: https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/{file}
+        files: [Gen.xml, Exod.xml, Lev.xml, Num.xml, Deut.xml, Josh.xml, Judg.xml, Ruth.xml, 1Sam.xml,
+                2Sam.xml, 1Kgs.xml, 2Kgs.xml, 1Chr.xml, 2Chr.xml, Ezra.xml, Neh.xml, Esth.xml, Job.xml,
+                Ps.xml, Prov.xml, Eccl.xml, Song.xml, Isa.xml, Jer.xml, Lam.xml, Ezek.xml, Dan.xml,
+                Hos.xml, Joel.xml, Amos.xml, Obad.xml, Jonah.xml, Mic.xml, Nah.xml, Hab.xml, Zeph.xml,
+                Hag.xml, Zech.xml, Mal.xml]
+    prepare: copy
+    prepared:
+      paths: [wlc]
+      digest: 3e49a869861f14f51d7cefff2e2fad6ac9c6aa7b910748e0477801841d2aa439
+
+  - id: web
+    title: World English Bible, read-aloud edition (eBible.org)
+    edition: >-
+      eng-web_readaloud.zip as generated 19 August 2026; the chapter files of Genesis–Esther,
+      Jonah, the Gospels and Acts (557 files).
+    citation: World English Bible (read-aloud edition). eBible.org. https://ebible.org/Scriptures/eng-web_readaloud.zip
+    licence: Public domain ("World English Bible" is a trademark of eBible.org)
+    raw:
+      - url: https://ebible.org/Scriptures/eng-web_readaloud.zip
+        save_as: eng-web_readaloud.zip
+    patch:
+      - file: eng-web_073_JHN_03_read.txt
+        line: 4
+        live: "a teacher who has come from God"
+        pinned: "a teacher come from God"
+    notes: >-
+      The zip is unversioned and regenerated by eBible; no copy of the 19 Aug 2026 build is
+      archived. The 18 Oct 2026 zip (sha256 1b5e9d5d…6bc0) differs from it in one used file,
+      John 3:2, restored by `patch` (2 words in John's narration; no formula). A later zip
+      may differ more: `verify` will say which files.
+    prepare: web
+    prepared:
+      paths: [web]
+      digest: f1ed86f45695f2f5ec05213b50a8157a2ff38b612489603da8aafc143e7968f9
+
+  - id: sblgnt
+    title: SBL Greek New Testament with MorphGNT parsing
+    edition: morphgnt/sblgnt, commit aaed91e57c8e4a8dc9a2383e129ca5e75fe6393d (content as of b4d1e66, 2023). Not tag 6.12, which differs in 9 books.
+    citation: >-
+      Holmes, Michael W., ed. The Greek New Testament: SBL Edition. Society of Biblical
+      Literature and Logos Bible Software, 2010; MorphGNT parsing by James K. Tauber,
+      https://github.com/morphgnt/sblgnt
+    licence: SBLGNT text under the SBLGNT EULA (http://sblgnt.com/license/); morphology CC BY-SA 3.0
+    raw:
+      - url_template: https://raw.githubusercontent.com/morphgnt/sblgnt/aaed91e57c8e4a8dc9a2383e129ca5e75fe6393d/{file}
+        files: [61-Mt-morphgnt.txt, 62-Mk-morphgnt.txt, 63-Lk-morphgnt.txt, 64-Jn-morphgnt.txt,
+                65-Ac-morphgnt.txt, 66-Ro-morphgnt.txt, 67-1Co-morphgnt.txt, 68-2Co-morphgnt.txt,
+                69-Ga-morphgnt.txt, 70-Eph-morphgnt.txt, 71-Php-morphgnt.txt, 72-Col-morphgnt.txt,
+                73-1Th-morphgnt.txt, 74-2Th-morphgnt.txt, 75-1Ti-morphgnt.txt, 76-2Ti-morphgnt.txt,
+                77-Tit-morphgnt.txt, 78-Phm-morphgnt.txt, 79-Heb-morphgnt.txt, 80-Jas-morphgnt.txt,
+                81-1Pe-morphgnt.txt, 82-2Pe-morphgnt.txt, 83-1Jn-morphgnt.txt, 84-2Jn-morphgnt.txt,
+                85-3Jn-morphgnt.txt, 86-Jud-morphgnt.txt, 87-Re-morphgnt.txt]
+    prepare: copy
+    prepared:
+      paths: [sblgnt]
+      digest: cb4476aa51e2540c1a38f4c387dd4082ea2210e0f0c96e2dbe8fc2eed21adfcd
+
+  - id: tla
+    title: Thesaurus Linguae Aegyptiae open sentence subsets (Hugging Face)
+    edition: >-
+      Demotic corpus v18 premium v1.1 (revision c02baaa), Earlier Egyptian v18 premium v1.1
+      (a7ba9e9), Late Egyptian corpus v19 premium v1.0 (8af8594).
+    citation: >-
+      Thesaurus Linguae Aegyptiae, Demotic / Earlier Egyptian / Late Egyptian sentences (corpus
+      v18–v19, premium), ed. Tonio Sebastian Richter & Daniel A. Werning (BBAW) and Hans-Werner
+      Fischer-Elfert & Peter Dils (SAW Leipzig). https://huggingface.co/thesaurus-linguae-aegyptiae
+    licence: CC BY-SA 4.0
+    raw:
+      - url: https://huggingface.co/datasets/thesaurus-linguae-aegyptiae/tla-demotic-v18-premium/resolve/c02baaaddaf0e2b6b9d128874df23c655eedfe7c/train.jsonl
+        save_as: tla/Demotic.jsonl
+        sha256: 787e9ce8b5005a056f4579723ccffeaa5db1ed0bd7f42b7e5d5ec34d6867a63f
+      - url: https://huggingface.co/datasets/thesaurus-linguae-aegyptiae/tla-Earlier_Egyptian_original-v18-premium/resolve/a7ba9e9d1a74a9a0f919b024ba84dd6d643b2966/train.jsonl
+        save_as: tla/Earlier_Egyptian.jsonl
+        sha256: 13d4f6e17e5348c4a1dcf1c02795c8401367e187eaf903da325a1cf83a998f99
+      - url: https://huggingface.co/datasets/thesaurus-linguae-aegyptiae/tla-late_egyptian-v19-premium/resolve/8af85941783ba575d5a8985c80c688f948c50040/train.jsonl
+        save_as: tla/Late_Egyptian.jsonl
+        sha256: dfded75c7d34bc1f2f12e18af6936394dc0c5cadacd1229dc28d46751d6389df
+    prepare: tla
+    prepared:
+      paths: [tla]
+      digest: 2680545669a7b412e52c2c97d6237027887e12b2078bbb6c2a35017f587135c9
+
+  - id: aed-tei
+    title: AED-TEI named Egyptian texts (Ancient Egyptian Dictionary, TEI export)
+    edition: simondschweitzer/aed-tei, commit 462c722e0323e05641aea2eee8cdf1e27303d939 (files as of 0817b82, 2019); the 21 texts used.
+    citation: >-
+      Schweitzer, Simon D. aed-tei: Ancient Egyptian texts of the Thesaurus Linguae Aegyptiae in
+      TEI XML. https://github.com/simondschweitzer/aed-tei
+    licence: CC BY-SA 4.0
+    raw:
+      - url_template: https://raw.githubusercontent.com/simondschweitzer/aed-tei/462c722e0323e05641aea2eee8cdf1e27303d939/files/{file}
+        files: [JIPPXMXOTNCQDIKJIQVYWMKOWU.xml, QUFWZTEPLRE4NHKCPAJXGSAOSQ.xml, J4EXGHLCL5DR7JHSPDWTVEKMDY.xml,
+                PVLMEE7Y45FPXBSMF47T6PNPEE.xml, QKN2PJK4CVGI7GXJSMMPTIZZYY.xml, BMVO6CBMDNBQFMXW3DSIW66WSM.xml,
+                65XN4FHYGNH4FE6V6UEXOT6ZK4.xml, SXQSUAMQH5F2HORTAGXSEWEUGM.xml, C6HNRC4K7FAYBHNDS3LV24EANI.xml,
+                W25WDE27ZVAFXBDULVGJH7CHUQ.xml, MTBRL3MIIJDKXAOF2336WRLMZA.xml, SSS2W6HDXFA23OBG2ER6DYGGCY.xml,
+                5UEPUHOXE5CCRF5VQGC4V7SQWQ.xml, IAE36426UNFSJHISJPKBZGSUSY.xml, HSPTIJABEREHFI6HCEUABYSFGE.xml,
+                4VLZLA44UVGJZN22WIWP774LOQ.xml, 66ATQAWY55BNBFZYHSRGQK5RG4.xml, UZ5MMW4I2ZDQNEKTJK6TQFEQR4.xml,
+                WMNPTFRPMBBOXJVPXEQK5HGCZ4.xml, XSMWRMUR4NB6XEXIJVRVHJK2R4.xml, JM6ARFU6XZDABK7JONHLOCD5EQ.xml]
+    prepare: copy
+    prepared:
+      paths: [aed]
+      digest: 7de84f007bd85208d315fe40e1bc3913a39acc3bf47de0d7f122aa1ee0c3cb4d
+
+  - id: jst-1867
+    title: The Holy Scriptures, Inspired Version (1867), archive.org OCR
+    edition: archive.org item holyscriptures00smit (BYU Harold B. Lee Library scan), uncorrected OCR (_djvu.txt).
+    citation: >-
+      The Holy Scriptures, Translated and Corrected by the Spirit of Revelation, by Joseph Smith,
+      Jr., the Seer. Plano, Ill.: Reorganized Church of Jesus Christ of Latter Day Saints, 1867.
+      Internet Archive, https://archive.org/details/holyscriptures00smit
+    licence: Public domain by date (no licence stated by archive.org)
+    raw:
+      - url: https://archive.org/download/holyscriptures00smit/holyscriptures00smit_djvu.txt
+        save_as: jst1867.txt
+        sha256: 02f3b8c19f76e6f6c8b256ad0032cf18296385674a5fc60aeb2e04c868f4a835
+    notes: >-
+      bomstylo.jst segments this file by line number (GENESIS_START, NT_FROM), so a re-OCR by
+      archive.org breaks the registered test. archive.org sha1: e12af71a26ce18695aa7fe9920aca0fa4bf2cf38.
+    prepare: copy
+    prepared:
+      paths: [jst1867.txt]
+      digest: a27302598fc18ba6994e84e349461180b7e034ebae108b42914374f5aab2633a
+
+  - id: late-war
+    title: Gilbert J. Hunt, The Late War (1819), archive.org OCR
+    edition: archive.org item latewarbetweenun00inhunt (University of Pittsburgh scan), uncorrected OCR.
+    citation: >-
+      Hunt, Gilbert J. The Late War, between the United States and Great Britain, from June
+      1812, to February 1815. Written in the Ancient Historical Style. New York, 1819. Internet
+      Archive, https://archive.org/details/latewarbetweenun00inhunt
+    licence: Public domain by date (no licence stated by archive.org)
+    raw:
+      - url: https://archive.org/download/latewarbetweenun00inhunt/latewarbetweenun00inhunt_djvu.txt
+        save_as: late_war.txt
+        sha256: 589afbc822cfc5134bb7a413d7ff4e16037a41fe245e50f0e8c2997259dfd480
+    notes: archive.org sha1 5027b8d63d9ec29bda6da9b76ac347db93880646. Cleaned at read time (bomstylo.controls).
+    prepare: copy
+    prepared:
+      paths: [late_war.txt]
+      digest: 0c1756f5990931a2647f0773f972882ecb08aee3b76d966a99f73e49da367786
+
+  - id: period-pastiches
+    title: Snowden (1793), The First Book of Napoleon (1809), The Book of Nullification (1830)
+    edition: archive.org OCR of americanrevoluti00snow (1802 printing), firstbooknapole00gruagoog, bookofnullificat00char.
+    citation: >-
+      Snowden, Richard. The American Revolution: Written in the Style of Ancient History.
+      Philadelphia, 1793 (1802 printing). The First Book of Napoleon, the
+      Tyrant of the Earth. 1809. [Anon.] The Book of Nullification.
+      Charleston, 1830. Internet Archive.
+    licence: Public domain by date
+    raw:
+      - url: https://archive.org/download/americanrevoluti00snow/americanrevoluti00snow_djvu.txt
+        save_as: americanrevoluti00snow_djvu.txt
+        sha256: 159f546a9c7bde6f74120ecea17de3154d70f3e08bfd514b013a74123359a9db
+      - url: https://archive.org/download/firstbooknapole00gruagoog/firstbooknapole00gruagoog_djvu.txt
+        save_as: firstbooknapole00gruagoog_djvu.txt
+        sha256: d491f1290f2b62825ba59d4b85cb76eef8ac8161ce78a58c9e0e2f898a98bd48
+      - url: https://archive.org/download/bookofnullificat00char/bookofnullificat00char_djvu.txt
+        save_as: bookofnullificat00char_djvu.txt
+        sha256: f3ad5c7f4d83af4720adb1b04cb9cff03f00e1b269205be11c2c2865344e261b
+      - urls:
+          - https://raw.githubusercontent.com/ArtsEngine/concreteness/0e52728a0c419c7755924b6c8b9d467b3c01720b/Concreteness_ratings_Brysbaert_et_al_BRM.txt
+          - https://web.archive.org/web/20231115122317id_/http://crr.ugent.be/papers/Concreteness_ratings_Brysbaert_et_al_BRM.txt
+        save_as: brysbaert_concreteness.txt
+        sha256: 0b4082dbd38585b0ee1fd258145b7a50592f8d0d98e5fc6b6844ceef3cd8ecc8
+        citation: >-
+          Brysbaert, M., Warriner, A. B., & Kuperman, V. (2014). Concreteness ratings for 40
+          thousand generally known English word lemmas. Behavior Research Methods, 46, 904–911.
+        licence: CC BY-NC-ND 3.0 Unported; used only as a vocabulary at build time, never redistributed
+    notes: >-
+      The concreteness list is used only to repair Snowden's long s. Without it Snowden differs
+      in 250 tokens but has the same 113 formulas. Needs kjv and bom-current prepared first.
+    prepare: period
+    prepared:
+      paths: [period]
+      digest: ff929df77f175ed08aac4aafd35d57b3a1438cb2040a957ea7bcee46ec1d58ec
+
+  - id: moses-abraham
+    title: Book of Moses and Book of Abraham (Pearl of Great Price), bcbooks/scriptures-json
+    edition: bcbooks/scriptures-json commit 3bda76e40add4582165340ea6b1198dc6ad26ae1, pearl-of-great-price.json (current LDS text).
+    citation: >-
+      The Pearl of Great Price (Church of Jesus Christ of Latter-day Saints edition), via
+      bcbooks/scriptures-json, https://github.com/bcbooks/scriptures-json
+    licence: Public domain (scriptures-json README)
+    raw:
+      - url: https://raw.githubusercontent.com/bcbooks/scriptures-json/3bda76e40add4582165340ea6b1198dc6ad26ae1/pearl-of-great-price.json
+        save_as: pgp.json
+        sha256: b62759b46d7e7daee20f4cb494dcb101ef32a8a62ab4021edbfd6a805b81e909
+    prepare: copy
+    prepared:
+      paths: [pgp.json]
+      digest: a77abe4fcdd4338574ab4c386e425a8d298687eb90c6acd87d3fc5debca53657

@@ -1,0 +1,540 @@
+{
+ "id": "genre-ladder",
+ "family": "wayhi",
+ "title": "Genre ladder: Hebrew setting-first wayhi vs the Book of Mormon",
+ "label": "exploratory",
+ "question": "How does the Book of Mormon's rate compare with Hebrew wayhi at each matched genre step, and which use of the formula carries the difference?",
+ "generated_utc": "2026-10-19T14:24:53+00:00",
+ "fingerprint": "0baf9613f408ccc6afdf763aca321c46831ce0da566831f6d46474cd3c0cc3aa",
+ "inputs": {
+  "code:analyses/wayhi/genre_ladder.py": "17053e91131fdb5d312c2741f825e9ad6fa13545b1f3e452ca6c425d44e770cf",
+  "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
+  "lib:src/bomstylo/corpus.py": "9da5021f951175c8ce21aeaa2ae53339109be63ef4a4a7058684a9ddc12edc3f",
+  "lib:src/bomstylo/english.py": "7b01e9429943c042a91c6ac82bd51d80eccb195316d6d5592612f71f12928300",
+  "lib:src/bomstylo/genre.py": "e3a48db26830b00628ea487306b9800d04e534a68fe0bbfaa4d73a4b078837f4",
+  "lib:src/bomstylo/hebrew.py": "d57a2f794878c0b18a82c127905072a610c6920e86c01ab2729ad4559c811a44",
+  "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
+  "lib:src/bomstylo/results.py": "bba2a1088e277b88a7e67d3f52d7c70ec74f4b2751226c59e06851e6e0f959cb",
+  "lib:src/bomstylo/stats.py": "b108a4b53460072d206d608df26968b5e9037d69011db269d61f19a5e91d4116",
+  "lib:src/bomstylo/web.py": "7b31a449a9975db67e31d2aeb8077b2396e94da3e72f08e2dd82e9163cda92b2",
+  "corpus:wlc": "76934ca84402366e1215003024d369a8bbf00b6baa286f702039c2d5daf3a66a",
+  "corpus:web": "78d2721e32cfe01d6620ff8cb2efd706fd7d9bf11e447a7f3203e8a14b7dca73",
+  "corpus:kjv": "82539a00ae10e5af7c8576fc082b63dbbd1be94f44d04b81a0f385795d4685ea",
+  "depends:bom-buckets": "8a8a026195b8c69950b6783b9292e86ecae8286fdc0780a36d62357a8b2425d3",
+  "params": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "env": "e806395824fab178796864d06f942b96252ba82c1dd7f5ba53348baff2e2bd10"
+ },
+ "params": {},
+ "headline": [
+  {
+   "key": "ratio_whole",
+   "value": 7.310970365564636,
+   "low": null,
+   "high": null,
+   "text": "Whole Old Testament vs whole Book of Mormon: 7.3x the Hebrew setting-first wayhi rate (7.9x the KJV's English)."
+  },
+  {
+   "key": "ratio_matched",
+   "value": 2.660983147332198,
+   "low": 2.317235057177791,
+   "high": 3.0654096083767763,
+   "text": "17 Hebrew narrative units vs Book of Mormon narrative frame: 2.7x (2.3-3.1) current text, 2.7x (2.4-3.2) 1830 text, per 1,000 KJV-scale words."
+  },
+  {
+   "key": "setting_ratio",
+   "value": 0.8030895084290868,
+   "low": 0.6795799089896395,
+   "high": 0.9500537928605288,
+   "text": "Setting-first uses alone: Book of Mormon 2.34 vs Hebrew 2.92 per 1,000 = 0.80x (0.68-0.95). Hebrew has 0 straight-to-the-event wayhi; the Book of Mormon 775."
+  },
+  {
+   "key": "densest_unit",
+   "value": 5.8080530281499065,
+   "low": null,
+   "high": null,
+   "text": "Densest Hebrew unit (setting-first): Elijah cycle at 5.81 per 1,000, against the Book of Mormon frame's 7.76."
+  }
+ ],
+ "data": {
+  "hebrew_levels": {
+   "whole OT": {
+    "counts": {
+     "past_verb": 363,
+     "past_time": 421,
+     "future_time": 184,
+     "future_verb": 167,
+     "future_event": 6
+    },
+    "words": 610746,
+    "kjv_past_phrase": 388
+   },
+   "17 narrative books": {
+    "counts": {
+     "past_verb": 260,
+     "past_time": 369,
+     "future_time": 92,
+     "future_verb": 91,
+     "future_event": 4
+    },
+    "words": 361940,
+    "kjv_past_phrase": 342
+   },
+   "story books (no Lev/Num/Deut)": {
+    "counts": {
+     "past_verb": 253,
+     "past_time": 352,
+     "future_time": 54,
+     "future_verb": 45,
+     "future_event": 3
+    },
+    "words": 275975,
+    "kjv_past_phrase": 326
+   },
+   "story books, narrative frame": {
+    "counts": {
+     "past_verb": 237,
+     "past_time": 339,
+     "future_time": 10,
+     "future_verb": 8,
+     "future_event": 3
+    },
+    "words": 167996.84111022908,
+    "kjv_past_phrase": 313
+   },
+   "17 narrative units, narrative frame": {
+    "counts": {
+     "past_verb": 116,
+     "past_time": 249,
+     "future_time": 6,
+     "future_verb": 6
+    },
+    "words": 85348.08579367916,
+    "kjv_past_phrase": 231
+   },
+   "story books, speech only": {
+    "counts": {
+     "past_verb": 16,
+     "past_time": 13,
+     "future_time": 44,
+     "future_verb": 37
+    },
+    "words": 107978.15888977093,
+    "kjv_past_phrase": 13
+   }
+  },
+  "hebrew_unaligned": 11,
+  "units": {
+   "Abraham cycle": {
+    "frame_words": 5541.283043186313,
+    "counts": {
+     "past_verb": 10,
+     "past_time": 15
+    },
+    "setting_per1k": 2.706954306989306,
+    "all_wayhi_per1k": 4.511590511648843
+   },
+   "Jacob cycle": {
+    "frame_words": 5314.212922333014,
+    "counts": {
+     "past_verb": 8,
+     "past_time": 13
+    },
+    "setting_per1k": 2.446270066704971,
+    "all_wayhi_per1k": 3.9516670308311066
+   },
+   "Joseph novella": {
+    "frame_words": 5990.674590871389,
+    "counts": {
+     "past_time": 20,
+     "past_verb": 10,
+     "future_time": 1
+    },
+    "setting_per1k": 3.3385221808702594,
+    "all_wayhi_per1k": 5.00778327130539
+   },
+   "Exodus narrative": {
+    "frame_words": 6588.683026880844,
+    "counts": {
+     "past_verb": 13,
+     "past_time": 17,
+     "future_time": 2,
+     "future_verb": 1
+    },
+    "setting_per1k": 2.5801817951542874,
+    "all_wayhi_per1k": 4.553261991448742
+   },
+   "Conquest": {
+    "frame_words": 6314.486052450485,
+    "counts": {
+     "past_time": 23,
+     "past_verb": 4,
+     "future_verb": 2
+    },
+    "setting_per1k": 3.6424183708623934,
+    "all_wayhi_per1k": 4.2758824353602005
+   },
+   "Judges tales": {
+    "frame_words": 7242.967569523909,
+    "counts": {
+     "past_time": 22,
+     "future_time": 1,
+     "past_verb": 10
+    },
+    "setting_per1k": 3.0374290356578375,
+    "all_wayhi_per1k": 4.418078597320491
+   },
+   "Ruth": {
+    "frame_words": 1090.1573111026112,
+    "counts": {
+     "past_time": 4,
+     "past_verb": 1
+    },
+    "setting_per1k": 3.669195224636254,
+    "all_wayhi_per1k": 4.5864940307953175
+   },
+   "Samuel and Saul": {
+    "frame_words": 6042.872358623648,
+    "counts": {
+     "past_verb": 10,
+     "past_time": 17
+    },
+    "setting_per1k": 2.81323168703699,
+    "all_wayhi_per1k": 4.468073855882278
+   },
+   "Rise of David": {
+    "frame_words": 6878.361330759841,
+    "counts": {
+     "past_time": 19,
+     "past_verb": 9,
+     "future_verb": 1
+    },
+    "setting_per1k": 2.762285824536802,
+    "all_wayhi_per1k": 4.07073700458055
+   },
+   "Court narrative": {
+    "frame_words": 5828.629255105175,
+    "counts": {
+     "past_time": 16,
+     "past_verb": 4,
+     "future_time": 1
+    },
+    "setting_per1k": 2.7450708047669927,
+    "all_wayhi_per1k": 3.431338505958741
+   },
+   "Solomon": {
+    "frame_words": 7573.555715631592,
+    "counts": {
+     "past_time": 11,
+     "past_verb": 15
+    },
+    "setting_per1k": 1.452422140012297,
+    "all_wayhi_per1k": 3.432997785483611
+   },
+   "Elijah cycle": {
+    "frame_words": 3615.669467585651,
+    "counts": {
+     "past_verb": 8,
+     "past_time": 21
+    },
+    "setting_per1k": 5.8080530281499065,
+    "all_wayhi_per1k": 8.020644657921299
+   },
+   "Elisha cycle": {
+    "frame_words": 7158.006675353372,
+    "counts": {
+     "past_time": 29,
+     "future_time": 1,
+     "past_verb": 7
+    },
+    "setting_per1k": 4.051407230430998,
+    "all_wayhi_per1k": 5.02933311363848
+   },
+   "Hezekiah narrative": {
+    "frame_words": 1533.8899594502775,
+    "counts": {
+     "past_time": 5,
+     "future_verb": 1,
+     "past_verb": 1
+    },
+    "setting_per1k": 3.2596862435894183,
+    "all_wayhi_per1k": 3.9116234923073017
+   },
+   "Nehemiah memoir": {
+    "frame_words": 3765.0355282435644,
+    "counts": {
+     "past_time": 11,
+     "past_verb": 1,
+     "future_verb": 1
+    },
+    "setting_per1k": 2.921619176627434,
+    "all_wayhi_per1k": 3.187220919957201
+   },
+   "Esther": {
+    "frame_words": 4196.262382892982,
+    "counts": {
+     "past_time": 5,
+     "past_verb": 1
+    },
+    "setting_per1k": 1.1915365493787131,
+    "all_wayhi_per1k": 1.4298438592544558
+   },
+   "Jonah": {
+    "frame_words": 673.3386036844857,
+    "counts": {
+     "past_verb": 4,
+     "past_time": 1
+    },
+    "setting_per1k": 1.4851368903075426,
+    "all_wayhi_per1k": 7.4256844515377125
+   }
+  },
+  "ladder": [
+   {
+    "hebrew_level": "whole OT",
+    "bom_level": "whole text",
+    "kjv": 0.6352886469989161,
+    "hebrew_setting": 0.6893209288312981,
+    "bom": 5.03960488304911,
+    "bom_1830": 5.192908736677805,
+    "bom_setting": 1.5357375827043147,
+    "bom_event": 3.5038673003447953,
+    "ratio_kjv": 7.932779700780185,
+    "ratio_hebrew": 7.310970365564636,
+    "ratio_hebrew_1830": 7.533368739408605,
+    "ratio_hebrew_ci": [
+     6.548549812039936,
+     8.175542467300955
+    ],
+    "ratio_hebrew_1830_ci": [
+     6.750551494761512,
+     8.420936998736792
+    ]
+   },
+   {
+    "hebrew_level": "17 narrative books",
+    "bom_level": "without KJV quotations",
+    "kjv": 0.944907995800409,
+    "hebrew_setting": 1.0195059954688623,
+    "bom": 5.262562024446709,
+    "bom_1830": 5.422972335038254,
+    "bom_setting": 1.6006308828064915,
+    "bom_event": 3.6619311416402174,
+    "ratio_kjv": 5.569390933123514,
+    "ratio_hebrew": 5.161874523382768,
+    "ratio_hebrew_1830": 5.31921573697492,
+    "ratio_hebrew_ci": [
+     4.596998585559438,
+     5.807635213652866
+    ],
+    "ratio_hebrew_1830_ci": [
+     4.73900223020791,
+     5.982417636798308
+    ]
+   },
+   {
+    "hebrew_level": "story books (no Lev/Num/Deut)",
+    "bom_level": "without KJV quotations",
+    "kjv": 1.1812664190596975,
+    "hebrew_setting": 1.2754778512546425,
+    "bom": 5.262562024446709,
+    "bom_1830": 5.422972335038254,
+    "bom_setting": 1.6006308828064915,
+    "bom_event": 3.6619311416402174,
+    "ratio_kjv": 4.455017038946872,
+    "ratio_hebrew": 4.125953280388297,
+    "ratio_hebrew_1830": 4.251718153869835,
+    "ratio_hebrew_ci": [
+     3.6665065983904297,
+     4.6527856892766986
+    ],
+    "ratio_hebrew_1830_ci": [
+     3.7797407220937567,
+     4.792845776678756
+    ]
+   },
+   {
+    "hebrew_level": "story books, narrative frame",
+    "bom_level": "narrative frame",
+    "kjv": 1.8631302703759105,
+    "hebrew_setting": 2.01789508516752,
+    "bom": 7.763323541754091,
+    "bom_1830": 8.013805824157398,
+    "bom_setting": 2.3429850328717303,
+    "bom_event": 5.420338508882361,
+    "ratio_kjv": 4.166817353135345,
+    "ratio_hebrew": 3.8472384410954654,
+    "ratio_hebrew_1830": 3.9713689195551583,
+    "ratio_hebrew_ci": [
+     3.4035901547756566,
+     4.357705580582954
+    ],
+    "ratio_hebrew_1830_ci": [
+     3.5151247018432707,
+     4.496236828245332
+    ]
+   },
+   {
+    "hebrew_level": "17 narrative units, narrative frame",
+    "bom_level": "narrative frame",
+    "kjv": 2.7065633382618612,
+    "hebrew_setting": 2.9174643776069416,
+    "bom": 7.763323541754091,
+    "bom_1830": 8.013805824157398,
+    "bom_setting": 2.3429850328717303,
+    "bom_event": 5.420338508882361,
+    "ratio_kjv": 2.8683324834879538,
+    "ratio_hebrew": 2.660983147332198,
+    "ratio_hebrew_1830": 2.7468393052773945,
+    "ratio_hebrew_ci": [
+     2.317235057177791,
+     3.0654096083767763
+    ],
+    "ratio_hebrew_1830_ci": [
+     2.3930433045010977,
+     3.1630266232073203
+    ]
+   }
+  ],
+  "buckets": {
+   "past_time": {
+    "hebrew": [
+     249,
+     2.9174643776069416,
+     2.5663148255572756,
+     3.3032464881950743
+    ],
+    "bom": [
+     335,
+     2.3429850328717303
+    ],
+    "bom_1830": [
+     347,
+     2.424403331283886
+    ],
+    "ratio_ci": [
+     0.6795799089896395,
+     0.9500537928605288
+    ],
+    "ratio_1830_ci": [
+     0.7041230529030353,
+     0.9818761718349376
+    ]
+   },
+   "past_event": {
+    "hebrew": [
+     0,
+     0.0,
+     0.0,
+     0.04322158393840782
+    ],
+    "bom": [
+     775,
+     5.420338508882361
+    ],
+    "bom_1830": [
+     800,
+     5.5894024928735115
+    ],
+    "ratio_ci": null,
+    "ratio_1830_ci": null
+   },
+   "past_verb": {
+    "hebrew": [
+     116,
+     1.3591400313349606,
+     1.123083706096573,
+     1.63015900338565
+    ],
+    "bom": [
+     0,
+     0.0
+    ],
+    "bom_1830": [
+     0,
+     0.0
+    ],
+    "ratio_ci": [
+     0.0,
+     0.019287622495489123
+    ],
+    "ratio_1830_ci": [
+     0.0,
+     0.019267678332716417
+    ]
+   },
+   "future_time": {
+    "hebrew": [
+     44,
+     0.40748981509230237,
+     0.2960827234587437,
+     0.5470360569919238
+    ],
+    "bom": [
+     15,
+     0.1325451316173157
+    ],
+    "bom_1830": [
+     15,
+     0.1325217114737298
+    ],
+    "ratio_ci": [
+     0.16813959809234846,
+     0.5958505811792647
+    ],
+    "ratio_1830_ci": [
+     0.1681098885626075,
+     0.5957452969941974
+    ]
+   },
+   "future_event": {
+    "hebrew": [
+     0,
+     0.0,
+     0.0,
+     0.034163200151242745
+    ],
+    "bom": [
+     21,
+     0.18556318426424198
+    ],
+    "bom_1830": [
+     21,
+     0.1855303960632217
+    ],
+    "ratio_ci": null,
+    "ratio_1830_ci": null
+   },
+   "future_verb": {
+    "hebrew": [
+     37,
+     0.3426618899639815,
+     0.24126559329188518,
+     0.47231427787163505
+    ],
+    "bom": [
+     0,
+     0.0
+    ],
+    "bom_1830": [
+     0,
+     0.0
+    ],
+    "ratio_ci": [
+     0.0,
+     0.10003005178098068
+    ],
+    "ratio_1830_ci": [
+     0.0,
+     0.1000123769094329
+    ]
+   }
+  },
+  "kjv_ot_event_share": [
+   14,
+   388,
+   0.03608247422680412,
+   0.019864467683370877,
+   0.0597996941724663
+  ]
+ }
+}

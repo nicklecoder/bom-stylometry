@@ -1,0 +1,487 @@
+{
+ "id": "event-shares",
+ "family": "wayhi",
+ "title": "Event-first share in English comparison texts, the JST, Moses and Abraham",
+ "label": "exploratory",
+ "question": "Do English texts in biblical style reach the Book of Mormon's event-first share and rate?",
+ "generated_utc": "2026-10-19T14:25:34+00:00",
+ "fingerprint": "660531ccd4aa49e3e6a9f1a3bf99d089a163644a925f03bc81c94c6af1293cd9",
+ "inputs": {
+  "code:analyses/wayhi/event_shares.py": "95bbac761a75a61e4a717bdc07eea8fee00ba54689bf05f8b32ad38fabbe78de",
+  "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
+  "lib:src/bomstylo/controls.py": "b7f69a28328d78995815f16b1e322def6601d13e52aac2adb4f8c7479d2a8f20",
+  "lib:src/bomstylo/corpus.py": "9da5021f951175c8ce21aeaa2ae53339109be63ef4a4a7058684a9ddc12edc3f",
+  "lib:src/bomstylo/english.py": "7b01e9429943c042a91c6ac82bd51d80eccb195316d6d5592612f71f12928300",
+  "lib:src/bomstylo/jst.py": "86e50d631e00fbc7ba165b9efc500290c75f78cdaf571a7b6d1d9af83bc5e4c2",
+  "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
+  "lib:src/bomstylo/pgp.py": "15abff9a0d4bd85372d6d3a8416cf2a8fb0554e9f6bedaeca5246e002b24c465",
+  "lib:src/bomstylo/stats.py": "b108a4b53460072d206d608df26968b5e9037d69011db269d61f19a5e91d4116",
+  "corpus:kjv": "82539a00ae10e5af7c8576fc082b63dbbd1be94f44d04b81a0f385795d4685ea",
+  "corpus:late-war": "e79f5de876e4706f091c6b993bfceac70ac802891854a2502fdbcc333a98b43a",
+  "corpus:period-pastiches": "ab44a104365ce4cb240063548a0172fa408aec3bd4e8f15b11deee78a50e7e72",
+  "corpus:jst-1867": "c29b7ab833acbcd60d71f446c1d32632a34c8c0c65a3076eadeb640c1f357ebc",
+  "corpus:moses-abraham": "d762a83a235af8edbfd9266e0eb52941c42762889c1eb7a39a999552544eb978",
+  "params": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "env": "e806395824fab178796864d06f942b96252ba82c1dd7f5ba53348baff2e2bd10"
+ },
+ "params": {},
+ "headline": [
+  {
+   "key": "pastiche_max_share",
+   "value": 0.7692307692307693,
+   "low": null,
+   "high": null,
+   "text": "Pastiche event-first shares (revised rule): Snowden 43% of 113, First Book of Napoleon 77% of 13, The Late War 29% of 77, Book of Nullification 38% of 16; rates 0.65–2.10 per 1,000 words, at most a third of the Book of Mormon's."
+  },
+  {
+   "key": "kjv_ot_share",
+   "value": 0.03608247422680412,
+   "low": null,
+   "high": null,
+   "text": "KJV Old Testament: 4% event-first (14/388); New Testament 12%."
+  },
+  {
+   "key": "jst_added_share",
+   "value": 0.8085106382978723,
+   "low": 0.6674026631661145,
+   "high": 0.90850843199181,
+   "text": "JST additions, revised rule, boundary-corrected: 38/47 event-first (81%); formulas kept from the KJV 5%."
+  },
+  {
+   "key": "abraham_vs_moses_p",
+   "value": 0.25921869650605367,
+   "low": null,
+   "high": null,
+   "text": "Abraham (claims an Egyptian source) 15/16 event-first at 2.91 per 1,000; Moses 34/43 at 3.42. Fisher p = 0.26: no difference."
+  }
+ ],
+ "data": {
+  "texts": {
+   "KJV Old Testament | revised": {
+    "event": 14,
+    "time": 374,
+    "share": [
+     0.03608247422680412,
+     0.019864467683370877,
+     0.0597996941724663
+    ],
+    "words": 610746,
+    "per_1k": 0.6352886469989161
+   },
+   "KJV Old Testament | registered": {
+    "event": 48,
+    "time": 340,
+    "share": [
+     0.12371134020618557,
+     0.09264076423995873,
+     0.1606595060546101
+    ],
+    "words": 610746,
+    "per_1k": 0.6352886469989161
+   },
+   "KJV New Testament | revised": {
+    "event": 8,
+    "time": 57,
+    "share": [
+     0.12307692307692308,
+     0.054663101601887046,
+     0.22818589406137593
+    ],
+    "words": 180667,
+    "per_1k": 0.35977793398905167
+   },
+   "KJV New Testament | registered": {
+    "event": 14,
+    "time": 51,
+    "share": [
+     0.2153846153846154,
+     0.12305307524218004,
+     0.33488731454755233
+    ],
+    "words": 180667,
+    "per_1k": 0.35977793398905167
+   },
+   "The Late War (1819) | revised": {
+    "event": 22,
+    "time": 55,
+    "share": [
+     0.2857142857142857,
+     0.18848943873535126,
+     0.4000353724707615
+    ],
+    "words": 47500,
+    "per_1k": 1.6210526315789473
+   },
+   "The Late War (1819) | registered": {
+    "event": 27,
+    "time": 50,
+    "share": [
+     0.35064935064935066,
+     0.24532249650618057,
+     0.4678467758113496
+    ],
+    "words": 47500,
+    "per_1k": 1.6210526315789473
+   },
+   "Snowden, American Revolution (1793) | revised": {
+    "event": 49,
+    "time": 64,
+    "share": [
+     0.4336283185840708,
+     0.34068762816799214,
+     0.5301344235099705
+    ],
+    "words": 53916,
+    "per_1k": 2.0958528080718155
+   },
+   "Snowden, American Revolution (1793) | registered": {
+    "event": 54,
+    "time": 59,
+    "share": [
+     0.4778761061946903,
+     0.3830370609976887,
+     0.5739030980014967
+    ],
+    "words": 53916,
+    "per_1k": 2.0958528080718155
+   },
+   "First Book of Napoleon (1809) | revised": {
+    "event": 10,
+    "time": 3,
+    "share": [
+     0.7692307692307693,
+     0.461868460765959,
+     0.9496189265088485
+    ],
+    "words": 20003,
+    "per_1k": 0.6499025146228066
+   },
+   "First Book of Napoleon (1809) | registered": {
+    "event": 11,
+    "time": 2,
+    "share": [
+     0.8461538461538461,
+     0.5455289443234422,
+     0.9807933280174715
+    ],
+    "words": 20003,
+    "per_1k": 0.6499025146228066
+   },
+   "Book of Nullification (1830) | revised": {
+    "event": 6,
+    "time": 10,
+    "share": [
+     0.375,
+     0.15198367508112207,
+     0.6456539056979218
+    ],
+    "words": 14888,
+    "per_1k": 1.07469102632993
+   },
+   "Book of Nullification (1830) | registered": {
+    "event": 12,
+    "time": 4,
+    "share": [
+     0.75,
+     0.4762291801038727,
+     0.9273379617471178
+    ],
+    "words": 14888,
+    "per_1k": 1.07469102632993
+   },
+   "Moses 1 | revised": {
+    "event": 7,
+    "time": 3,
+    "share": [
+     0.7,
+     0.3475471499400027,
+     0.9332604888222655
+    ],
+    "words": 1472,
+    "per_1k": 6.793478260869565
+   },
+   "Moses 1 | registered": {
+    "event": 7,
+    "time": 3,
+    "share": [
+     0.7,
+     0.3475471499400027,
+     0.9332604888222655
+    ],
+    "words": 1472,
+    "per_1k": 6.793478260869565
+   },
+   "Moses 2–4 | revised": {
+    "event": 1,
+    "time": 0,
+    "share": [
+     1.0,
+     0.025,
+     1.0
+    ],
+    "words": 2979,
+    "per_1k": 0.3356831151393085
+   },
+   "Moses 2–4 | registered": {
+    "event": 1,
+    "time": 0,
+    "share": [
+     1.0,
+     0.025,
+     1.0
+    ],
+    "words": 2979,
+    "per_1k": 0.3356831151393085
+   },
+   "Moses 5–8 | revised": {
+    "event": 26,
+    "time": 6,
+    "share": [
+     0.8125,
+     0.63560769013591,
+     0.9279238345415024
+    ],
+    "words": 8108,
+    "per_1k": 3.946719289590528
+   },
+   "Moses 5–8 | registered": {
+    "event": 27,
+    "time": 5,
+    "share": [
+     0.84375,
+     0.6721212343179582,
+     0.9472494355978659
+    ],
+    "words": 8108,
+    "per_1k": 3.946719289590528
+   },
+   "Moses (all) | revised": {
+    "event": 34,
+    "time": 9,
+    "share": [
+     0.7906976744186046,
+     0.6395752479058332,
+     0.8995588533220705
+    ],
+    "words": 12559,
+    "per_1k": 3.4238394776654193
+   },
+   "Moses (all) | registered": {
+    "event": 35,
+    "time": 8,
+    "share": [
+     0.813953488372093,
+     0.6659855327575865,
+     0.9160876002244056
+    ],
+    "words": 12559,
+    "per_1k": 3.4238394776654193
+   },
+   "Abraham | revised": {
+    "event": 15,
+    "time": 1,
+    "share": [
+     0.9375,
+     0.697679261565468,
+     0.9984188882772341
+    ],
+    "words": 5507,
+    "per_1k": 2.905393136008716
+   },
+   "Abraham | registered": {
+    "event": 15,
+    "time": 1,
+    "share": [
+     0.9375,
+     0.697679261565468,
+     0.9984188882772341
+    ],
+    "words": 5507,
+    "per_1k": 2.905393136008716
+   }
+  },
+  "abraham_vs_moses_fisher_p": 0.25921869650605367,
+  "jst_revised": {
+   "panels": {
+    "primary (OT narrative)": {
+     "added": {
+      "event": 39,
+      "time": 13,
+      "n": 52,
+      "share": [
+       0.75,
+       0.6105361100688396,
+       0.8596513964118091
+      ]
+     },
+     "retained": {
+      "event": 15,
+      "time": 302,
+      "n": 317,
+      "share": [
+       0.0473186119873817,
+       0.02672236877683718,
+       0.07684475879593852
+      ]
+     },
+     "added, new composition": {
+      "event": 1,
+      "time": 2,
+      "n": 3,
+      "share": [
+       0.3333333333333333,
+       0.008403758659612636,
+       0.9057006759497539
+      ]
+     },
+     "added, revision": {
+      "event": 38,
+      "time": 11,
+      "n": 49,
+      "share": [
+       0.7755102040816326,
+       0.6337569811407235,
+       0.882256579445809
+      ]
+     },
+     "added_per_1k_jst_words": 0.1627385136340449,
+     "jst_words": 319531
+    },
+    "secondary (NT narrative)": {
+     "added": {
+      "event": 1,
+      "time": 4,
+      "n": 5,
+      "share": [
+       0.2,
+       0.0050507633794680575,
+       0.7164179361180895
+      ]
+     },
+     "retained": {
+      "event": 9,
+      "time": 49,
+      "n": 58,
+      "share": [
+       0.15517241379310345,
+       0.07349327186624972,
+       0.2742315240041287
+      ]
+     },
+     "added, new composition": {
+      "event": 1,
+      "time": 0,
+      "n": 1,
+      "share": [
+       1.0,
+       0.025,
+       1.0
+      ]
+     },
+     "added, revision": {
+      "event": 0,
+      "time": 4,
+      "n": 4,
+      "share": [
+       0.0,
+       0.0,
+       0.6023646356164746
+      ]
+     },
+     "added_per_1k_jst_words": 0.04385157120179616,
+     "jst_words": 114021
+    }
+   },
+   "boundary_corrected": {
+    "primary (OT narrative)": {
+     "added": {
+      "event": 38,
+      "time": 9,
+      "n": 47,
+      "share": [
+       0.8085106382978723,
+       0.6674026631661145,
+       0.90850843199181
+      ]
+     },
+     "retained": {
+      "event": 15,
+      "time": 302,
+      "n": 317,
+      "share": [
+       0.0473186119873817,
+       0.02672236877683718,
+       0.07684475879593852
+      ]
+     },
+     "added, new composition": {
+      "event": 1,
+      "time": 2,
+      "n": 3,
+      "share": [
+       0.3333333333333333,
+       0.008403758659612636,
+       0.9057006759497539
+      ]
+     },
+     "added, revision": {
+      "event": 37,
+      "time": 7,
+      "n": 44,
+      "share": [
+       0.8409090909090909,
+       0.6993467862283121,
+       0.9335565387971044
+      ]
+     },
+     "added_per_1k_jst_words": 0.14709057963077135,
+     "jst_words": 319531
+    },
+    "secondary (NT narrative)": {
+     "added": {
+      "event": 1,
+      "time": 4,
+      "n": 5,
+      "share": [
+       0.2,
+       0.0050507633794680575,
+       0.7164179361180895
+      ]
+     },
+     "retained": {
+      "event": 9,
+      "time": 49,
+      "n": 58,
+      "share": [
+       0.15517241379310345,
+       0.07349327186624972,
+       0.2742315240041287
+      ]
+     },
+     "added, new composition": {
+      "event": 1,
+      "time": 0,
+      "n": 1,
+      "share": [
+       1.0,
+       0.025,
+       1.0
+      ]
+     },
+     "added, revision": {
+      "event": 0,
+      "time": 4,
+      "n": 4,
+      "share": [
+       0.0,
+       0.0,
+       0.6023646356164746
+      ]
+     },
+     "added_per_1k_jst_words": 0.04385157120179616,
+     "jst_words": 114021
+    }
+   }
+  }
+ }
+}

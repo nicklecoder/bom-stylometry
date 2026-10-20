@@ -1,0 +1,10 @@
+# Source texts are fetched, never committed (constitution IV).
+corpora/raw/
+corpora/prepared/
+# Requiem's local index and config are per machine.
+CLAUDE.local.md
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+results/**/*.log

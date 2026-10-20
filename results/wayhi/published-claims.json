@@ -1,0 +1,127 @@
+{
+ "id": "published-claims",
+ "family": "wayhi",
+ "title": "Published figures vs measured counts",
+ "label": "exploratory",
+ "question": "Do the published counts (Parry 1992/2020) reproduce from the texts?",
+ "generated_utc": "2026-10-19T14:40:43+00:00",
+ "fingerprint": "9af674e0790f0c04cdd3384b1056bc43e6621ae15ae00c9565e96b5bef3edd3e",
+ "inputs": {
+  "code:analyses/wayhi/published_claims.py": "74f7b9b9b44698eb0c28f9f6c2ef810f9423c8939695c6486f56111f23e334b0",
+  "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
+  "lib:src/bomstylo/corpus.py": "9da5021f951175c8ce21aeaa2ae53339109be63ef4a4a7058684a9ddc12edc3f",
+  "lib:src/bomstylo/paths.py": "0aff43330898f9068caffe098298a2c7f2c96db1fef5645edf4fba2e3504eed7",
+  "lib:src/bomstylo/results.py": "bba2a1088e277b88a7e67d3f52d7c70ec74f4b2751226c59e06851e6e0f959cb",
+  "corpus:kjv": "82539a00ae10e5af7c8576fc082b63dbbd1be94f44d04b81a0f385795d4685ea",
+  "corpus:bom-current": "b6362df3f54d9ea69b1e2a5e35f1d0ee8c0cf24b19045d2602fdf166c49a68ef",
+  "depends:hebrew-forms": "1717a113226fa5942a991c563641adafeed4b40481d7fb4e9b41ff57aa4b5d52",
+  "params": "1b1f2cdbb728449e7bb5ecae54aeec34bf33d6925688fd3c13bdbf129a8b514a",
+  "env": "e806395824fab178796864d06f942b96252ba82c1dd7f5ba53348baff2e2bd10"
+ },
+ "params": {
+  "parry": {
+   "wayhi_in_hebrew_bible": 1204,
+   "came_to_pass_in_kjv_ot": 727,
+   "book_of_mormon": 1404,
+   "original_text": 1494
+  }
+ },
+ "headline": [
+  {
+   "key": "parry_check",
+   "value": 784,
+   "low": null,
+   "high": null,
+   "text": "Published vs measured: wayhi 1,204 vs 784; KJV Old Testament 'came to pass' 727 vs 391; Book of Mormon 1,404 vs 1,353."
+  }
+ ],
+ "data": {
+  "measured": {
+   "kjv_ot_came_to_pass": 391,
+   "kjv_ot_it_came_to_pass": 388,
+   "kjv_ot_come_to_pass_any": 535,
+   "kjv_nt_came_to_pass": 66,
+   "kjv_whole_come_to_pass_any": 622,
+   "bom_it_came_to_pass": 1353,
+   "bom_it_shall_come_to_pass": 60
+  },
+  "checks": [
+   {
+    "claim": "wayhi in the Hebrew Bible",
+    "published": 1204,
+    "measured": 784,
+    "note": "unpointed ויהי + והיה = 1,224"
+   },
+   {
+    "claim": "'came to pass' in the KJV Old Testament",
+    "published": 727,
+    "measured": 391,
+    "note": "535 with 'come to pass'; 622 in the whole KJV, any tense"
+   },
+   {
+    "claim": "'it came to pass' in the Book of Mormon",
+    "published": 1404,
+    "measured": 1353,
+    "note": "current text"
+   },
+   {
+    "claim": "in the original text",
+    "published": 1494,
+    "measured": null,
+    "note": "manuscript-level count; outside this check (see bom-buckets for the 1830 edition)"
+   }
+  ],
+  "named_passages": {
+   "Psalm of Nephi (2 Ne 4:16-35)": {
+    "words": 684,
+    "phrase": 0,
+    "per1k": 0.0
+   },
+   "King Benjamin (Mosiah 2-5)": {
+    "words": 5573,
+    "phrase": 6,
+    "per1k": 1.0766194150367845
+   },
+   "Abinadi (Mosiah 12-16)": {
+    "words": 4368,
+    "phrase": 8,
+    "per1k": 1.8315018315018314
+   },
+   "Alma 5": {
+    "words": 2787,
+    "phrase": 1,
+    "per1k": 0.35880875493362036
+   },
+   "Alma 32-34": {
+    "words": 4268,
+    "phrase": 3,
+    "per1k": 0.7029053420805998
+   },
+   "Jesus (3 Nephi 11-18)": {
+    "words": 8052,
+    "phrase": 30,
+    "per1k": 3.7257824143070044
+   },
+   "Moroni 7-10": {
+    "words": 5154,
+    "phrase": 0,
+    "per1k": 0.0
+   },
+   "Alma war chapters (43-62)": {
+    "words": 29423,
+    "phrase": 231,
+    "per1k": 7.851000917649458
+   },
+   "1 Nephi (whole book)": {
+    "words": 25319,
+    "phrase": 200,
+    "per1k": 7.899206129783956
+   },
+   "Ether (whole book)": {
+    "words": 16661,
+    "phrase": 164,
+    "per1k": 9.843346737890883
+   }
+  }
+ }
+}
