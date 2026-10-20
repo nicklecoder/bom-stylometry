@@ -64,7 +64,8 @@ US2 agent learns what's known from Requiem; US3 developer adds the next family.
 - [X] T060 README, `annotations/README.md`, `CLAUDE.md`/`AGENTS.md` project notes
 - [ ] T061 Verify the remaining literature citations in the report (GKC §111f–g, Joüon–Muraoka, Lambdin, Skousen, Halverson 2020, *Charting the Book of Mormon*, Vittmann)
 - [ ] T062 SC-002 on a second machine: fresh clone → fetch → run → report, diff against the committed report
-- [ ] T063 First commit and push to GitHub (public); then link the report and repository from the blog post
+- [x] T063 First commit and push to GitHub (public): 946417c, https://github.com/nicklecoder/bom-stylometry
+- [ ] T064 Blog post live with the repository and report links (linked in the draft; the report is copied to dabbledeep.com by its `scripts/sync-report.mjs`)
 
 ## Dependencies
 
