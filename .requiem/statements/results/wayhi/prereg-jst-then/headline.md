@@ -6,14 +6,14 @@ status: active
 tags:
     - wayhi
     - registered
-    - fp:323adbee81c5
+    - fp:ddedb53b5e99
 provenance:
     type: code-derived
     file: results/wayhi/prereg-jst-then.fingerprint
     line_range:
         start: 1
         end: 1
-    hash: 6ea22f7b5d83597ecba9c48ff7db96b19c2ae3092b6184852a25c4efbbc23c58
+    hash: 3856fc70cfee39e6ab7a0a875ecf9623776de066ab42dca559202e0aa90f3a3a
 created_at: 2026-10-19T14:34:30.140992534Z
 ---
 
@@ -23,5 +23,5 @@ PREREG 30 (registered): 52 added formulas in JST OT narrative, 39 event-first, S
 Without the five boundary spill-overs (Amendment 2): 47 added, 38 event-first, S = 0.81 (0.67–0.91); verdict unchanged. Shows the idiom was Smith's by 1830; whether he had it before the Book of Mormon is untested.
 
 Recorded values: S_registered=0.75 [0.610536, 0.859651]; S_boundary_corrected=0.808511 [0.667403, 0.908508]
-Change from the previous record: first record.
-Data: results/wayhi/prereg-jst-then.json (fingerprint sha256:323adbee81c55be35a82a88ac243406c7e7e783e35a61c53f787f2a0efea0d65). Code: analyses/wayhi/prereg_jst_then.py. If `requiem get` shows stale, an input changed: run `uv run bomstylo run prereg-jst-then` and `uv run bomstylo record prereg-jst-then`.
+Change from the previous record: none (same values, new inputs).
+Data: results/wayhi/prereg-jst-then.json (fingerprint sha256:ddedb53b5e993dfc15ef32a46fe35015b5da0b94aa188bb188b4560cc75a2709). Code: analyses/wayhi/prereg_jst_then.py. If `requiem get` shows stale, an input changed: run `uv run bomstylo run prereg-jst-then` and `uv run bomstylo record prereg-jst-then`.

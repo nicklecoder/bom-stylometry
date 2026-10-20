@@ -4,9 +4,10 @@ Question: how often do English texts in biblical style, written without (or
 before) the Book of Mormon, put the event straight after the formula? And
 Joseph Smith's own later scripture?
 
-Why: the Book of Mormon's event-first share (70%) is the feature an Egyptian
-source was proposed to explain (PREREG 2). Before that explanation is needed,
-English has to be shown not to produce it. Texts:
+Why: the Book of Mormon's event-first share (70%) is the use Hebrew lacks, and
+an Egyptian source was proposed to explain it (PREREG 2). English in biblical
+style is the competing explanation, so it goes through the same measurement.
+Texts:
 - the KJV Old and New Testaments (the model every pastiche imitated);
 - four pastiches: Snowden (1793), The First Book of Napoleon (1809),
   The Late War (1819), The Book of Nullification (1830);
@@ -29,7 +30,7 @@ ANALYSIS = Analysis(
     family="wayhi",
     title="Event-first share in English comparison texts, the JST, Moses and Abraham",
     question="Do English texts in biblical style reach the Book of Mormon's event-first share and rate?",
-    why="An Egyptian explanation of the event-first share is needed only if English doesn't produce it.",
+    why="English in biblical style is the competitor to an Egyptian source for the event-first share; it gets the same measurement.",
     label="exploratory",
     corpora=["kjv", "late-war", "period-pastiches", "jst-1867", "moses-abraham"],
 )

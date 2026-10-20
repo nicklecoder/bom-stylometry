@@ -4,10 +4,10 @@
  "title": "Pre-registered: is 'it came to pass' Smith's all-purpose 'then'? (PREREG 30, JST)",
  "label": "registered",
  "question": "When Joseph Smith added 'it came to pass' to the KJV in the JST, was it event-first at the Book of Mormon's share?",
- "generated_utc": "2026-10-19T14:29:18+00:00",
- "fingerprint": "323adbee81c55be35a82a88ac243406c7e7e783e35a61c53f787f2a0efea0d65",
+ "generated_utc": "2026-10-20T03:07:05+00:00",
+ "fingerprint": "ddedb53b5e993dfc15ef32a46fe35015b5da0b94aa188bb188b4560cc75a2709",
  "inputs": {
-  "code:analyses/wayhi/prereg_jst_then.py": "9f49fcd10c5fe24cdc50d770e834b2831f8ad7920620bd6b84a656af9616dc60",
+  "code:analyses/wayhi/prereg_jst_then.py": "fab2bf6585934be2fc056de1a19eec5d46b36872e2c1ce1bea51d8fd4ad27929",
   "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
   "lib:src/bomstylo/corpus.py": "9da5021f951175c8ce21aeaa2ae53339109be63ef4a4a7058684a9ddc12edc3f",
   "lib:src/bomstylo/english.py": "7b01e9429943c042a91c6ac82bd51d80eccb195316d6d5592612f71f12928300",

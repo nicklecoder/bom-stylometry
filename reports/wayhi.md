@@ -20,8 +20,8 @@ genre, and it splits each use by what follows the formula:
   eaten, that…"). This is how Hebrew *wayhi* works as a narrative marker.
 - **straight to the event**: the next thing that happened comes right after ("and it came to pass
   *that* they did march"). Hebrew *wayhi* doesn't do this.
-- **ordinary verb** (Hebrew only): *wayhi* with its own subject ("and there was light"). No "it came
-  to pass" renders it, so it's excluded.
+- **ordinary verb** (Hebrew only): *wayhi* with its own subject ("and there was light"). The KJV
+  renders it "it came to pass" in only 8 of 317 verses (2.5%), so it's excluded.
 
 Labels: **registered** results come from tests whose method and decision rule were written down and
 hashed before the measurement ([`preregistrations/`](../preregistrations/)). Everything else is
@@ -70,17 +70,43 @@ hashed before the measurement ([`preregistrations/`](../preregistrations/)). Eve
 
 In the narrative frame (the book's own narration, without quotations and embedded speeches), the
 Book of Mormon uses the formula 7.76 times per 1,000 words (8.01 in the
-1830 text): 335 setting-first and 775 straight to the event. Against
-Hebrew setting-first *wayhi* in 17 matched narrative units, that is 2.7× (2.3–3.1) per 1,000
-words, and 2.55× (2.2–2.9) per 100 verbs. The setting-first uses alone run at
-0.80× (0.68–0.95) the Hebrew rate. The difference is made up of the straight-to-the-event uses,
-70% (67%–73%), 775/1,110 of the book's total, a use Hebrew doesn't have.
+1830 text): 335 setting-first and 775 straight to the event.
 
-On the Egyptian side, the texts that match the book in genre and date (connected narratives
-composed before about 500 BC) run 0–22 openings per 1,000 estimated translation
-words, by text. That range brackets the book. The Lehi-era Demotic texts are lower but fail on
-genre. So the Egyptian rate test is **inconclusive**, not negative. The two pre-registered tests
-stand as registered: PREREG 2, MISS: the book does not match the Egyptian proportion; PREREG 30, R1 HABIT TRANSFERS: H_then is a sufficient explanation of the event-first share.
+**Most of the familiar gap is genre.** Whole text against the whole Old Testament, the book uses the
+formula 7.3× as often as Hebrew uses setting-first *wayhi*. Narrative against matched
+narrative (17 Hebrew units), it is 2.7× (2.3–3.1) per 1,000 words and 2.55× (2.2–2.9) per
+100 verbs.
+
+**The Hebrew-style use is at the Hebrew rate.** Counted alone, the book's setting-first uses run at
+0.80× (0.68–0.95) the Hebrew rate in the same kind of text: a little below it, not above. All of
+the remaining difference is the straight-to-the-event use. Share of the book's formulas that go
+straight to the event: 70% (67%–73%), 775/1,110.
+
+**Hebrew has no straight-to-the-event *wayhi*.** None of the Hebrew Bible's
+421 narrative-marker *wayhi* goes straight to the event. The other sources
+measured on that use:
+
+- Egyptian narrative particles (ꜥḥꜥ.n, wn.ꞽn): every one leads into an event (438 of 438).
+- Demotic ḫpr "it came to pass", Lehi-era sentences: 7 of 15 straight to the event;
+  pRylands 9 (c. 513 BC): 11 of 12.
+- Joseph Smith's own additions to KJV narrative in the JST: 81% (67%–91%), 38/47 straight to the
+  event.
+- English imitations of biblical style written before the book: *The Late War* 29% (19%–40%),
+  Snowden 43% (34%–53%), *The First Book of Napoleon* 77% (46%–95%) on only
+  13 uses. The KJV Old Testament: 4% (2%–6%).
+
+The book's share lies between a Hebrew-style use (none straight to the event) and an Egyptian-style
+use (all of them). It also lies between the KJV's settings and Smith's own later habit. The share
+alone can't separate those readings. PREREG 2 tested whether the book matches the Egyptian particles
+alone, within 0.15: MISS: the book does not match the Egyptian proportion. It did not test a mixed Hebrew and Egyptian use. PREREG 30
+tested whether Smith's later habit is enough to explain the share: R1 HABIT TRANSFERS: H_then is a sufficient explanation of the event-first share. Whether he
+had the habit before dictating the book is untested.
+
+**Egyptian rates bracket the book.** The Egyptian texts that match the book in genre and date
+(connected narratives composed before about 500 BC) run 0–22 openings per 1,000
+estimated translation words, by text, around the book's 8.01. So the Egyptian rate
+test is **inconclusive**: it neither supports nor rules out an Egyptian contribution. The Lehi-era
+Demotic texts are lower, but they fail on genre.
 
 ## 2. Questions and why each was asked
 
@@ -90,14 +116,14 @@ stand as registered: PREREG 2, MISS: the book does not match the Egyptian propor
 | [`genre-ladder`](#genre-ladder) | exploratory | How does the Book of Mormon's rate compare with Hebrew wayhi at each matched genre step, and which use of the formula carries the difference? | Replaces the whole-Bible English-to-English ratio with a like-for-like comparison, showing the effect of each control. |
 | [`egyptian`](#egyptian) | exploratory | Do Egyptian narratives open clauses with 'then / it came to pass' at a rate and mix that, alone or added to Hebrew, matches the Book of Mormon? | Tests the 'reformed Egyptian' alternative on the texts that match in genre and date. |
 | [`english-rule-audit`](#english-rule-audit) | exploratory | How often does the English rule agree with a hand reading of Book of Mormon instances? | Measures the rule's error on the text it is used to classify, not only on the KJV. |
-| [`event-shares`](#event-shares) | exploratory | Do English texts in biblical style reach the Book of Mormon's event-first share and rate? | An Egyptian explanation of the event-first share is needed only if English doesn't produce it. |
+| [`event-shares`](#event-shares) | exploratory | Do English texts in biblical style reach the Book of Mormon's event-first share and rate? | English in biblical style is the competitor to an Egyptian source for the event-first share; it gets the same measurement. |
 | [`exclusions`](#exclusions) | exploratory | Which Book of Mormon passages run parallel to the KJV, and does any stay in the narrative frame? | Checks the exclusion annotation against the texts, so no KJV text is counted as the book's narration. |
 | [`per-verb`](#per-verb) | exploratory | Do the Hebrew ratio and the additive model survive when the unit is verbs or source words rather than English words? | English word counts don't translate between languages; verbs roughly do. |
 | [`greek-egeneto`](#greek-egeneto) | exploratory | How often do the Gospels and Acts use the formula, by bucket, against the Book of Mormon? | Luke-Acts is the nearest non-Hebrew model of a heavy 'it came to pass' style, and the hand labels test the English rule on a second language. |
 | [`hebrew-forms`](#hebrew-forms) | exploratory | How many wayhi, wehayah and look-alike forms are there, and how do wayhi and wehayah split into setting-first, straight-to-event and ordinary-verb uses? | Separates forms that are easy to pool by accident, which is where published counts diverge. |
 | [`kjv-rendering`](#kjv-rendering) | exploratory | How consistently did the KJV render each kind of wayhi/wehayah as 'came to pass', and how often does the English rule recover the Hebrew bucket? | Tests the 'translators varied it' premise, and measures the English rule's error rate on text whose bucket is known. |
 | [`prereg-event-share`](#prereg-event-share) | registered | Does the Book of Mormon's event/time split of 'it came to pass' match the Egyptian narrative particles (within 0.15), and do English controls fail to? | The registered test of the 'Egyptian particle' reading of the event-first share. |
-| [`prereg-jst-then`](#prereg-jst-then) | registered | When Joseph Smith added 'it came to pass' to the KJV in the JST, was it event-first at the Book of Mormon's share? | Tests whether the event-first share needs a non-English source, using Smith's own later scripture. |
+| [`prereg-jst-then`](#prereg-jst-then) | registered | When Joseph Smith added 'it came to pass' to the KJV in the JST, was it event-first at the Book of Mormon's share? | Tests the main competitor to a non-English source: Smith's own English, in his later scripture. |
 | [`published-claims`](#published-claims) | exploratory | Do the published counts (Parry 1992/2020) reproduce from the texts? | Shows where the familiar numbers come from before the comparison replaces them. |
 
 ## 3. Sources
@@ -665,9 +691,9 @@ KJV rendering, verses with one ἐγένετο: setting 52/56; event 8/8; sub 1/
 ### 5.9 Straight-to-the-event share in English texts
 
 <a id="event-shares"></a>**Question.** Do English texts in biblical style reach the Book of Mormon's event-first share and rate?  
-**Why.** An Egyptian explanation of the event-first share is needed only if English doesn't produce it.  
+**Why.** English in biblical style is the competitor to an Egyptian source for the event-first share; it gets the same measurement.  
 **Label.** exploratory.  
-**Code.** [`analyses/wayhi/event_shares.py`](../analyses/wayhi/event_shares.py); result [`results/wayhi/event-shares.json`](../results/wayhi/event-shares.json), fingerprint `660531ccd4aa`; Requiem record `results/wayhi/event-shares/headline`.
+**Code.** [`analyses/wayhi/event_shares.py`](../analyses/wayhi/event_shares.py); result [`results/wayhi/event-shares.json`](../results/wayhi/event-shares.json), fingerprint `12915f9cc5a3`; Requiem record `results/wayhi/event-shares/headline`.
 
 | text | words | past uses | per 1,000 | straight to event (revised rule) | (registered rule) |
 |---|---|---|---|---|---|
@@ -822,9 +848,9 @@ event, the KJV Old Testament 4% (2%–6%). They don't change the registered verd
 ### 5.13 Pre-registered: PREREG 30, Joseph Smith's own "then"
 
 <a id="prereg-jst-then"></a>**Question.** When Joseph Smith added 'it came to pass' to the KJV in the JST, was it event-first at the Book of Mormon's share?  
-**Why.** Tests whether the event-first share needs a non-English source, using Smith's own later scripture.  
+**Why.** Tests the main competitor to a non-English source: Smith's own English, in his later scripture.  
 **Label.** registered, as fixed by [`PREREGISTRATION_30.md`](../preregistrations/PREREGISTRATION_30.md).  
-**Code.** [`analyses/wayhi/prereg_jst_then.py`](../analyses/wayhi/prereg_jst_then.py); result [`results/wayhi/prereg-jst-then.json`](../results/wayhi/prereg-jst-then.json), fingerprint `323adbee81c5`; Requiem record `results/wayhi/prereg-jst-then/headline`.
+**Code.** [`analyses/wayhi/prereg_jst_then.py`](../analyses/wayhi/prereg_jst_then.py); result [`results/wayhi/prereg-jst-then.json`](../results/wayhi/prereg-jst-then.json), fingerprint `ddedb53b5e99`; Requiem record `results/wayhi/prereg-jst-then/headline`.
 
 | book | JST words | KJV words | token match | KJV formulas | removed by Smith |
 |---|---|---|---|---|---|

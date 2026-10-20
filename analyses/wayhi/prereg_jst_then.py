@@ -29,7 +29,7 @@ ANALYSIS = Analysis(
     title="Pre-registered: is 'it came to pass' Smith's all-purpose 'then'? (PREREG 30, JST)",
     question="When Joseph Smith added 'it came to pass' to the KJV in the JST, was it event-first at the "
              "Book of Mormon's share?",
-    why="Tests whether the event-first share needs a non-English source, using Smith's own later scripture.",
+    why="Tests the main competitor to a non-English source: Smith's own English, in his later scripture.",
     label="registered",
     preregistration="PREREGISTRATION_30.md",
     corpora=["jst-1867", "kjv"],

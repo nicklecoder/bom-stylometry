@@ -20,8 +20,8 @@ genre, and it splits each use by what follows the formula:
   eaten, that…"). This is how Hebrew *wayhi* works as a narrative marker.
 - **straight to the event**: the next thing that happened comes right after ("and it came to pass
   *that* they did march"). Hebrew *wayhi* doesn't do this.
-- **ordinary verb** (Hebrew only): *wayhi* with its own subject ("and there was light"). No "it came
-  to pass" renders it, so it's excluded.
+- **ordinary verb** (Hebrew only): *wayhi* with its own subject ("and there was light"). The KJV
+  renders it "it came to pass" in only {{v:ordinary-rendered}}, so it's excluded.
 
 Labels: **registered** results come from tests whose method and decision rule were written down and
 hashed before the measurement ([`preregistrations/`](../preregistrations/)). Everything else is
@@ -31,17 +31,43 @@ hashed before the measurement ([`preregistrations/`](../preregistrations/)). Eve
 
 In the narrative frame (the book's own narration, without quotations and embedded speeches), the
 Book of Mormon uses the formula {{v:frame-rate}} times per 1,000 words ({{v:frame-rate-1830}} in the
-1830 text): {{v:frame-setting}} setting-first and {{v:frame-event}} straight to the event. Against
-Hebrew setting-first *wayhi* in 17 matched narrative units, that is {{v:ratio-matched}} per 1,000
-words, and {{v:ratio-per-verb}} per 100 verbs. The setting-first uses alone run at
-{{v:setting-ratio}} the Hebrew rate. The difference is made up of the straight-to-the-event uses,
-{{v:event-share}} of the book's total, a use Hebrew doesn't have.
+1830 text): {{v:frame-setting}} setting-first and {{v:frame-event}} straight to the event.
 
-On the Egyptian side, the texts that match the book in genre and date (connected narratives
-composed before about 500 BC) run {{v:matched-range}} openings per 1,000 estimated translation
-words, by text. That range brackets the book. The Lehi-era Demotic texts are lower but fail on
-genre. So the Egyptian rate test is **inconclusive**, not negative. The two pre-registered tests
-stand as registered: PREREG 2, {{v:prereg2-verdict}}; PREREG 30, {{v:prereg30-verdict}}.
+**Most of the familiar gap is genre.** Whole text against the whole Old Testament, the book uses the
+formula {{v:ratio-whole}} as often as Hebrew uses setting-first *wayhi*. Narrative against matched
+narrative (17 Hebrew units), it is {{v:ratio-matched}} per 1,000 words and {{v:ratio-per-verb}} per
+100 verbs.
+
+**The Hebrew-style use is at the Hebrew rate.** Counted alone, the book's setting-first uses run at
+{{v:setting-ratio}} the Hebrew rate in the same kind of text: a little below it, not above. All of
+the remaining difference is the straight-to-the-event use. Share of the book's formulas that go
+straight to the event: {{v:event-share}}.
+
+**Hebrew has no straight-to-the-event *wayhi*.** None of the Hebrew Bible's
+{{v:hebrew-setting-all}} narrative-marker *wayhi* goes straight to the event. The other sources
+measured on that use:
+
+- Egyptian narrative particles (ꜥḥꜥ.n, wn.ꞽn): every one leads into an event ({{v:egypt-particles}}).
+- Demotic ḫpr "it came to pass", Lehi-era sentences: {{v:demotic-event}} straight to the event;
+  pRylands 9 (c. 513 BC): {{v:rylands-event}}.
+- Joseph Smith's own additions to KJV narrative in the JST: {{v:jst-added-share}} straight to the
+  event.
+- English imitations of biblical style written before the book: *The Late War* {{v:late-war-share}},
+  Snowden {{v:snowden-share}}, *The First Book of Napoleon* {{v:napoleon-share}} on only
+  {{v:napoleon-n}} uses. The KJV Old Testament: {{v:kjv-ot-share}}.
+
+The book's share lies between a Hebrew-style use (none straight to the event) and an Egyptian-style
+use (all of them). It also lies between the KJV's settings and Smith's own later habit. The share
+alone can't separate those readings. PREREG 2 tested whether the book matches the Egyptian particles
+alone, within 0.15: {{v:prereg2-verdict}}. It did not test a mixed Hebrew and Egyptian use. PREREG 30
+tested whether Smith's later habit is enough to explain the share: {{v:prereg30-verdict}}. Whether he
+had the habit before dictating the book is untested.
+
+**Egyptian rates bracket the book.** The Egyptian texts that match the book in genre and date
+(connected narratives composed before about 500 BC) run {{v:matched-range}} openings per 1,000
+estimated translation words, by text, around the book's {{v:frame-rate-1830}}. So the Egyptian rate
+test is **inconclusive**: it neither supports nor rules out an Egyptian contribution. The Lehi-era
+Demotic texts are lower, but they fail on genre.
 
 ## 2. Questions and why each was asked
 

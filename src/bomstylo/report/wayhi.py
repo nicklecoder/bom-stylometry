@@ -455,6 +455,16 @@ def values(data) -> dict[str, str]:
         "reverse-absent": bb["e1830"]["reverse"]["absent from 1830"],
         "prereg2-verdict": D(data, "prereg-event-share")["verdict"]["overall"],
         "prereg30-verdict": D(data, "prereg-jst-then")["verdict"],
+        "hebrew-setting-all": D(data, "hebrew-forms")["buckets"]["past"]["time"],
+        "ordinary-rendered": (lambda r: f"{r['rendered']} of {r['verses']} verses ({pct(r['share'], 1)})")(
+            D(data, "kjv-rendering")["rendering"]["past|verb"]),
+        "egypt-particles": (lambda p: f"{p['event']:,} of {p['event'] + p['time']:,}")(
+            D(data, "prereg-event-share")["egyptian_pooled"]),
+        "demotic-event": (lambda x: f"{x['event']} of {x['n']}")(eg["demotic"]["demotic strict, 700–300 BC"]),
+        "rylands-event": (lambda x: f"{x['event_first']} of {x['openings']}")(eg["rylands"]["unquoted (narrative frame)"]),
+        "jst-added-share": (lambda a: f"{share(a['share'])}, {a['event']}/{a['n']}")(
+            D(data, "event-shares")["jst_revised"]["boundary_corrected"]["primary (OT narrative)"]["added"]),
+        "napoleon-n": (lambda m: m["event"] + m["time"])(es["First Book of Napoleon (1809) | revised"]),
         "n-analyses": len(data),
         "calibration-range": _calibration_range(data),
     }

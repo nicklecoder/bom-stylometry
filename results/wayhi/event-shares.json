@@ -4,10 +4,10 @@
  "title": "Event-first share in English comparison texts, the JST, Moses and Abraham",
  "label": "exploratory",
  "question": "Do English texts in biblical style reach the Book of Mormon's event-first share and rate?",
- "generated_utc": "2026-10-19T14:25:34+00:00",
- "fingerprint": "660531ccd4aa49e3e6a9f1a3bf99d089a163644a925f03bc81c94c6af1293cd9",
+ "generated_utc": "2026-10-20T03:03:39+00:00",
+ "fingerprint": "12915f9cc5a3c2c7e642f3d094a989ed6c7c61f6ccc2f236ddfca6f02d5adfc7",
  "inputs": {
-  "code:analyses/wayhi/event_shares.py": "95bbac761a75a61e4a717bdc07eea8fee00ba54689bf05f8b32ad38fabbe78de",
+  "code:analyses/wayhi/event_shares.py": "872b1052bd80d901bfc888299bf38726e1a6f9c0f67138749975b46b4ae22908",
   "lib:src/bomstylo/analysis.py": "fe39363e0eeac80c4fc9dc5fe936bdbf49cd2bd7e7d29187e1196f2f38d5c53d",
   "lib:src/bomstylo/controls.py": "b7f69a28328d78995815f16b1e322def6601d13e52aac2adb4f8c7479d2a8f20",
   "lib:src/bomstylo/corpus.py": "9da5021f951175c8ce21aeaa2ae53339109be63ef4a4a7058684a9ddc12edc3f",
